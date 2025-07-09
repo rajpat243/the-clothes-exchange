@@ -1,0 +1,159 @@
+/* Hero Section */
+.hero {
+    background-color: #d1fae5; /* Tailwind's green-100 */
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .hero-button,
+  .hero-outline-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .hero-button {
+    background-color: #16a34a; /* Tailwind green-600 */
+    color: white;
+    border: none;
+  }
+  
+  .hero-button:hover {
+    background-color: #15803d;
+  }
+  
+  .hero-outline-button {
+    background-color: white;
+    border: 2px solid #16a34a;
+    color: #16a34a;
+  }
+  
+  .hero-outline-button:hover {
+    background-color: #e8f7ec;
+  }
+  
+  /* Browse by Category */
+  .category-section {
+    text-align: center;
+    padding: 2.5rem 1rem;
+  }
+  
+  .category-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .category-button {
+    padding: 0.6rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .category-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  /* Free Finds */
+  .free-section {
+    background-color: #f9fafb; /* Tailwind gray-50 */
+    text-align: center;
+    padding: 2.5rem 1rem;
+  }
+  
+  .free-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .card h3 {
+    margin-top: 0.75rem;
+    font-size: 1.05rem;
+  }
+  
+  .card p {
+    color: #6b7280; /* Tailwind gray-600 */
+    font-size: 0.9rem;
+  }
+  
+  .see-all-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #16a34a;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  .see-all-link:hover {
+    color: #15803d;
+  }
+  
+  /* How It Works */
+  .how-it-works {
+    text-align: center;
+    padding: 2.5rem 1rem;
+  }
+  
+  .how-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .how-grid {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .how-grid div {
+      text-align: left;
+    }
+  }
+  
