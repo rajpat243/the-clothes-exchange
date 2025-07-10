@@ -1,2402 +1,2002 @@
 [
   {
-    "id": 1,
     "category": "top",
-    "title": "Graphic Tee",
-    "price": 52.23
+    "title": "Crop Top",
+    "price": 153.7
   },
   {
-    "id": 2,
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 148.93
-  },
-  {
-    "id": 3,
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 21.56
-  },
-  {
-    "id": 4,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 50.7
-  },
-  {
-    "id": 5,
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 11.99
-  },
-  {
-    "id": 6,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 34.34
-  },
-  {
-    "id": 7,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 127.29
-  },
-  {
-    "id": 8,
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 101.42
-  },
-  {
-    "id": 9,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 42.34
-  },
-  {
-    "id": 10,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 43.13
-  },
-  {
-    "id": 11,
-    "category": "top",
-    "title": "Tank Top",
-    "price": 72.37
-  },
-  {
-    "id": 12,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 13.82
-  },
-  {
-    "id": 13,
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 170.2
-  },
-  {
-    "id": 14,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 106.9
-  },
-  {
-    "id": 15,
     "category": "top",
     "title": "Button-Down Oxford",
-    "price": 26.74
+    "price": 135.95
   },
   {
-    "id": 16,
     "category": "top",
     "title": "Off-Shoulder Blouse",
-    "price": 114.5
+    "price": 161.1
   },
   {
-    "id": 17,
-    "category": "top",
-    "title": "Crop Top",
-    "price": 195.96
-  },
-  {
-    "id": 18,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 47.23
-  },
-  {
-    "id": 19,
-    "category": "top",
-    "title": "Tank Top",
-    "price": 121.23
-  },
-  {
-    "id": 20,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 28.67
-  },
-  {
-    "id": 21,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 123.29
-  },
-  {
-    "id": 22,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 127.52
-  },
-  {
-    "id": 23,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 107.01
-  },
-  {
-    "id": 24,
-    "category": "top",
-    "title": "Turtleneck",
-    "price": 26.74
-  },
-  {
-    "id": 25,
     "category": "top",
     "title": "Casual Henley",
-    "price": 146.62
+    "price": 99.24
   },
   {
-    "id": 26,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 110.78
-  },
-  {
-    "id": 27,
-    "category": "top",
-    "title": "Crop Top",
-    "price": 49.43
-  },
-  {
-    "id": 28,
     "category": "top",
     "title": "Patterned Blouse",
-    "price": 100.56
+    "price": 44.52
   },
   {
-    "id": 29,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 45.44
-  },
-  {
-    "id": 30,
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 55.3
-  },
-  {
-    "id": 31,
-    "category": "top",
-    "title": "Cardigan",
-    "price": 28.2
-  },
-  {
-    "id": 32,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 75.91
-  },
-  {
-    "id": 33,
-    "category": "top",
-    "title": "Linen Shirt",
-    "price": 89.53
-  },
-  {
-    "id": 34,
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 40.08
-  },
-  {
-    "id": 35,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 134.55
-  },
-  {
-    "id": 36,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 114.28
-  },
-  {
-    "id": 37,
-    "category": "top",
-    "title": "Tunic",
-    "price": 124.81
-  },
-  {
-    "id": 38,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 190.16
-  },
-  {
-    "id": 39,
-    "category": "top",
-    "title": "Linen Shirt",
-    "price": 14.86
-  },
-  {
-    "id": 40,
-    "category": "top",
-    "title": "Linen Shirt",
-    "price": 96.85
-  },
-  {
-    "id": 41,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 30.79
-  },
-  {
-    "id": 42,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 103.57
-  },
-  {
-    "id": 43,
-    "category": "top",
-    "title": "Tunic",
-    "price": 31.78
-  },
-  {
-    "id": 44,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 126.55
-  },
-  {
-    "id": 45,
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 50.39
-  },
-  {
-    "id": 46,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 115.35
-  },
-  {
-    "id": 47,
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 30.89
-  },
-  {
-    "id": 48,
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 31.29
-  },
-  {
-    "id": 49,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 57.04
-  },
-  {
-    "id": 50,
     "category": "top",
     "title": "Tank Top",
-    "price": 102.9
+    "price": 57.86
   },
   {
-    "id": 51,
     "category": "top",
-    "title": "Striped Polo",
-    "price": 58.98
+    "title": "Flannel Shirt",
+    "price": 26.5
   },
   {
-    "id": 52,
     "category": "top",
-    "title": "Tank Top",
-    "price": 121.67
+    "title": "Denim Jacket",
+    "price": 61.52
   },
   {
-    "id": 53,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 172.1
-  },
-  {
-    "id": 54,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 194.13
-  },
-  {
-    "id": 55,
     "category": "top",
     "title": "Silk Camisole",
-    "price": 159.78
+    "price": 34.16
   },
   {
-    "id": 56,
     "category": "top",
-    "title": "Linen Shirt",
-    "price": 148.46
+    "title": "Patterned Blouse",
+    "price": 24.45
   },
   {
-    "id": 57,
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 196.32
+  },
+  {
+    "category": "top",
+    "title": "Denim Jacket",
+    "price": 109.01
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 48.5
+  },
+  {
     "category": "top",
     "title": "Casual Henley",
+    "price": 94.24
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 147.37
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 27.16
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 155.9
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 101.94
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 151.28
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
     "price": 171.67
   },
   {
-    "id": 58,
     "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 89.24
+    "title": "Denim Jacket",
+    "price": 56.14
   },
   {
-    "id": 59,
     "category": "top",
-    "title": "Hoodie",
-    "price": 33.32
+    "title": "Patterned Blouse",
+    "price": 48.86
   },
   {
-    "id": 60,
-    "category": "top",
-    "title": "Turtleneck",
-    "price": 169.64
-  },
-  {
-    "id": 61,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 181.07
-  },
-  {
-    "id": 62,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 175.9
-  },
-  {
-    "id": 63,
-    "category": "top",
-    "title": "Tunic",
-    "price": 60.24
-  },
-  {
-    "id": 64,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 34.78
-  },
-  {
-    "id": 65,
     "category": "top",
     "title": "Classic Cotton T-Shirt",
-    "price": 130.31
+    "price": 176.28
   },
   {
-    "id": 66,
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 61.74
+  },
+  {
     "category": "top",
     "title": "Crop Top",
-    "price": 151.98
+    "price": 63.06
   },
   {
-    "id": 67,
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 183.22
+  },
+  {
     "category": "top",
     "title": "Tank Top",
-    "price": 31.38
+    "price": 130.41
   },
   {
-    "id": 68,
-    "category": "top",
-    "title": "Tunic",
-    "price": 199.62
-  },
-  {
-    "id": 69,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 82.19
-  },
-  {
-    "id": 70,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 169.35
-  },
-  {
-    "id": 71,
-    "category": "top",
-    "title": "Flannel Shirt",
-    "price": 99.03
-  },
-  {
-    "id": 72,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 90.6
-  },
-  {
-    "id": 73,
-    "category": "top",
-    "title": "Flannel Shirt",
-    "price": 70.57
-  },
-  {
-    "id": 74,
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 65.74
-  },
-  {
-    "id": 75,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 174.92
-  },
-  {
-    "id": 76,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 45.43
-  },
-  {
-    "id": 77,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 44.37
-  },
-  {
-    "id": 78,
-    "category": "top",
-    "title": "Turtleneck",
-    "price": 160.02
-  },
-  {
-    "id": 79,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 181.32
-  },
-  {
-    "id": 80,
-    "category": "top",
-    "title": "Tank Top",
-    "price": 35.29
-  },
-  {
-    "id": 81,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 93.73
-  },
-  {
-    "id": 82,
     "category": "top",
     "title": "Long Sleeve Thermal",
-    "price": 91.23
+    "price": 97.05
   },
   {
-    "id": 83,
-    "category": "top",
-    "title": "Tank Top",
-    "price": 119.32
-  },
-  {
-    "id": 84,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 76.59
-  },
-  {
-    "id": 85,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 72.09
-  },
-  {
-    "id": 86,
     "category": "top",
     "title": "Patterned Blouse",
-    "price": 64.29
+    "price": 27.49
   },
   {
-    "id": 87,
     "category": "top",
     "title": "Casual Henley",
-    "price": 93.2
+    "price": 41.71
   },
   {
-    "id": 88,
     "category": "top",
-    "title": "Silk Camisole",
-    "price": 45.38
+    "title": "Flannel Shirt",
+    "price": 190.74
   },
   {
-    "id": 89,
     "category": "top",
-    "title": "Turtleneck",
-    "price": 143.26
+    "title": "Button-Down Oxford",
+    "price": 188.37
   },
   {
-    "id": 90,
     "category": "top",
-    "title": "Cardigan",
-    "price": 60.04
+    "title": "Button-Down Oxford",
+    "price": 59.42
   },
   {
-    "id": 91,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 109.31
-  },
-  {
-    "id": 92,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 196.99
-  },
-  {
-    "id": 93,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 175.87
-  },
-  {
-    "id": 94,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 173.92
-  },
-  {
-    "id": 95,
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 61.43
-  },
-  {
-    "id": 96,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 161.52
-  },
-  {
-    "id": 97,
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 194.87
-  },
-  {
-    "id": 98,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 133.88
-  },
-  {
-    "id": 99,
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 41.38
-  },
-  {
-    "id": 100,
     "category": "top",
     "title": "Crewneck Sweatshirt",
-    "price": 91.13
+    "price": 74.35
   },
   {
-    "id": 101,
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 142.94
+    "category": "top",
+    "title": "Denim Jacket",
+    "price": 106.66
   },
   {
-    "id": 102,
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 196.83
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 14.5
   },
   {
-    "id": 103,
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 16.61
+    "category": "top",
+    "title": "Cardigan",
+    "price": 158.18
   },
   {
-    "id": 104,
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 25.53
+    "category": "top",
+    "title": "Crop Top",
+    "price": 22.49
   },
   {
-    "id": 105,
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 176.03
-  },
-  {
-    "id": 106,
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 22.95
-  },
-  {
-    "id": 107,
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 153.29
-  },
-  {
-    "id": 108,
-    "category": "bottom",
-    "title": "Palazzo Pants",
-    "price": 87.67
-  },
-  {
-    "id": 109,
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 145.12
-  },
-  {
-    "id": 110,
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 21.55
-  },
-  {
-    "id": 111,
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 177.82
-  },
-  {
-    "id": 112,
-    "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 40.14
-  },
-  {
-    "id": 113,
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 165.02
-  },
-  {
-    "id": 114,
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 25.83
-  },
-  {
-    "id": 115,
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 165.98
-  },
-  {
-    "id": 116,
-    "category": "bottom",
-    "title": "Culottes",
-    "price": 108.92
-  },
-  {
-    "id": 117,
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 126.57
-  },
-  {
-    "id": 118,
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 15.41
-  },
-  {
-    "id": 119,
-    "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 135.54
-  },
-  {
-    "id": 120,
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 181.54
-  },
-  {
-    "id": 121,
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 127.37
-  },
-  {
-    "id": 122,
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 34.26
-  },
-  {
-    "id": 123,
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 92.67
-  },
-  {
-    "id": 124,
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 146.78
-  },
-  {
-    "id": 125,
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 28.47
-  },
-  {
-    "id": 126,
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 54.32
-  },
-  {
-    "id": 127,
-    "category": "bottom",
-    "title": "Culottes",
-    "price": 26.62
-  },
-  {
-    "id": 128,
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 19.91
-  },
-  {
-    "id": 129,
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 167.09
-  },
-  {
-    "id": 130,
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 111.5
-  },
-  {
-    "id": 131,
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 188.87
-  },
-  {
-    "id": 132,
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 79.68
-  },
-  {
-    "id": 133,
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 197.46
-  },
-  {
-    "id": 134,
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 53.62
-  },
-  {
-    "id": 135,
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 104.89
-  },
-  {
-    "id": 136,
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 179.92
-  },
-  {
-    "id": 137,
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 57.66
-  },
-  {
-    "id": 138,
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 91.16
-  },
-  {
-    "id": 139,
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 98.58
-  },
-  {
-    "id": 140,
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 153.11
-  },
-  {
-    "id": 141,
-    "category": "bottom",
-    "title": "Cargo Shorts",
-    "price": 194.06
-  },
-  {
-    "id": 142,
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 16.76
-  },
-  {
-    "id": 143,
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 10.68
-  },
-  {
-    "id": 144,
-    "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 48.95
-  },
-  {
-    "id": 145,
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 53.12
-  },
-  {
-    "id": 146,
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 56.42
-  },
-  {
-    "id": 147,
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 109.46
-  },
-  {
-    "id": 148,
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 53.58
-  },
-  {
-    "id": 149,
-    "category": "bottom",
-    "title": "Palazzo Pants",
-    "price": 86.1
-  },
-  {
-    "id": 150,
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 67.46
-  },
-  {
-    "id": 151,
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 146.43
-  },
-  {
-    "id": 152,
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 46.61
-  },
-  {
-    "id": 153,
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 105.08
-  },
-  {
-    "id": 154,
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 10.4
-  },
-  {
-    "id": 155,
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 158.36
-  },
-  {
-    "id": 156,
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 81.52
-  },
-  {
-    "id": 157,
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 191.64
-  },
-  {
-    "id": 158,
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 125.54
-  },
-  {
-    "id": 159,
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 191.86
-  },
-  {
-    "id": 160,
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 66.98
-  },
-  {
-    "id": 161,
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 193.08
-  },
-  {
-    "id": 162,
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 175.58
-  },
-  {
-    "id": 163,
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 171.18
-  },
-  {
-    "id": 164,
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 162.94
-  },
-  {
-    "id": 165,
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 25.33
-  },
-  {
-    "id": 166,
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 194.77
-  },
-  {
-    "id": 167,
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 32.84
-  },
-  {
-    "id": 168,
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 147.49
-  },
-  {
-    "id": 169,
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 37.6
-  },
-  {
-    "id": 170,
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 156.12
-  },
-  {
-    "id": 171,
-    "category": "bottom",
-    "title": "Cargo Shorts",
-    "price": 65.7
-  },
-  {
-    "id": 172,
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 15.93
-  },
-  {
-    "id": 173,
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 30.03
-  },
-  {
-    "id": 174,
-    "category": "bottom",
-    "title": "Leather Leggings",
-    "price": 136.19
-  },
-  {
-    "id": 175,
-    "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 187.25
-  },
-  {
-    "id": 176,
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 194.57
-  },
-  {
-    "id": 177,
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 119.54
-  },
-  {
-    "id": 178,
-    "category": "bottom",
-    "title": "Culottes",
-    "price": 75.41
-  },
-  {
-    "id": 179,
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 19.42
-  },
-  {
-    "id": 180,
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 186.13
-  },
-  {
-    "id": 181,
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 91.1
-  },
-  {
-    "id": 182,
-    "category": "bottom",
-    "title": "Culottes",
-    "price": 137.83
-  },
-  {
-    "id": 183,
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 138.61
-  },
-  {
-    "id": 184,
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 30.08
-  },
-  {
-    "id": 185,
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 128.16
-  },
-  {
-    "id": 186,
-    "category": "bottom",
-    "title": "Culottes",
-    "price": 115.47
-  },
-  {
-    "id": 187,
-    "category": "bottom",
-    "title": "Culottes",
-    "price": 31.17
-  },
-  {
-    "id": 188,
-    "category": "bottom",
-    "title": "Cargo Shorts",
-    "price": 33.63
-  },
-  {
-    "id": 189,
-    "category": "bottom",
-    "title": "Cargo Shorts",
-    "price": 160.4
-  },
-  {
-    "id": 190,
-    "category": "bottom",
-    "title": "Palazzo Pants",
-    "price": 12.48
-  },
-  {
-    "id": 191,
-    "category": "bottom",
-    "title": "Cargo Shorts",
-    "price": 136.78
-  },
-  {
-    "id": 192,
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 87.62
-  },
-  {
-    "id": 193,
-    "category": "bottom",
-    "title": "Leather Leggings",
-    "price": 159.02
-  },
-  {
-    "id": 194,
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 17.18
-  },
-  {
-    "id": 195,
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 168.19
-  },
-  {
-    "id": 196,
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 63.81
-  },
-  {
-    "id": 197,
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 25.65
-  },
-  {
-    "id": 198,
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 13.45
-  },
-  {
-    "id": 199,
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 26.23
-  },
-  {
-    "id": 200,
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 191.14
-  },
-  {
-    "id": 201,
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 141.64
-  },
-  {
-    "id": 202,
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 146.35
-  },
-  {
-    "id": 203,
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 177.64
-  },
-  {
-    "id": 204,
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 140.26
-  },
-  {
-    "id": 205,
-    "category": "shoes",
-    "title": "Sandals",
-    "price": 57.7
-  },
-  {
-    "id": 206,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 98.15
-  },
-  {
-    "id": 207,
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 50.29
-  },
-  {
-    "id": 208,
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 98.72
-  },
-  {
-    "id": 209,
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 53.19
-  },
-  {
-    "id": 210,
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 101.42
-  },
-  {
-    "id": 211,
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 23.38
-  },
-  {
-    "id": 212,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 199.78
-  },
-  {
-    "id": 213,
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 105.6
-  },
-  {
-    "id": 214,
-    "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 126.43
-  },
-  {
-    "id": 215,
-    "category": "shoes",
-    "title": "Sandals",
-    "price": 71.83
-  },
-  {
-    "id": 216,
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 89.79
-  },
-  {
-    "id": 217,
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 186.86
-  },
-  {
-    "id": 218,
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 86.4
-  },
-  {
-    "id": 219,
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 142.43
-  },
-  {
-    "id": 220,
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 19.2
-  },
-  {
-    "id": 221,
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 130.19
-  },
-  {
-    "id": 222,
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 194.55
-  },
-  {
-    "id": 223,
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 147.93
-  },
-  {
-    "id": 224,
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 117.82
-  },
-  {
-    "id": 225,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 56.71
-  },
-  {
-    "id": 226,
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 92.74
-  },
-  {
-    "id": 227,
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 177.46
-  },
-  {
-    "id": 228,
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 24.33
-  },
-  {
-    "id": 229,
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 41.77
-  },
-  {
-    "id": 230,
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 172.03
-  },
-  {
-    "id": 231,
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 37.76
-  },
-  {
-    "id": 232,
-    "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 127.21
-  },
-  {
-    "id": 233,
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 38.41
-  },
-  {
-    "id": 234,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 43.41
-  },
-  {
-    "id": 235,
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 71.3
-  },
-  {
-    "id": 236,
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 80.79
-  },
-  {
-    "id": 237,
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 19.23
-  },
-  {
-    "id": 238,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 77.09
-  },
-  {
-    "id": 239,
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 90.15
-  },
-  {
-    "id": 240,
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 66.91
-  },
-  {
-    "id": 241,
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 121.45
-  },
-  {
-    "id": 242,
-    "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 181.79
-  },
-  {
-    "id": 243,
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 165.68
-  },
-  {
-    "id": 244,
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 53.37
-  },
-  {
-    "id": 245,
-    "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 42.72
-  },
-  {
-    "id": 246,
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 19.03
-  },
-  {
-    "id": 247,
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 47.79
-  },
-  {
-    "id": 248,
-    "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 155.54
-  },
-  {
-    "id": 249,
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 65.21
-  },
-  {
-    "id": 250,
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 77.97
-  },
-  {
-    "id": 251,
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 84.06
-  },
-  {
-    "id": 252,
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 111.31
-  },
-  {
-    "id": 253,
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 75.99
-  },
-  {
-    "id": 254,
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 184.19
-  },
-  {
-    "id": 255,
-    "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 91.41
-  },
-  {
-    "id": 256,
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 16.11
-  },
-  {
-    "id": 257,
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 52.83
-  },
-  {
-    "id": 258,
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 172.28
-  },
-  {
-    "id": 259,
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 128.41
-  },
-  {
-    "id": 260,
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 194.36
-  },
-  {
-    "id": 261,
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 195.82
-  },
-  {
-    "id": 262,
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 178.29
-  },
-  {
-    "id": 263,
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 162.03
-  },
-  {
-    "id": 264,
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 147.54
-  },
-  {
-    "id": 265,
-    "category": "shoes",
-    "title": "Sandals",
-    "price": 143.75
-  },
-  {
-    "id": 266,
-    "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 75.11
-  },
-  {
-    "id": 267,
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 70.08
-  },
-  {
-    "id": 268,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 186.56
-  },
-  {
-    "id": 269,
-    "category": "shoes",
-    "title": "Sandals",
-    "price": 170.54
-  },
-  {
-    "id": 270,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 57.63
-  },
-  {
-    "id": 271,
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 48.28
-  },
-  {
-    "id": 272,
-    "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 26.6
-  },
-  {
-    "id": 273,
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 148.43
-  },
-  {
-    "id": 274,
-    "category": "shoes",
-    "title": "Sandals",
-    "price": 52.28
-  },
-  {
-    "id": 275,
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 179.43
-  },
-  {
-    "id": 276,
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 177.58
-  },
-  {
-    "id": 277,
-    "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 19.49
-  },
-  {
-    "id": 278,
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 89.85
-  },
-  {
-    "id": 279,
-    "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 151.4
-  },
-  {
-    "id": 280,
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 126.14
-  },
-  {
-    "id": 281,
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 155.24
-  },
-  {
-    "id": 282,
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 61.49
-  },
-  {
-    "id": 283,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 185.01
-  },
-  {
-    "id": 284,
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 179.04
-  },
-  {
-    "id": 285,
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 177.68
-  },
-  {
-    "id": 286,
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 192.56
-  },
-  {
-    "id": 287,
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 172.09
-  },
-  {
-    "id": 288,
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 96.9
-  },
-  {
-    "id": 289,
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 108.5
-  },
-  {
-    "id": 290,
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 93.36
-  },
-  {
-    "id": 291,
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 188.55
-  },
-  {
-    "id": 292,
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 30.17
-  },
-  {
-    "id": 293,
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 186.06
-  },
-  {
-    "id": 294,
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 72.1
-  },
-  {
-    "id": 295,
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 90.11
-  },
-  {
-    "id": 296,
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 77.75
-  },
-  {
-    "id": 297,
-    "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 33.23
-  },
-  {
-    "id": 298,
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 114.08
-  },
-  {
-    "id": 299,
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 54.06
-  },
-  {
-    "id": 300,
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 36.55
-  },
-  {
-    "id": 301,
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 84.9
-  },
-  {
-    "id": 302,
-    "category": "accessory",
-    "title": "Beret",
-    "price": 145.02
-  },
-  {
-    "id": 303,
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 64.89
-  },
-  {
-    "id": 304,
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 184.86
-  },
-  {
-    "id": 305,
-    "category": "accessory",
-    "title": "Bracelet Set",
-    "price": 72.55
-  },
-  {
-    "id": 306,
-    "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 120.97
-  },
-  {
-    "id": 307,
-    "category": "accessory",
-    "title": "Wristwatch",
-    "price": 199.13
-  },
-  {
-    "id": 308,
-    "category": "accessory",
-    "title": "Beret",
-    "price": 109.55
-  },
-  {
-    "id": 309,
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 70.63
-  },
-  {
-    "id": 310,
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 100.56
-  },
-  {
-    "id": 311,
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 27.63
-  },
-  {
-    "id": 312,
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 171.98
-  },
-  {
-    "id": 313,
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 118.07
-  },
-  {
-    "id": 314,
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 34.56
-  },
-  {
-    "id": 315,
-    "category": "accessory",
-    "title": "Tote Bag",
-    "price": 53.81
-  },
-  {
-    "id": 316,
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 172.21
-  },
-  {
-    "id": 317,
-    "category": "accessory",
-    "title": "Bow Tie",
-    "price": 114.1
-  },
-  {
-    "id": 318,
-    "category": "accessory",
-    "title": "Bow Tie",
-    "price": 118.35
-  },
-  {
-    "id": 319,
-    "category": "accessory",
-    "title": "Bow Tie",
-    "price": 17.49
-  },
-  {
-    "id": 320,
-    "category": "accessory",
-    "title": "Wristwatch",
-    "price": 18.6
-  },
-  {
-    "id": 321,
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 65.45
-  },
-  {
-    "id": 322,
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 182.27
-  },
-  {
-    "id": 323,
-    "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 192.21
-  },
-  {
-    "id": 324,
-    "category": "accessory",
-    "title": "Tote Bag",
-    "price": 22.75
-  },
-  {
-    "id": 325,
-    "category": "accessory",
-    "title": "Aviator Sunglasses",
-    "price": 16.54
-  },
-  {
-    "id": 326,
-    "category": "accessory",
-    "title": "Woven Hat",
-    "price": 159.67
-  },
-  {
-    "id": 327,
-    "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 96.02
-  },
-  {
-    "id": 328,
-    "category": "accessory",
-    "title": "Bracelet Set",
-    "price": 178.97
-  },
-  {
-    "id": 329,
-    "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 115.94
-  },
-  {
-    "id": 330,
-    "category": "accessory",
-    "title": "Tote Bag",
-    "price": 66.79
-  },
-  {
-    "id": 331,
-    "category": "accessory",
-    "title": "Bracelet Set",
-    "price": 87.16
-  },
-  {
-    "id": 332,
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 176.85
-  },
-  {
-    "id": 333,
-    "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 190.17
-  },
-  {
-    "id": 334,
-    "category": "accessory",
-    "title": "Leather Wallet",
-    "price": 67.32
-  },
-  {
-    "id": 335,
-    "category": "accessory",
-    "title": "Tote Bag",
-    "price": 60.95
-  },
-  {
-    "id": 336,
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 88.54
-  },
-  {
-    "id": 337,
-    "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 23.29
-  },
-  {
-    "id": 338,
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 53.26
-  },
-  {
-    "id": 339,
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 77.22
-  },
-  {
-    "id": 340,
-    "category": "accessory",
-    "title": "Aviator Sunglasses",
-    "price": 51.73
-  },
-  {
-    "id": 341,
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 146.96
-  },
-  {
-    "id": 342,
-    "category": "accessory",
-    "title": "Beret",
-    "price": 38.38
-  },
-  {
-    "id": 343,
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 182.52
-  },
-  {
-    "id": 344,
-    "category": "accessory",
-    "title": "Wristwatch",
-    "price": 77.38
-  },
-  {
-    "id": 345,
-    "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 193.59
-  },
-  {
-    "id": 346,
-    "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 47.96
-  },
-  {
-    "id": 347,
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 30.7
-  },
-  {
-    "id": 348,
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 75.85
-  },
-  {
-    "id": 349,
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 190.21
-  },
-  {
-    "id": 350,
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 123.97
-  },
-  {
-    "id": 351,
-    "category": "accessory",
-    "title": "Clutch Purse",
+    "category": "top",
+    "title": "Button-Down Oxford",
     "price": 54.31
   },
   {
-    "id": 352,
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 120.37
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 148.17
   },
   {
-    "id": 353,
-    "category": "accessory",
-    "title": "Bracelet Set",
-    "price": 113.15
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 124.82
   },
   {
-    "id": 354,
-    "category": "accessory",
-    "title": "Beret",
-    "price": 157.35
+    "category": "top",
+    "title": "Hoodie",
+    "price": 131.38
   },
   {
-    "id": 355,
-    "category": "accessory",
-    "title": "Beret",
-    "price": 120.49
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 168.11
   },
   {
-    "id": 356,
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 179.46
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 14.89
   },
   {
-    "id": 357,
-    "category": "accessory",
-    "title": "Wristwatch",
-    "price": 70.86
+    "category": "top",
+    "title": "Hoodie",
+    "price": 102.38
   },
   {
-    "id": 358,
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 75.91
+    "category": "top",
+    "title": "Hoodie",
+    "price": 122.7
   },
   {
-    "id": 359,
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 35.69
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 82.03
   },
   {
-    "id": 360,
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 184.96
+  },
+  {
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 39.58
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 84.16
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 149.78
+  },
+  {
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 24.03
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 125.01
+  },
+  {
+    "category": "top",
+    "title": "Cardigan",
+    "price": 134.62
+  },
+  {
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 113.6
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 99.31
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 99.71
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 119.59
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 185.95
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 18.3
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 158.76
+  },
+  {
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 156.11
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 109.35
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 37.99
+  },
+  {
+    "category": "top",
+    "title": "Cardigan",
+    "price": 95.14
+  },
+  {
+    "category": "top",
+    "title": "Denim Jacket",
+    "price": 183.4
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 28.17
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 48.81
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 125.44
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 196.84
+  },
+  {
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 144.71
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 107.5
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 112.98
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 24.26
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 46.72
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 58.15
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 182.64
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 95.15
+  },
+  {
+    "category": "top",
+    "title": "Cardigan",
+    "price": 114.21
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 162.71
+  },
+  {
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 114.27
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 33.84
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 10.32
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 197.75
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 178.56
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 162.75
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 118.7
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 140.09
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 196.74
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 96.03
+  },
+  {
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 41.63
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 16.88
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 29.74
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 75.84
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 29.75
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 144.62
+  },
+  {
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 152.0
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 182.71
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 146.78
+  },
+  {
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 138.69
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 170.26
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 188.24
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 109.26
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 61.18
+  },
+  {
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 175.32
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 68.81
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 67.75
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 14.03
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 10.37
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 109.95
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 180.08
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 55.52
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 157.49
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 164.75
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 89.54
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 30.23
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 190.38
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 91.02
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 25.27
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 39.23
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 130.96
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 57.71
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 195.45
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 148.1
+  },
+  {
+    "category": "bottom",
+    "title": "Palazzo Pants",
+    "price": 188.71
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 177.12
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 167.92
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 107.88
+  },
+  {
+    "category": "bottom",
+    "title": "Palazzo Pants",
+    "price": 164.84
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 42.39
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 146.62
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 126.92
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 132.33
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 176.83
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 13.94
+  },
+  {
+    "category": "bottom",
+    "title": "Khaki Pants",
+    "price": 114.38
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 21.27
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 124.92
+  },
+  {
+    "category": "bottom",
+    "title": "Khaki Pants",
+    "price": 156.53
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 173.02
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 69.0
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 80.94
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 101.58
+  },
+  {
+    "category": "bottom",
+    "title": "Khaki Pants",
+    "price": 74.13
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 65.99
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 57.27
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 173.73
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 74.99
+  },
+  {
+    "category": "bottom",
+    "title": "Palazzo Pants",
+    "price": 115.89
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 135.69
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 59.92
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 87.98
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 190.65
+  },
+  {
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 161.69
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 107.6
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 173.48
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 17.14
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 37.84
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 163.32
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 48.27
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 165.61
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 93.37
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 22.42
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 42.89
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 26.16
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 63.75
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 136.03
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 44.12
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 13.74
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 121.61
+  },
+  {
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 190.1
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 189.56
+  },
+  {
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 131.07
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 33.03
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 159.3
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 156.82
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 183.0
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 31.1
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 162.22
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 58.0
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 99.82
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 34.14
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 137.73
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 134.55
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 72.79
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 29.74
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 174.95
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 30.65
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 133.53
+  },
+  {
+    "category": "bottom",
+    "title": "Khaki Pants",
+    "price": 68.79
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 33.52
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 83.96
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 39.84
+  },
+  {
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 114.22
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 117.58
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 125.25
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 19.86
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 20.12
+  },
+  {
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 181.85
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 129.92
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 53.43
+  },
+  {
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 36.55
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 25.87
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 147.59
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 127.84
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 80.5
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 186.8
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 14.77
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 107.58
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 145.46
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 148.33
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 28.2
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 139.27
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 50.2
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 100.67
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 42.18
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 131.47
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 89.72
+  },
+  {
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 118.43
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 77.03
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 54.8
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 144.86
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 72.3
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 106.94
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 69.7
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 72.91
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 58.15
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 198.28
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 27.36
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 159.97
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 73.69
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 177.24
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 119.61
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 122.92
+  },
+  {
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 70.72
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 139.4
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 79.16
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 16.53
+  },
+  {
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 187.42
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 45.18
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 10.54
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 87.32
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 79.69
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 190.17
+  },
+  {
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 75.54
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 68.55
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 22.29
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 71.78
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 189.28
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 143.78
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 45.34
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 18.34
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 89.9
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 184.65
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 36.38
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 51.36
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 124.94
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 96.28
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 53.88
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 134.11
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 190.26
+  },
+  {
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 54.52
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 187.61
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 132.28
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 54.07
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 64.99
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 98.43
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 105.84
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 74.24
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 82.7
+  },
+  {
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 104.0
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 147.96
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 150.4
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 145.88
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 27.83
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 86.95
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 149.19
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 117.24
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 163.78
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 102.09
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 137.41
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 11.03
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 38.67
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 111.63
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 39.51
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 186.55
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 97.9
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 177.81
+  },
+  {
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 13.09
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 193.73
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 60.02
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 83.01
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 129.05
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 40.16
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 73.89
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 48.83
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 141.05
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 70.82
+  },
+  {
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 167.92
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 53.67
+  },
+  {
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 19.13
+  },
+  {
     "category": "accessory",
     "title": "Baseball Cap",
-    "price": 15.64
+    "price": 120.46
   },
   {
-    "id": 361,
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 143.84
+  },
+  {
     "category": "accessory",
     "title": "Pendant Necklace",
-    "price": 147.27
+    "price": 198.54
   },
   {
-    "id": 362,
-    "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 81.89
-  },
-  {
-    "id": 363,
     "category": "accessory",
     "title": "Woven Hat",
-    "price": 29.03
+    "price": 78.3
   },
   {
-    "id": 364,
-    "category": "accessory",
-    "title": "Bracelet Set",
-    "price": 43.74
-  },
-  {
-    "id": 365,
-    "category": "accessory",
-    "title": "Beret",
-    "price": 155.3
-  },
-  {
-    "id": 366,
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 72.77
-  },
-  {
-    "id": 367,
-    "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 11.8
-  },
-  {
-    "id": 368,
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 133.88
-  },
-  {
-    "id": 369,
-    "category": "accessory",
-    "title": "Tote Bag",
-    "price": 80.58
-  },
-  {
-    "id": 370,
-    "category": "accessory",
-    "title": "Wristwatch",
-    "price": 26.62
-  },
-  {
-    "id": 371,
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 133.15
-  },
-  {
-    "id": 372,
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 129.65
-  },
-  {
-    "id": 373,
-    "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 130.38
-  },
-  {
-    "id": 374,
-    "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 131.91
-  },
-  {
-    "id": 375,
-    "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 177.45
-  },
-  {
-    "id": 376,
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 133.09
-  },
-  {
-    "id": 377,
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 184.64
-  },
-  {
-    "id": 378,
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 48.71
-  },
-  {
-    "id": 379,
-    "category": "accessory",
-    "title": "Beret",
-    "price": 123.03
-  },
-  {
-    "id": 380,
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 169.35
-  },
-  {
-    "id": 381,
-    "category": "accessory",
-    "title": "Bracelet Set",
-    "price": 166.64
-  },
-  {
-    "id": 382,
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 185.39
-  },
-  {
-    "id": 383,
-    "category": "accessory",
-    "title": "Woven Hat",
-    "price": 51.94
-  },
-  {
-    "id": 384,
-    "category": "accessory",
-    "title": "Beret",
-    "price": 158.03
-  },
-  {
-    "id": 385,
-    "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 21.76
-  },
-  {
-    "id": 386,
     "category": "accessory",
     "title": "Silk Scarf",
-    "price": 182.16
+    "price": 106.69
   },
   {
-    "id": 387,
     "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 160.73
+    "title": "Leather Wallet",
+    "price": 135.09
   },
   {
-    "id": 388,
     "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 144.46
+    "title": "Baseball Cap",
+    "price": 169.98
   },
   {
-    "id": 389,
     "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 42.01
+    "title": "Leather Gloves",
+    "price": 39.2
   },
   {
-    "id": 390,
-    "category": "accessory",
-    "title": "Woven Hat",
-    "price": 45.69
-  },
-  {
-    "id": 391,
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 185.7
-  },
-  {
-    "id": 392,
-    "category": "accessory",
-    "title": "Woven Hat",
-    "price": 32.33
-  },
-  {
-    "id": 393,
-    "category": "accessory",
-    "title": "Aviator Sunglasses",
-    "price": 97.68
-  },
-  {
-    "id": 394,
-    "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 167.39
-  },
-  {
-    "id": 395,
-    "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 113.8
-  },
-  {
-    "id": 396,
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 66.55
-  },
-  {
-    "id": 397,
-    "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 96.0
-  },
-  {
-    "id": 398,
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 188.76
-  },
-  {
-    "id": 399,
     "category": "accessory",
     "title": "Beret",
-    "price": 39.36
+    "price": 132.11
   },
   {
-    "id": 400,
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 187.38
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 155.51
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 29.23
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 155.85
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 168.53
+  },
+  {
+    "category": "accessory",
+    "title": "Crossbody Bag",
+    "price": 36.58
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 66.84
+  },
+  {
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 164.18
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 18.67
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 189.55
+  },
+  {
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 72.22
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 154.8
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 196.52
+  },
+  {
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 58.95
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 53.61
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 140.44
+  },
+  {
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 120.82
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 194.17
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 72.66
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 171.5
+  },
+  {
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 194.48
+  },
+  {
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 76.57
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 45.19
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 68.84
+  },
+  {
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 154.26
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 71.65
+  },
+  {
     "category": "accessory",
     "title": "Stud Earrings",
-    "price": 161.67
+    "price": 32.35
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 17.85
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 135.8
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 171.01
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 15.44
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 188.48
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 193.17
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 59.7
+  },
+  {
+    "category": "accessory",
+    "title": "Knit Beanie",
+    "price": 139.38
+  },
+  {
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 25.86
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 181.02
+  },
+  {
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 154.14
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 44.42
+  },
+  {
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 113.75
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 68.87
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 165.86
+  },
+  {
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 82.96
+  },
+  {
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 13.31
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 145.22
+  },
+  {
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 150.0
+  },
+  {
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 83.07
+  },
+  {
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 55.04
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 130.06
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 69.22
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 144.98
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 175.87
+  },
+  {
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 40.35
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 82.94
+  },
+  {
+    "category": "accessory",
+    "title": "Crossbody Bag",
+    "price": 98.76
+  },
+  {
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 80.91
+  },
+  {
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 71.78
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 29.97
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 24.77
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 34.01
+  },
+  {
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 186.52
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 159.44
+  },
+  {
+    "category": "accessory",
+    "title": "Knit Beanie",
+    "price": 148.7
+  },
+  {
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 129.27
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 56.21
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 103.79
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 193.8
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 36.8
+  },
+  {
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 45.29
+  },
+  {
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 107.51
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 113.66
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 115.82
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 122.39
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 103.38
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 122.16
+  },
+  {
+    "category": "accessory",
+    "title": "Crossbody Bag",
+    "price": 130.15
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 70.21
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 123.67
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 160.64
+  },
+  {
+    "category": "accessory",
+    "title": "Knit Beanie",
+    "price": 182.65
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 85.66
+  },
+  {
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 187.39
+  },
+  {
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 180.3
+  },
+  {
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 174.47
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 183.28
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 137.97
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 83.88
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 113.05
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 74.51
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 116.92
   }
 ]

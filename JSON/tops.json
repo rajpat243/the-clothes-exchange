@@ -1,602 +1,502 @@
 [
   {
-    "id": 1,
     "category": "top",
-    "title": "Graphic Tee",
-    "price": 52.23
+    "title": "Crop Top",
+    "price": 153.7
   },
   {
-    "id": 2,
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 148.93
-  },
-  {
-    "id": 3,
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 21.56
-  },
-  {
-    "id": 4,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 50.7
-  },
-  {
-    "id": 5,
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 11.99
-  },
-  {
-    "id": 6,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 34.34
-  },
-  {
-    "id": 7,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 127.29
-  },
-  {
-    "id": 8,
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 101.42
-  },
-  {
-    "id": 9,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 42.34
-  },
-  {
-    "id": 10,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 43.13
-  },
-  {
-    "id": 11,
-    "category": "top",
-    "title": "Tank Top",
-    "price": 72.37
-  },
-  {
-    "id": 12,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 13.82
-  },
-  {
-    "id": 13,
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 170.2
-  },
-  {
-    "id": 14,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 106.9
-  },
-  {
-    "id": 15,
     "category": "top",
     "title": "Button-Down Oxford",
-    "price": 26.74
+    "price": 135.95
   },
   {
-    "id": 16,
     "category": "top",
     "title": "Off-Shoulder Blouse",
-    "price": 114.5
+    "price": 161.1
   },
   {
-    "id": 17,
-    "category": "top",
-    "title": "Crop Top",
-    "price": 195.96
-  },
-  {
-    "id": 18,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 47.23
-  },
-  {
-    "id": 19,
-    "category": "top",
-    "title": "Tank Top",
-    "price": 121.23
-  },
-  {
-    "id": 20,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 28.67
-  },
-  {
-    "id": 21,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 123.29
-  },
-  {
-    "id": 22,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 127.52
-  },
-  {
-    "id": 23,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 107.01
-  },
-  {
-    "id": 24,
-    "category": "top",
-    "title": "Turtleneck",
-    "price": 26.74
-  },
-  {
-    "id": 25,
     "category": "top",
     "title": "Casual Henley",
-    "price": 146.62
+    "price": 99.24
   },
   {
-    "id": 26,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 110.78
-  },
-  {
-    "id": 27,
-    "category": "top",
-    "title": "Crop Top",
-    "price": 49.43
-  },
-  {
-    "id": 28,
     "category": "top",
     "title": "Patterned Blouse",
-    "price": 100.56
+    "price": 44.52
   },
   {
-    "id": 29,
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 45.44
-  },
-  {
-    "id": 30,
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 55.3
-  },
-  {
-    "id": 31,
-    "category": "top",
-    "title": "Cardigan",
-    "price": 28.2
-  },
-  {
-    "id": 32,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 75.91
-  },
-  {
-    "id": 33,
-    "category": "top",
-    "title": "Linen Shirt",
-    "price": 89.53
-  },
-  {
-    "id": 34,
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 40.08
-  },
-  {
-    "id": 35,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 134.55
-  },
-  {
-    "id": 36,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 114.28
-  },
-  {
-    "id": 37,
-    "category": "top",
-    "title": "Tunic",
-    "price": 124.81
-  },
-  {
-    "id": 38,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 190.16
-  },
-  {
-    "id": 39,
-    "category": "top",
-    "title": "Linen Shirt",
-    "price": 14.86
-  },
-  {
-    "id": 40,
-    "category": "top",
-    "title": "Linen Shirt",
-    "price": 96.85
-  },
-  {
-    "id": 41,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 30.79
-  },
-  {
-    "id": 42,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 103.57
-  },
-  {
-    "id": 43,
-    "category": "top",
-    "title": "Tunic",
-    "price": 31.78
-  },
-  {
-    "id": 44,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 126.55
-  },
-  {
-    "id": 45,
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 50.39
-  },
-  {
-    "id": 46,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 115.35
-  },
-  {
-    "id": 47,
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 30.89
-  },
-  {
-    "id": 48,
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 31.29
-  },
-  {
-    "id": 49,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 57.04
-  },
-  {
-    "id": 50,
     "category": "top",
     "title": "Tank Top",
-    "price": 102.9
+    "price": 57.86
   },
   {
-    "id": 51,
     "category": "top",
-    "title": "Striped Polo",
-    "price": 58.98
+    "title": "Flannel Shirt",
+    "price": 26.5
   },
   {
-    "id": 52,
     "category": "top",
-    "title": "Tank Top",
-    "price": 121.67
+    "title": "Denim Jacket",
+    "price": 61.52
   },
   {
-    "id": 53,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 172.1
-  },
-  {
-    "id": 54,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 194.13
-  },
-  {
-    "id": 55,
     "category": "top",
     "title": "Silk Camisole",
-    "price": 159.78
+    "price": 34.16
   },
   {
-    "id": 56,
     "category": "top",
-    "title": "Linen Shirt",
-    "price": 148.46
+    "title": "Patterned Blouse",
+    "price": 24.45
   },
   {
-    "id": 57,
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 196.32
+  },
+  {
+    "category": "top",
+    "title": "Denim Jacket",
+    "price": 109.01
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 48.5
+  },
+  {
     "category": "top",
     "title": "Casual Henley",
+    "price": 94.24
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 147.37
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 27.16
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 155.9
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 101.94
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 151.28
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
     "price": 171.67
   },
   {
-    "id": 58,
     "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 89.24
+    "title": "Denim Jacket",
+    "price": 56.14
   },
   {
-    "id": 59,
     "category": "top",
-    "title": "Hoodie",
-    "price": 33.32
+    "title": "Patterned Blouse",
+    "price": 48.86
   },
   {
-    "id": 60,
-    "category": "top",
-    "title": "Turtleneck",
-    "price": 169.64
-  },
-  {
-    "id": 61,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 181.07
-  },
-  {
-    "id": 62,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 175.9
-  },
-  {
-    "id": 63,
-    "category": "top",
-    "title": "Tunic",
-    "price": 60.24
-  },
-  {
-    "id": 64,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 34.78
-  },
-  {
-    "id": 65,
     "category": "top",
     "title": "Classic Cotton T-Shirt",
-    "price": 130.31
+    "price": 176.28
   },
   {
-    "id": 66,
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 61.74
+  },
+  {
     "category": "top",
     "title": "Crop Top",
-    "price": 151.98
+    "price": 63.06
   },
   {
-    "id": 67,
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 183.22
+  },
+  {
     "category": "top",
     "title": "Tank Top",
-    "price": 31.38
+    "price": 130.41
   },
   {
-    "id": 68,
-    "category": "top",
-    "title": "Tunic",
-    "price": 199.62
-  },
-  {
-    "id": 69,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 82.19
-  },
-  {
-    "id": 70,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 169.35
-  },
-  {
-    "id": 71,
-    "category": "top",
-    "title": "Flannel Shirt",
-    "price": 99.03
-  },
-  {
-    "id": 72,
-    "category": "top",
-    "title": "Striped Polo",
-    "price": 90.6
-  },
-  {
-    "id": 73,
-    "category": "top",
-    "title": "Flannel Shirt",
-    "price": 70.57
-  },
-  {
-    "id": 74,
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 65.74
-  },
-  {
-    "id": 75,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 174.92
-  },
-  {
-    "id": 76,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 45.43
-  },
-  {
-    "id": 77,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 44.37
-  },
-  {
-    "id": 78,
-    "category": "top",
-    "title": "Turtleneck",
-    "price": 160.02
-  },
-  {
-    "id": 79,
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 181.32
-  },
-  {
-    "id": 80,
-    "category": "top",
-    "title": "Tank Top",
-    "price": 35.29
-  },
-  {
-    "id": 81,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 93.73
-  },
-  {
-    "id": 82,
     "category": "top",
     "title": "Long Sleeve Thermal",
-    "price": 91.23
+    "price": 97.05
   },
   {
-    "id": 83,
-    "category": "top",
-    "title": "Tank Top",
-    "price": 119.32
-  },
-  {
-    "id": 84,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 76.59
-  },
-  {
-    "id": 85,
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 72.09
-  },
-  {
-    "id": 86,
     "category": "top",
     "title": "Patterned Blouse",
-    "price": 64.29
+    "price": 27.49
   },
   {
-    "id": 87,
     "category": "top",
     "title": "Casual Henley",
-    "price": 93.2
+    "price": 41.71
   },
   {
-    "id": 88,
     "category": "top",
-    "title": "Silk Camisole",
-    "price": 45.38
+    "title": "Flannel Shirt",
+    "price": 190.74
   },
   {
-    "id": 89,
     "category": "top",
-    "title": "Turtleneck",
-    "price": 143.26
+    "title": "Button-Down Oxford",
+    "price": 188.37
   },
   {
-    "id": 90,
     "category": "top",
-    "title": "Cardigan",
-    "price": 60.04
+    "title": "Button-Down Oxford",
+    "price": 59.42
   },
   {
-    "id": 91,
-    "category": "top",
-    "title": "Hoodie",
-    "price": 109.31
-  },
-  {
-    "id": 92,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 196.99
-  },
-  {
-    "id": 93,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 175.87
-  },
-  {
-    "id": 94,
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 173.92
-  },
-  {
-    "id": 95,
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 61.43
-  },
-  {
-    "id": 96,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 161.52
-  },
-  {
-    "id": 97,
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 194.87
-  },
-  {
-    "id": 98,
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 133.88
-  },
-  {
-    "id": 99,
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 41.38
-  },
-  {
-    "id": 100,
     "category": "top",
     "title": "Crewneck Sweatshirt",
-    "price": 91.13
+    "price": 74.35
+  },
+  {
+    "category": "top",
+    "title": "Denim Jacket",
+    "price": 106.66
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 14.5
+  },
+  {
+    "category": "top",
+    "title": "Cardigan",
+    "price": 158.18
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 22.49
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 54.31
+  },
+  {
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 148.17
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 124.82
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 131.38
+  },
+  {
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 168.11
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 14.89
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 102.38
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 122.7
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 82.03
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 184.96
+  },
+  {
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 39.58
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 84.16
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 149.78
+  },
+  {
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 24.03
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 125.01
+  },
+  {
+    "category": "top",
+    "title": "Cardigan",
+    "price": 134.62
+  },
+  {
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 113.6
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 99.31
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 99.71
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 119.59
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 185.95
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 18.3
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 158.76
+  },
+  {
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 156.11
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 109.35
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 37.99
+  },
+  {
+    "category": "top",
+    "title": "Cardigan",
+    "price": 95.14
+  },
+  {
+    "category": "top",
+    "title": "Denim Jacket",
+    "price": 183.4
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 28.17
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 48.81
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 125.44
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 196.84
+  },
+  {
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 144.71
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 107.5
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 112.98
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 24.26
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 46.72
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 58.15
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 182.64
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 95.15
+  },
+  {
+    "category": "top",
+    "title": "Cardigan",
+    "price": 114.21
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 162.71
+  },
+  {
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 114.27
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 33.84
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 10.32
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 197.75
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 178.56
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 162.75
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 118.7
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 140.09
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 196.74
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 96.03
+  },
+  {
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 41.63
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 16.88
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 29.74
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 75.84
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 29.75
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 144.62
+  },
+  {
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 152.0
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 182.71
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 146.78
+  },
+  {
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 138.69
   }
 ]
