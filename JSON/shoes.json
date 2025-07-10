@@ -1,502 +1,602 @@
 [
   {
     "category": "shoes",
-    "title": "Stilettos",
-    "price": 53.43
+    "title": "Dress Oxfords",
+    "price": 102.27,
+    "description": "These stylish shoes combine canvas uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 30.99,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 105.43,
+    "description": "These stylish shoes combine mesh uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 38.42,
+    "description": "These versatile shoes feature vegan leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 12.09,
+    "description": "Made from high-quality patent leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 63.42,
+    "description": "Crafted from premium leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 99.84,
+    "description": "Crafted from premium vegan leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 135.88,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 94.18,
+    "description": "These mesh shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 199.81,
+    "description": "These stylish shoes combine vegan leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 69.96,
+    "description": "These versatile shoes feature leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 194.61,
+    "description": "These canvas shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 64.93,
+    "description": "Made from high-quality nubuck that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 122.1,
+    "description": "These stylish shoes combine textile uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 135.36,
+    "description": "Crafted from premium textile with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 61.59,
+    "description": "These stylish shoes combine vegan leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 172.84,
+    "description": "These versatile shoes feature leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 10.87,
+    "description": "These versatile shoes feature vegan leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 13.28,
+    "description": "These versatile shoes feature textile construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
     "title": "Sandals",
-    "price": 36.55
-  },
-  {
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 25.87
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 147.59
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 127.84
-  },
-  {
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 80.5
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 186.8
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 14.77
-  },
-  {
-    "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 107.58
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 145.46
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 148.33
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 28.2
-  },
-  {
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 139.27
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 50.2
-  },
-  {
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 100.67
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 42.18
-  },
-  {
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 131.47
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 89.72
-  },
-  {
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 118.43
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 77.03
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 54.8
+    "price": 146.82,
+    "description": "These versatile shoes feature mesh construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
     "title": "Canvas Slip-Ons",
-    "price": 144.86
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 72.3
-  },
-  {
-    "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 106.94
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 69.7
-  },
-  {
-    "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 72.91
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 58.15
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 198.28
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 27.36
-  },
-  {
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 159.97
-  },
-  {
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 73.69
-  },
-  {
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 177.24
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 119.61
-  },
-  {
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 122.92
-  },
-  {
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 70.72
-  },
-  {
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 139.4
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 79.16
-  },
-  {
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 16.53
-  },
-  {
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 187.42
-  },
-  {
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 45.18
-  },
-  {
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 10.54
-  },
-  {
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 87.32
-  },
-  {
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 79.69
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 190.17
-  },
-  {
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 75.54
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 68.55
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 22.29
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 71.78
-  },
-  {
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 189.28
-  },
-  {
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 143.78
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 45.34
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 18.34
-  },
-  {
-    "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 89.9
-  },
-  {
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 184.65
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 36.38
-  },
-  {
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 51.36
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 124.94
-  },
-  {
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 96.28
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 53.88
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 134.11
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 190.26
+    "price": 96.84,
+    "description": "These versatile shoes feature nubuck construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
     "title": "Ankle Boots",
-    "price": 54.52
+    "price": 108.63,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
   },
   {
     "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 187.61
+    "title": "Flip Flops",
+    "price": 105.83,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 132.28
+    "title": "Leather Loafers",
+    "price": 145.78,
+    "description": "Made from high-quality nubuck that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 54.07
+    "title": "Combat Boots",
+    "price": 161.54,
+    "description": "Made from high-quality textile that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
     "title": "Ballet Flats",
-    "price": 64.99
+    "price": 152.64,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
   },
   {
     "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 98.43
+    "title": "Dress Oxfords",
+    "price": 94.49,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
   },
   {
     "category": "shoes",
-    "title": "Moccasins",
-    "price": 105.84
+    "title": "Combat Boots",
+    "price": 37.55,
+    "description": "These patent leather shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
   },
   {
     "category": "shoes",
-    "title": "Running Shoes",
-    "price": 74.24
+    "title": "Combat Boots",
+    "price": 153.1,
+    "description": "These synthetic shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
   },
   {
     "category": "shoes",
     "title": "Derby Shoes",
-    "price": 82.7
+    "price": 175.0,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 91.68,
+    "description": "These stylish shoes combine textile uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 171.19,
+    "description": "Crafted from premium textile with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 98.96,
+    "description": "These suede shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 105.35,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 81.87,
+    "description": "These versatile shoes feature suede construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 111.18,
+    "description": "These stylish shoes combine suede uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 177.24,
+    "description": "These versatile shoes feature suede construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 173.41,
+    "description": "Crafted from premium vegan leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 103.6,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 79.33,
+    "description": "These patent leather shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 119.64,
+    "description": "These leather shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 109.06,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 93.77,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 49.98,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 38.89,
+    "description": "These versatile shoes feature leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 114.88,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 62.43,
+    "description": "Crafted from premium vegan leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 44.14,
+    "description": "Made from high-quality leather that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
     "title": "Sandals",
-    "price": 104.0
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 147.96
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 150.4
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 145.88
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 27.83
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 86.95
-  },
-  {
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 149.19
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 117.24
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 163.78
+    "price": 163.5,
+    "description": "Crafted from premium synthetic with attention to detail. The perfect balance of style and functionality."
   },
   {
     "category": "shoes",
     "title": "Leather Loafers",
-    "price": 102.09
+    "price": 130.6,
+    "description": "Made from high-quality patent leather that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 137.41
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 11.03
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 38.67
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 111.63
-  },
-  {
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 39.51
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 186.55
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 97.9
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 177.81
-  },
-  {
-    "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 13.09
-  },
-  {
-    "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 193.73
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 60.02
-  },
-  {
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 83.01
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 129.05
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 40.16
+    "title": "Stilettos",
+    "price": 104.93,
+    "description": "These stylish shoes combine synthetic uppers with cushioned insoles for maximum comfort. A must-have for your collection."
   },
   {
     "category": "shoes",
     "title": "Dress Oxfords",
-    "price": 73.89
+    "price": 50.22,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
   },
   {
     "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 48.83
+    "title": "Stilettos",
+    "price": 169.83,
+    "description": "These stylish shoes combine vegan leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
   },
   {
     "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 141.05
+    "title": "Wedge Heels",
+    "price": 33.04,
+    "description": "Made from high-quality synthetic that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 70.82
+    "title": "Running Shoes",
+    "price": 183.28,
+    "description": "Made from high-quality synthetic that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 167.92
+    "title": "Flip Flops",
+    "price": 84.42,
+    "description": "These versatile shoes feature patent leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 96.94,
+    "description": "Crafted from premium synthetic with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 138.31,
+    "description": "These stylish shoes combine leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 46.75,
+    "description": "These stylish shoes combine synthetic uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 198.09,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 23.13,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 156.89,
+    "description": "These versatile shoes feature nubuck construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
     "title": "Boat Shoes",
-    "price": 53.67
+    "price": 187.84,
+    "description": "Made from high-quality leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 155.42,
+    "description": "These versatile shoes feature nubuck construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 165.88,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 105.87,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 22.1,
+    "description": "These stylish shoes combine vegan leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 141.54,
+    "description": "These mesh shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 93.29,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 12.35,
+    "description": "Made from high-quality patent leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 159.8,
+    "description": "These versatile shoes feature leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 98.31,
+    "description": "These versatile shoes feature suede construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 178.6,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 73.69,
+    "description": "These patent leather shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 157.57,
+    "description": "Made from high-quality nubuck that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 56.01,
+    "description": "Crafted from premium synthetic with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 91.42,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 19.57,
+    "description": "Made from high-quality leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 135.6,
+    "description": "Made from high-quality canvas that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 35.51,
+    "description": "These stylish shoes combine leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 165.39,
+    "description": "These nubuck shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 67.45,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 148.98,
+    "description": "These versatile shoes feature synthetic construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 152.47,
+    "description": "Crafted from premium canvas with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 39.21,
+    "description": "These suede shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 84.07,
+    "description": "These nubuck shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 22.83,
+    "description": "These versatile shoes feature textile construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 82.44,
+    "description": "Crafted from premium patent leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 52.39,
+    "description": "These versatile shoes feature textile construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 88.21,
+    "description": "These versatile shoes feature nubuck construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 33.02,
+    "description": "These stylish shoes combine canvas uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 100.98,
+    "description": "These nubuck shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 90.09,
+    "description": "Made from high-quality leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 172.56,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 131.54,
+    "description": "Crafted from premium leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 101.25,
+    "description": "These stylish shoes combine synthetic uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 196.71,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 149.0,
+    "description": "Made from high-quality suede that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 107.1,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 162.15,
+    "description": "Made from high-quality synthetic that molds to your feet for personalized comfort. Designed to last for years."
   }
 ]

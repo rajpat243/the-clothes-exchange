@@ -33,6 +33,61 @@ accessories_names = [
     "Bow Tie", "Clutch Purse", "Beret", "Pendant Necklace"
 ]
 
+# Description templates for each category
+top_descriptions = [
+    "Made from premium {material} for all-day comfort. Perfect for casual outings or layering in cooler weather.",
+    "This versatile {material} top features a flattering fit and timeless design. Pairs well with jeans or dress pants.",
+    "Soft and breathable {material} construction with stylish details. Great for both work and weekend wear.",
+    "Crafted from high-quality {material} that's built to last. The perfect addition to your everyday wardrobe.",
+    "Featuring a modern cut and {material} fabric that feels luxurious against your skin. Available in multiple colors."
+]
+
+bottom_descriptions = [
+    "These {material} bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit.",
+    "Made from durable {material} that holds its shape all day. Perfect for work, casual outings, or special occasions.",
+    "These versatile bottoms are crafted from premium {material} for lasting quality. Designed with comfort and style in mind.",
+    "Featuring a contemporary fit and {material} construction that moves with you. A wardrobe essential for any season.",
+    "These bottoms combine classic style with modern {material} fabric. Comfortable enough for all-day wear."
+]
+
+shoes_descriptions = [
+    "These {material} shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship.",
+    "Crafted from premium {material} with attention to detail. The perfect balance of style and functionality.",
+    "These versatile shoes feature {material} construction and ergonomic design. Suitable for various occasions and outfits.",
+    "Made from high-quality {material} that molds to your feet for personalized comfort. Designed to last for years.",
+    "These stylish shoes combine {material} uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+]
+
+accessories_descriptions = [
+    "This {material} accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design.",
+    "Made from premium {material} that's built to last. Versatile enough to complement both casual and formal looks.",
+    "This stylish accessory is crafted from high-quality {material} with attention to detail. An essential addition to your collection.",
+    "Featuring elegant {material} construction and practical functionality. Designed to elevate your everyday style.",
+    "This {material} accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+]
+
+materials = {
+    "top": ["cotton", "linen", "silk", "wool blend", "polyester", "jersey knit", "organic cotton", "modal", "rayon"],
+    "bottom": ["denim", "cotton twill", "wool", "linen blend", "corduroy", "stretch fabric", "khaki", "polyester blend", "leather"],
+    "shoes": ["leather", "suede", "canvas", "synthetic", "mesh", "nubuck", "patent leather", "vegan leather", "textile"],
+    "accessory": ["genuine leather", "sterling silver", "cotton blend", "stainless steel", "acrylic", "wool", "silk", "recycled materials", "brass"]
+}
+
+def generate_description(category):
+    if category == "top":
+        template = random.choice(top_descriptions)
+        material = random.choice(materials["top"])
+    elif category == "bottom":
+        template = random.choice(bottom_descriptions)
+        material = random.choice(materials["bottom"])
+    elif category == "shoes":
+        template = random.choice(shoes_descriptions)
+        material = random.choice(materials["shoes"])
+    else:  # accessory
+        template = random.choice(accessories_descriptions)
+        material = random.choice(materials["accessory"])
+    
+    return template.format(material=material)
 
 def generate_items(category, names, count=100):
     items = []
@@ -40,7 +95,8 @@ def generate_items(category, names, count=100):
         item = {
             "category": category,
             "title": random.choice(names),
-            "price": round(random.uniform(9.99, 199.99), 2)  
+            "price": round(random.uniform(9.99, 199.99), 2),
+            "description": generate_description(category)
         }
         items.append(item)
     return items
