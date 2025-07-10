@@ -111,7 +111,7 @@ productRouter.patch('/api/product/:id', async (req, res) => {
         });
 
         const product = await productCollection.updateOne({ _id: ObjectId.createFromHexString(productId) }, { $set: updateData });
-
+        
         res.status(201).send(product);
     } catch (err) {
         res.status(400).send(err)

@@ -105,14 +105,21 @@ import  { fetchGet, fetchPost, fetchUpdate, fetchDelete } from "../hooks/useFetc
 function Temp() {
     const [products, setProducts] = useState([])
     const [name, setName] = useState([])
+    const [description, setDescription] = useState([])
     useEffect(() => {
         const body = {
             name: "ted",
             email: "ted@example.com",
             password: "ted123456"
         }
+
+        const productUpdateBody = {
+            description: "hehe"
+        }
         fetchGet('http://localhost:3002/api/product').then(p => setProducts(p))
         fetchPost('http://localhost:3002/api/user', body).then(p => setName(p))
+        fetchUpdate('http://localhost:3002/api/product/687006fdfe80e0e991e6559f', productUpdateBody).then(p => console.log(p))
+        fetchDelete('http://localhost:3002/api/product/68700a817c11ed60036de7d5').then(p => console.log(p))
     }, [])
   return (
     <div>
