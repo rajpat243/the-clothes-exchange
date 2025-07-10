@@ -16,16 +16,25 @@ export const fetchPost = (url, body) => {
         .catch((error) => console.error('Error:', error));
 };
 
-export const fetchUpdate = (url) => {
-    fetch(url)
+export const fetchUpdate = (url, body) => {
+    return fetch(url, {
+        method: "PATCH",
+        body: JSON.stringify(body),
+        headers: {
+            "Content-Type": "application/json",
+        },
+    })
         .then(response => response.json())
-        .then(data => console.log(data))
         .catch((error) => console.error('Error:', error));
 };
 
 export const fetchDelete = (url) => {
-    fetch(url)
+    return fetch(url, {
+        method: "DELETE",
+        headers: {
+            "Content-Type": "application/json",
+        },
+    })
         .then(response => response.json())
-        .then(data => console.log(data))
         .catch((error) => console.error('Error:', error));
 };
