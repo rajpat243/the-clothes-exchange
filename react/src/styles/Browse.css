@@ -1,13 +1,16 @@
-.browse-page {
-    padding: 2rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
+.browse-layout {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .browse-main {
+    flex: 1;
   }
   
   .browse-title {
     font-size: 2rem;
-    text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   
   .browse-grid {
