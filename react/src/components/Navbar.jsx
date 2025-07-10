@@ -16,10 +16,16 @@ function Navbar() {
         <li><Link to="/list">List an Item</Link></li>
         <li><Link to="/profile">Profile</Link></li>
       </ul>
-      {isHomePage && (
+      {isHomePage ? (
         <div className="navbar-auth">
           <Link to="/login" className="login-btn">Log In</Link>
           <Link to="/signup" className="signup-btn">Sign Up</Link>
+        </div>
+      ) : (
+        <div className="navbar-cart">
+          <Link to="/cart" className="cart-icon" aria-label="Shopping Cart">
+            🛒
+          </Link>
         </div>
       )}
     </nav>
