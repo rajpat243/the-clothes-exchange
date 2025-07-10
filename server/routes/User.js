@@ -24,7 +24,6 @@ returns: Name, Email, *token
 
 userRouter.post('/api/user', async (req, res) => {
     const { name, email, password } = req.body;
-    console.log(name)
 
     try {
         const userCollection = await getCollection();
@@ -40,6 +39,35 @@ userRouter.post('/api/user', async (req, res) => {
         res.status(400).send(err)
     }
 });
+
+/*
+
+Method: POST
+urlEndpoint: /api/user/login
+inputBody: Email, Password
+returns: Name, Email, *token
+    *Error Handling: Make sure all fields are filled in
+
+*/
+
+userRouter.post('/api/user/login', async (req, res) => {
+    const { email, password } = req.body;
+
+    try {
+        const userCollection = await getCollection();
+        let user = await userCollection.findOne({ email });
+
+        if(user.password === password) {
+            delete user.password
+            res.status(201).send(user);
+        } else {
+            res.status(400).send("Authentication Failed!")
+        }
+    } catch (err) {
+        res.status(400).send(err)
+    }
+});
+
 
 /*
 
