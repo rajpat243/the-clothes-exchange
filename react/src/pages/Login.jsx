@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import '../styles/Login.css';
 
 function Login() {
@@ -41,6 +41,10 @@ function Login() {
 
   return (
     <div className="login-container">
+      <div className="navbar-logo" style={{ position: 'absolute', top: '20px', left: '20px' }}>
+        <Link to="/">👕 TCE</Link>
+      </div>
+      
       <div className="login-card">
         <h1 className="login-title">Welcome Back</h1>
         <p className="login-subtitle">Sign in to continue to your account</p>

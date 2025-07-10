@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import '../styles/Signup.css';
 
 function Signup() {
@@ -20,7 +20,6 @@ function Signup() {
     }
     
     try {
-
       const response = await fetch('http://localhost:3002/api/user', {
         method: 'POST',
         headers: {
@@ -35,12 +34,10 @@ function Signup() {
       
       const data = await response.json();
       
- 
       localStorage.setItem('userId', data.insertedId);
       localStorage.setItem('userName', name);
       localStorage.setItem('userEmail', email);
       
-
       navigate('/');
     } catch (err) {
       console.error('Signup error:', err);
@@ -50,6 +47,11 @@ function Signup() {
 
   return (
     <div className="signup-container">
+      {/* Added back button in the top left */}
+      <div className="navbar-logo" style={{ position: 'absolute', top: '20px', left: '20px' }}>
+        <Link to="/">👕 TCE</Link>
+      </div>
+      
       <div className="signup-card">
         <h1 className="signup-title">Create Account</h1>
         <p className="signup-subtitle">Join our community to buy, sell, and trade clothing</p>

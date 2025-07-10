@@ -5,6 +5,7 @@ import Browse from "./pages/Browse";
 import Login from "./pages/login";
 import Signup from "./pages/signup";
 import ItemPage from "./pages/ItemPage";
+import NewProduct from "./pages/NewProduct";
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route path = "/login" element={<Login/>}/>
       <Route path="/signup" element={<Signup />} />
       <Route path="/item/:title" element={<ItemPage />} />
+      <Route path="/list" element={<NewProduct/>}/>
       {/* */}
 
     </Routes>
