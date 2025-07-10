@@ -47,7 +47,7 @@ productRouter.get('/api/product/:id', async (req, res) => {
 
     try {
         const productCollection = await getCollection();
-        const product = await productCollection.find({ _id: new ObjectId(productId) }).toArray();
+        const product = await productCollection.find({ _id: ObjectId.createFromHexString(productId) }).toArray();
 
         if (product.length === 0) {
             return res.status(404).send("Product not found!");
@@ -110,7 +110,7 @@ productRouter.patch('/api/product/:id', async (req, res) => {
             updateData[update] = req.body[update];
         });
 
-        const product = await productCollection.updateOne({ _id: new ObjectId(productId) }, { $set: updateData });
+        const product = await productCollection.updateOne({ _id: ObjectId.createFromHexString(productId) }, { $set: updateData });
 
         res.status(201).send(product);
     } catch (err) {
@@ -133,7 +133,7 @@ productRouter.delete('/api/product/:id', async(req, res) => {
     try {
         const productCollection = await getCollection();
 
-        const product = await productCollection.deleteOne({ _id: new ObjectId(productId) });
+        const product = await productCollection.deleteOne({ _id: ObjectId.createFromHexString(productId) });
         res.status(201).send(product);
     } catch (err) {
         res.status(500).send(err)
