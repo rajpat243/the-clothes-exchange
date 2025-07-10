@@ -28,7 +28,12 @@ userRouter.post('/api/user', async (req, res) => {
 
     try {
         const userCollection = await getCollection();
-        const user = await userCollection.insertOne({ name, email, password });
+        let user = await userCollection.insertOne({ name, email, password });
+        user = {
+            ...user,
+            name,
+            email
+        }
         
         res.status(201).send(user);
     } catch (err) {
