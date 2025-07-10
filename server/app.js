@@ -5,25 +5,19 @@
 
 import express from 'express';
 import cors from 'cors';
- 
+
 //Import Routes
-import charactersRouter from './routers/characters.js';
-import filmsRouter from './routers/films.js';
-import planetsRouter from './routers/planets.js';
- 
+import productRouter from './routes/Product.js';
+
 const app = express();
 app.use(cors());
-const PORT = 3001;
-const url = 'mongodb://localhost:27017';
-const dbName = 'swapi';
- 
+const PORT = 3002;
+
 app.use(express.json());
- 
+
 //Configuring Routes
-app.use(charactersRouter);
-app.use(filmsRouter);
-app.use(planetsRouter);
- 
+app.use(productRouter);
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
