@@ -34,11 +34,11 @@ accessories_names = [
 ]
 
 
-def generate_items(category, names, count=100):
+def generate_items(category, names, count=100, start_id=1):
     items = []
-    for i in range(1, count + 1):
+    for i in range(count):
         item = {
-            "id": i, 
+            "id": start_id + i, 
             "category": category,
             "title": random.choice(names),
             "price": round(random.uniform(9.99, 199.99), 2)  
@@ -47,12 +47,13 @@ def generate_items(category, names, count=100):
     return items
 
 
-tops = generate_items("top", tops_names, 100)
-bottoms = generate_items("bottom", bottoms_names, 100)
-shoes = generate_items("shoes", shoes_names, 100)
-accessories = generate_items("accessory", accessories_names, 100)
+# Generate items with sequential IDs
+tops = generate_items("top", tops_names, 100, 1)
+bottoms = generate_items("bottom", bottoms_names, 100, 101)
+shoes = generate_items("shoes", shoes_names, 100, 201)
+accessories = generate_items("accessory", accessories_names, 100, 301)
 
-
+# Create individual category files
 with open("tops.json", "w") as f:
     json.dump(tops, f, indent=2)
 
@@ -64,5 +65,12 @@ with open("shoes.json", "w") as f:
 
 with open("accessories.json", "w") as f:
     json.dump(accessories, f, indent=2)
+
+# Combine all products into one array
+all_products = tops + bottoms + shoes + accessories
+
+# Create the combined products file
+with open("products.json", "w") as f:
+    json.dump(all_products, f, indent=2)
 
 print("JSON files created successfully!")
