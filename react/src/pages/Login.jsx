@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-//import axios from 'axios';
 import '../styles/Login.css';
 
 function Login() {
@@ -14,13 +13,28 @@ function Login() {
     setError('');
     
     try {
-      // makeas the API call to check if user id is valid from our DB
-      const response = await axios.post('/api/login', { email, password });
+      const response = await fetch('http://localhost:3002/api/user/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, password })
+      });
       
-      // sotre user id if successful 
-      localStorage.setItem('userId', response.data.userId);
+      if (!response.ok) {
+        throw new Error('Authentication failed');
+      }
+      
+      const userData = await response.json();
+      
+      localStorage.setItem('userId', userData._id);
+      localStorage.setItem('userName', userData.name);
+      localStorage.setItem('userEmail', userData.email);
+      
+
       navigate('/');
     } catch (err) {
+      console.error('Login error:', err);
       setError('Invalid email or password. Please try again.');
     }
   };

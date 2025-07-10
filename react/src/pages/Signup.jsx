@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-// import axios from 'axios';
 import '../styles/Signup.css';
 
 function Signup() {
@@ -21,23 +20,31 @@ function Signup() {
     }
     
     try {
-      // Updated to include the full server URL
-      const response = await axios.post('http://localhost:3002/api/user', { 
-        name, 
-        email, 
-        password 
+
+      const response = await fetch('http://localhost:3002/api/user', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, password })
       });
       
-      // Store user info from the response
-      localStorage.setItem('userId', response.data.insertedId);
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      
+ 
+      localStorage.setItem('userId', data.insertedId);
       localStorage.setItem('userName', name);
       localStorage.setItem('userEmail', email);
       
-      // Redirect to home page after successful signup
+
       navigate('/');
     } catch (err) {
       console.error('Signup error:', err);
-      setError(err.response?.data?.message || 'Error creating account. Please try again.');
+      setError('Error creating account. Please try again.');
     }
   };
 
