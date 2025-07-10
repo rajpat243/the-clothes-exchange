@@ -17,7 +17,7 @@ const getCollection = async () => {
 /*
 Method: GET
 urlEndpoint: /api/product
-returns: an array of objects (to map), objects should contain id, title, price, *favoriting (False by default)
+returns: an array of objects (to map), objects should contain id, title, price, description *favoriting (False by default)
 - Create functionalities for queries:
     - Categories
     - *Price
@@ -25,7 +25,39 @@ returns: an array of objects (to map), objects should contain id, title, price, 
 productRouter.get('/api/product', async (req, res) => {
     try {
         const productCollection = await getCollection();
-        const products = await productCollection.find({}).toArray();
+        const products = await productCollection.find({ $or: [{category: "top"}, {category: "bottom"}] }).toArray();
+        
+        res.json(products);
+    } catch (err) {
+        console.error("Error:", err);
+        res.status(500).send("Getting product failed!");
+    }
+});
+
+/*
+Method: GET
+urlEndpoint: /api/product/:page/:limit
+returns: an array of objects (to map), objects should contain id, title, price, *favoriting (False by default)
+- Create functionalities for queries:
+    - Categories
+    - *Price
+*/
+
+productRouter.get('/api/product/:page/:limit', async (req, res) => {
+    try {
+        let { page, limit } = req.params;
+        const { categories } = req.query;
+        limit = +limit;
+
+        const match = {};
+
+        if (categories) {
+            const categoryArray = categories.split(',');
+            match.category = { $in: categoryArray };
+        }
+
+        const productCollection = await getCollection();
+        const products = await productCollection.find(match).skip((page - 1) * limit).limit(limit).toArray();
         
         res.json(products);
     } catch (err) {
