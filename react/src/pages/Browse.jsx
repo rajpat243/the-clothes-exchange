@@ -31,7 +31,7 @@ function Browse() {
     if (filters.Tops && item.category !== "top") return false;
     if (filters.Bottoms && item.category !== "bottom") return false;
     if (filters.Shoes && item.category !== "shoes") return false;
-    if (filters.Accessories && item.category !== "accessories") return false;
+    if (filters.Accessories && item.category !== "accessory") return false;
 
     return true;
   });
