@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 91.75
+  },
+  {
+    "id": 2,
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 41.06
+  },
+  {
+    "id": 3,
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 77.43
+  },
+  {
+    "id": 4,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 41.54
+  },
+  {
+    "id": 5,
+    "category": "bottom",
+    "title": "Palazzo Pants",
+    "price": 188.23
+  },
+  {
+    "id": 6,
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 91.16
+  },
+  {
+    "id": 7,
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 24.42
+  },
+  {
+    "id": 8,
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 60.75
+  },
+  {
+    "id": 9,
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 43.87
+  },
+  {
+    "id": 10,
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 156.65
+  },
+  {
+    "id": 11,
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 199.65
+  },
+  {
+    "id": 12,
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 84.76
+  },
+  {
+    "id": 13,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 164.66
+  },
+  {
+    "id": 14,
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 98.1
+  },
+  {
+    "id": 15,
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 195.29
+  },
+  {
+    "id": 16,
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 136.77
+  },
+  {
+    "id": 17,
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 17.12
+  },
+  {
+    "id": 18,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 194.98
+  },
+  {
+    "id": 19,
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 97.31
+  },
+  {
+    "id": 20,
+    "category": "bottom",
+    "title": "Palazzo Pants",
+    "price": 63.98
+  },
+  {
+    "id": 21,
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 190.59
+  },
+  {
+    "id": 22,
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 79.16
+  },
+  {
+    "id": 23,
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 141.11
+  },
+  {
+    "id": 24,
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 196.36
+  },
+  {
+    "id": 25,
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 95.97
+  },
+  {
+    "id": 26,
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 176.89
+  },
+  {
+    "id": 27,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 105.15
+  },
+  {
+    "id": 28,
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 144.25
+  },
+  {
+    "id": 29,
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 13.97
+  },
+  {
+    "id": 30,
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 156.35
+  },
+  {
+    "id": 31,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 55.29
+  },
+  {
+    "id": 32,
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 196.68
+  },
+  {
+    "id": 33,
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 168.27
+  },
+  {
+    "id": 34,
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 166.93
+  },
+  {
+    "id": 35,
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 43.21
+  },
+  {
+    "id": 36,
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 21.76
+  },
+  {
+    "id": 37,
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 73.54
+  },
+  {
+    "id": 38,
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 123.38
+  },
+  {
+    "id": 39,
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 23.93
+  },
+  {
+    "id": 40,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 176.69
+  },
+  {
+    "id": 41,
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 118.39
+  },
+  {
+    "id": 42,
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 52.04
+  },
+  {
+    "id": 43,
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 122.7
+  },
+  {
+    "id": 44,
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 75.89
+  },
+  {
+    "id": 45,
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 28.14
+  },
+  {
+    "id": 46,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 126.84
+  },
+  {
+    "id": 47,
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 110.64
+  },
+  {
+    "id": 48,
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 29.29
+  },
+  {
+    "id": 49,
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 92.36
+  },
+  {
+    "id": 50,
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 124.69
+  },
+  {
+    "id": 51,
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 88.19
+  },
+  {
+    "id": 52,
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 141.78
+  },
+  {
+    "id": 53,
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 80.09
+  },
+  {
+    "id": 54,
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 60.36
+  },
+  {
+    "id": 55,
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 78.15
+  },
+  {
+    "id": 56,
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 47.2
+  },
+  {
+    "id": 57,
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 38.74
+  },
+  {
+    "id": 58,
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 71.55
+  },
+  {
+    "id": 59,
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 198.32
+  },
+  {
+    "id": 60,
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 79.25
+  },
+  {
+    "id": 61,
+    "category": "bottom",
+    "title": "Palazzo Pants",
+    "price": 143.06
+  },
+  {
+    "id": 62,
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 143.82
+  },
+  {
+    "id": 63,
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 49.11
+  },
+  {
+    "id": 64,
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 47.93
+  },
+  {
+    "id": 65,
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 160.79
+  },
+  {
+    "id": 66,
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 11.24
+  },
+  {
+    "id": 67,
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 12.54
+  },
+  {
+    "id": 68,
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 62.54
+  },
+  {
+    "id": 69,
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 10.06
+  },
+  {
+    "id": 70,
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 152.58
+  },
+  {
+    "id": 71,
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 147.86
+  },
+  {
+    "id": 72,
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 155.82
+  },
+  {
+    "id": 73,
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 58.66
+  },
+  {
+    "id": 74,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 179.3
+  },
+  {
+    "id": 75,
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 189.47
+  },
+  {
+    "id": 76,
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 181.42
+  },
+  {
+    "id": 77,
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 140.32
+  },
+  {
+    "id": 78,
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 86.55
+  },
+  {
+    "id": 79,
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 113.08
+  },
+  {
+    "id": 80,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 20.06
+  },
+  {
+    "id": 81,
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 128.03
+  },
+  {
+    "id": 82,
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 113.77
+  },
+  {
+    "id": 83,
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 75.91
+  },
+  {
+    "id": 84,
+    "category": "bottom",
+    "title": "Khaki Pants",
+    "price": 56.46
+  },
+  {
+    "id": 85,
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 148.51
+  },
+  {
+    "id": 86,
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 130.65
+  },
+  {
+    "id": 87,
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 56.41
+  },
+  {
+    "id": 88,
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 165.2
+  },
+  {
+    "id": 89,
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 128.48
+  },
+  {
+    "id": 90,
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 63.2
+  },
+  {
+    "id": 91,
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 142.18
+  },
+  {
+    "id": 92,
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 58.76
+  },
+  {
+    "id": 93,
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 151.7
+  },
+  {
+    "id": 94,
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 65.91
+  },
+  {
+    "id": 95,
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 157.98
+  },
+  {
+    "id": 96,
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 131.76
+  },
+  {
+    "id": 97,
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 64.87
+  },
+  {
+    "id": 98,
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 123.27
+  },
+  {
+    "id": 99,
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 133.11
+  },
+  {
+    "id": 100,
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 118.96
+  }
+]

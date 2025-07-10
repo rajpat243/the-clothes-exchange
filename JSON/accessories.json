@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 23.4
+  },
+  {
+    "id": 2,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 155.08
+  },
+  {
+    "id": 3,
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 123.61
+  },
+  {
+    "id": 4,
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 184.65
+  },
+  {
+    "id": 5,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 127.79
+  },
+  {
+    "id": 6,
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 95.75
+  },
+  {
+    "id": 7,
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 47.78
+  },
+  {
+    "id": 8,
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 35.5
+  },
+  {
+    "id": 9,
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 75.29
+  },
+  {
+    "id": 10,
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 142.05
+  },
+  {
+    "id": 11,
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 23.45
+  },
+  {
+    "id": 12,
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 110.97
+  },
+  {
+    "id": 13,
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 74.22
+  },
+  {
+    "id": 14,
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 56.6
+  },
+  {
+    "id": 15,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 123.15
+  },
+  {
+    "id": 16,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 21.2
+  },
+  {
+    "id": 17,
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 153.05
+  },
+  {
+    "id": 18,
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 82.12
+  },
+  {
+    "id": 19,
+    "category": "accessory",
+    "title": "Crossbody Bag",
+    "price": 124.61
+  },
+  {
+    "id": 20,
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 95.99
+  },
+  {
+    "id": 21,
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 100.39
+  },
+  {
+    "id": 22,
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 67.93
+  },
+  {
+    "id": 23,
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 144.2
+  },
+  {
+    "id": 24,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 112.23
+  },
+  {
+    "id": 25,
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 26.04
+  },
+  {
+    "id": 26,
+    "category": "accessory",
+    "title": "Knit Beanie",
+    "price": 27.45
+  },
+  {
+    "id": 27,
+    "category": "accessory",
+    "title": "Knit Beanie",
+    "price": 72.65
+  },
+  {
+    "id": 28,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 19.15
+  },
+  {
+    "id": 29,
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 122.12
+  },
+  {
+    "id": 30,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 82.03
+  },
+  {
+    "id": 31,
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 126.23
+  },
+  {
+    "id": 32,
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 190.57
+  },
+  {
+    "id": 33,
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 75.87
+  },
+  {
+    "id": 34,
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 126.27
+  },
+  {
+    "id": 35,
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 56.93
+  },
+  {
+    "id": 36,
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 136.72
+  },
+  {
+    "id": 37,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 60.44
+  },
+  {
+    "id": 38,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 197.24
+  },
+  {
+    "id": 39,
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 59.14
+  },
+  {
+    "id": 40,
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 141.33
+  },
+  {
+    "id": 41,
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 148.65
+  },
+  {
+    "id": 42,
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 29.25
+  },
+  {
+    "id": 43,
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 179.65
+  },
+  {
+    "id": 44,
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 176.86
+  },
+  {
+    "id": 45,
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 84.8
+  },
+  {
+    "id": 46,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 108.47
+  },
+  {
+    "id": 47,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 79.28
+  },
+  {
+    "id": 48,
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 97.09
+  },
+  {
+    "id": 49,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 96.27
+  },
+  {
+    "id": 50,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 122.45
+  },
+  {
+    "id": 51,
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 51.23
+  },
+  {
+    "id": 52,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 33.97
+  },
+  {
+    "id": 53,
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 86.96
+  },
+  {
+    "id": 54,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 104.46
+  },
+  {
+    "id": 55,
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 102.05
+  },
+  {
+    "id": 56,
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 172.65
+  },
+  {
+    "id": 57,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 27.74
+  },
+  {
+    "id": 58,
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 140.82
+  },
+  {
+    "id": 59,
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 12.94
+  },
+  {
+    "id": 60,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 124.15
+  },
+  {
+    "id": 61,
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 95.98
+  },
+  {
+    "id": 62,
+    "category": "accessory",
+    "title": "Crossbody Bag",
+    "price": 136.86
+  },
+  {
+    "id": 63,
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 86.45
+  },
+  {
+    "id": 64,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 17.69
+  },
+  {
+    "id": 65,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 152.95
+  },
+  {
+    "id": 66,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 64.51
+  },
+  {
+    "id": 67,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 159.52
+  },
+  {
+    "id": 68,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 71.54
+  },
+  {
+    "id": 69,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 167.0
+  },
+  {
+    "id": 70,
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 68.9
+  },
+  {
+    "id": 71,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 166.6
+  },
+  {
+    "id": 72,
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 91.25
+  },
+  {
+    "id": 73,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 109.35
+  },
+  {
+    "id": 74,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 43.47
+  },
+  {
+    "id": 75,
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 50.45
+  },
+  {
+    "id": 76,
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 139.22
+  },
+  {
+    "id": 77,
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 149.98
+  },
+  {
+    "id": 78,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 88.95
+  },
+  {
+    "id": 79,
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 88.71
+  },
+  {
+    "id": 80,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 67.76
+  },
+  {
+    "id": 81,
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 193.94
+  },
+  {
+    "id": 82,
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 18.58
+  },
+  {
+    "id": 83,
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 28.45
+  },
+  {
+    "id": 84,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 59.45
+  },
+  {
+    "id": 85,
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 159.33
+  },
+  {
+    "id": 86,
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 128.34
+  },
+  {
+    "id": 87,
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 95.03
+  },
+  {
+    "id": 88,
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 185.08
+  },
+  {
+    "id": 89,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 163.71
+  },
+  {
+    "id": 90,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 15.33
+  },
+  {
+    "id": 91,
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 14.0
+  },
+  {
+    "id": 92,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 150.29
+  },
+  {
+    "id": 93,
+    "category": "accessory",
+    "title": "Beret",
+    "price": 112.57
+  },
+  {
+    "id": 94,
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 66.07
+  },
+  {
+    "id": 95,
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 82.47
+  },
+  {
+    "id": 96,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 64.28
+  },
+  {
+    "id": 97,
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 83.02
+  },
+  {
+    "id": 98,
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 67.71
+  },
+  {
+    "id": 99,
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 103.27
+  },
+  {
+    "id": 100,
+    "category": "accessory",
+    "title": "Silk Scarf",
+    "price": 174.63
+  }
+]

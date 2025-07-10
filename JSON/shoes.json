@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 51.53
+  },
+  {
+    "id": 2,
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 147.76
+  },
+  {
+    "id": 3,
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 11.74
+  },
+  {
+    "id": 4,
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 51.73
+  },
+  {
+    "id": 5,
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 36.28
+  },
+  {
+    "id": 6,
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 132.25
+  },
+  {
+    "id": 7,
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 55.67
+  },
+  {
+    "id": 8,
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 19.77
+  },
+  {
+    "id": 9,
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 85.79
+  },
+  {
+    "id": 10,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 184.07
+  },
+  {
+    "id": 11,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 71.26
+  },
+  {
+    "id": 12,
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 159.42
+  },
+  {
+    "id": 13,
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 33.69
+  },
+  {
+    "id": 14,
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 60.6
+  },
+  {
+    "id": 15,
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 183.91
+  },
+  {
+    "id": 16,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 51.03
+  },
+  {
+    "id": 17,
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 46.75
+  },
+  {
+    "id": 18,
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 25.08
+  },
+  {
+    "id": 19,
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 86.52
+  },
+  {
+    "id": 20,
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 30.15
+  },
+  {
+    "id": 21,
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 152.48
+  },
+  {
+    "id": 22,
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 147.19
+  },
+  {
+    "id": 23,
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 47.95
+  },
+  {
+    "id": 24,
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 132.17
+  },
+  {
+    "id": 25,
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 100.88
+  },
+  {
+    "id": 26,
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 41.84
+  },
+  {
+    "id": 27,
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 37.7
+  },
+  {
+    "id": 28,
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 112.01
+  },
+  {
+    "id": 29,
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 50.82
+  },
+  {
+    "id": 30,
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 11.69
+  },
+  {
+    "id": 31,
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 134.31
+  },
+  {
+    "id": 32,
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 38.64
+  },
+  {
+    "id": 33,
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 181.32
+  },
+  {
+    "id": 34,
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 12.97
+  },
+  {
+    "id": 35,
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 87.04
+  },
+  {
+    "id": 36,
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 195.39
+  },
+  {
+    "id": 37,
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 92.52
+  },
+  {
+    "id": 38,
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 118.93
+  },
+  {
+    "id": 39,
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 87.58
+  },
+  {
+    "id": 40,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 13.59
+  },
+  {
+    "id": 41,
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 91.61
+  },
+  {
+    "id": 42,
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 11.86
+  },
+  {
+    "id": 43,
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 30.47
+  },
+  {
+    "id": 44,
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 192.21
+  },
+  {
+    "id": 45,
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 49.94
+  },
+  {
+    "id": 46,
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 112.58
+  },
+  {
+    "id": 47,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 74.0
+  },
+  {
+    "id": 48,
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 175.19
+  },
+  {
+    "id": 49,
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 52.02
+  },
+  {
+    "id": 50,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 151.99
+  },
+  {
+    "id": 51,
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 184.05
+  },
+  {
+    "id": 52,
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 14.37
+  },
+  {
+    "id": 53,
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 105.95
+  },
+  {
+    "id": 54,
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 196.48
+  },
+  {
+    "id": 55,
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 111.82
+  },
+  {
+    "id": 56,
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 114.42
+  },
+  {
+    "id": 57,
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 182.69
+  },
+  {
+    "id": 58,
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 69.52
+  },
+  {
+    "id": 59,
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 24.89
+  },
+  {
+    "id": 60,
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 178.21
+  },
+  {
+    "id": 61,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 98.67
+  },
+  {
+    "id": 62,
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 150.32
+  },
+  {
+    "id": 63,
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 177.52
+  },
+  {
+    "id": 64,
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 135.37
+  },
+  {
+    "id": 65,
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 158.15
+  },
+  {
+    "id": 66,
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 11.52
+  },
+  {
+    "id": 67,
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 110.98
+  },
+  {
+    "id": 68,
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 96.77
+  },
+  {
+    "id": 69,
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 71.03
+  },
+  {
+    "id": 70,
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 86.76
+  },
+  {
+    "id": 71,
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 115.56
+  },
+  {
+    "id": 72,
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 71.0
+  },
+  {
+    "id": 73,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 69.06
+  },
+  {
+    "id": 74,
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 166.89
+  },
+  {
+    "id": 75,
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 110.54
+  },
+  {
+    "id": 76,
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 81.66
+  },
+  {
+    "id": 77,
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 167.22
+  },
+  {
+    "id": 78,
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 67.66
+  },
+  {
+    "id": 79,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 104.14
+  },
+  {
+    "id": 80,
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 67.94
+  },
+  {
+    "id": 81,
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 63.82
+  },
+  {
+    "id": 82,
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 105.9
+  },
+  {
+    "id": 83,
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 154.85
+  },
+  {
+    "id": 84,
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 99.52
+  },
+  {
+    "id": 85,
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 191.36
+  },
+  {
+    "id": 86,
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 34.41
+  },
+  {
+    "id": 87,
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 133.99
+  },
+  {
+    "id": 88,
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 80.43
+  },
+  {
+    "id": 89,
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 32.07
+  },
+  {
+    "id": 90,
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 22.06
+  },
+  {
+    "id": 91,
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 74.11
+  },
+  {
+    "id": 92,
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 117.52
+  },
+  {
+    "id": 93,
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 92.03
+  },
+  {
+    "id": 94,
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 31.21
+  },
+  {
+    "id": 95,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 154.45
+  },
+  {
+    "id": 96,
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 25.95
+  },
+  {
+    "id": 97,
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 15.11
+  },
+  {
+    "id": 98,
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 188.55
+  },
+  {
+    "id": 99,
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 127.46
+  },
+  {
+    "id": 100,
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 114.33
+  }
+]
