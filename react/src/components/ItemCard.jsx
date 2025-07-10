@@ -1,14 +1,23 @@
+import { Link } from "react-router-dom";
 import "../styles/ItemCard.css";
 
-function ItemCard({ title, tag, image }) {
-    return (
+function ItemCard({ title, category, tag }) {
+  const encodedTitle = encodeURIComponent(title); // handles spaces/special chars
+
+  return (
+    <Link to={`/item/${encodedTitle}`} className="item-card-link">
       <div className="item-card">
-        <img src={image} alt={title} className="item-image" />
-        <h3 className="item-title">{title}</h3>
-        <p className="item-tag">{tag}</p>
+        <img
+          src={`https://via.placeholder.com/200x200?text=${encodeURIComponent(title)}`}
+          alt={title}
+        />
+        <h3>{title}</h3>
+        <p>{tag}</p>
+
+
       </div>
-    );
-  }
-  
-  export default ItemCard;
-  
+    </Link>
+  );
+}
+
+export default ItemCard;

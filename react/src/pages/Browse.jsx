@@ -9,6 +9,8 @@ import accessories from "../../../JSON/accessories.json"
 
 
 function Browse() {
+
+    
     const allItems = [
         ...tops.map((item) => ({
           title: item.title,
@@ -72,6 +74,7 @@ function Browse() {
       
   
   
+      console.log("Mapped item data:", items);
 
   return (
     <div className="browse-layout">
@@ -82,11 +85,13 @@ function Browse() {
         <div className="browse-grid">
           {filteredItems.map((item, i) => (
             <ItemCard
-              key={i}
-              title={item.title}
-              tag={item.tag}
-              image={item.image}
-            />
+            key={i}
+            title={item.title}
+            category={item.category}
+            tag={item.tag}
+          />
+          
+          
           ))}
         </div>
       </div>
@@ -96,3 +101,40 @@ function Browse() {
 }
 
 export default Browse;
+
+/* 
+
+import { useEffect, useState } from "react";
+import  { fetchGet, fetchPost, fetchUpdate, fetchDelete } from "../hooks/useFetch";
+
+function Temp() {
+    const [products, setProducts] = useState([])
+    const [name, setName] = useState([])
+    const [description, setDescription] = useState([])
+    useEffect(() => {
+        const body = {
+            name: "ted",
+            email: "ted@example.com",
+            password: "ted123456"
+        }
+
+        const productUpdateBody = {
+            description: "hehe"
+        }
+        fetchGet('http://localhost:3002/api/product').then(p => setProducts(p))
+        fetchPost('http://localhost:3002/api/user', body).then(p => setName(p))
+        fetchUpdate('http://localhost:3002/api/product/687006fdfe80e0e991e6559f', productUpdateBody).then(p => console.log(p))
+        fetchDelete('http://localhost:3002/api/product/68700a817c11ed60036de7d5').then(p => console.log(p))
+    }, [])
+  return (
+    <div>
+        <pre>{JSON.stringify(products)}</pre>
+        {products.map(p => <p>{p.title}</p>)}
+        <p>{name.name}</p>
+    </div>
+  );
+}
+
+export default Temp;
+
+*/

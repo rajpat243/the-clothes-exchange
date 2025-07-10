@@ -4,6 +4,9 @@ import Navbar from "../src/components/Navbar";
 import Browse from "./pages/Browse";
 import Login from "./pages/login";
 import Signup from "./pages/signup";
+import ItemPage from "./pages/ItemPage";
+
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
       <Route path ="/browse" element={<Browse/>}/>
       <Route path = "/login" element={<Login/>}/>
       <Route path="/signup" element={<Signup />} />
+      <Route path="/item/:title" element={<ItemPage />} />
+      {/* */}
 
     </Routes>
     </>
