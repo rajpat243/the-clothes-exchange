@@ -96,3 +96,25 @@ function Browse() {
 }
 
 export default Browse;
+
+/* 
+
+import { useEffect, useState } from "react";
+import  { fetchGet, fetchPost, fetchUpdate, fetchDelete } from "../hooks/useFetch";
+
+function Temp() {
+    const [products, setProducts] = useState([])
+    useEffect(() => {
+        fetchGet('http://localhost:3002/api/product').then(p => setProducts(p))
+    }, [])
+  return (
+    <div>
+        <pre>{JSON.stringify(products)}</pre>
+        {products.map(p => <p>{p.title}</p>)}
+    </div>
+  );
+}
+
+export default Temp;
+
+*/
