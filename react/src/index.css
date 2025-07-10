@@ -11,6 +11,9 @@ html, body {
   color: #213547;
   line-height: 1.5;
   min-height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 a {
