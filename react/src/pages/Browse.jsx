@@ -1,138 +1,61 @@
+import { useEffect, useState } from "react";
+import { fetchGet } from "../hooks/useFetch";
+import FilterSidebar from "../components/FilterSidebar";
 import ItemCard from "../components/ItemCard";
 import "../styles/Browse.css";
-import { useState } from "react";
-import FilterSidebar from "../components/FilterSidebar";
-import tops from "../../../JSON/tops.json"
-import bottoms from "../../../JSON/bottoms.json"
-import shoes from "../../../JSON/shoes.json"
-import accessories from "../../../JSON/accessories.json"
-
 
 function Browse() {
+  const [products, setProducts] = useState([]);
+  const [filters, setFilters] = useState({
+    Tops: false,
+    Bottoms: false,
+    Shoes: false,
+    Accessories: false,
+    freeOnly: false,
+  });
 
-    
-    const allItems = [
-        ...tops.map((item) => ({
-          title: item.title,
-          tag: item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`,
-          image: `https://via.placeholder.com/200x200?text=${encodeURIComponent(item.title)}`,
-          category: item.category,
-        })),
-        ...bottoms.map((item) => ({
-          title: item.title,
-          tag: item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`,
-          image: `https://via.placeholder.com/200x200?text=${encodeURIComponent(item.title)}`,
-          category: item.category,
-        })),
-        ...shoes.map((item) => ({
-          title: item.title,
-          tag: item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`,
-          image: `https://via.placeholder.com/200x200?text=${encodeURIComponent(item.title)}`,
-          category: item.category,
-        })),
-        ...accessories.map((item) => ({
-          title: item.title,
-          tag: item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`,
-          image: `https://via.placeholder.com/200x200?text=${encodeURIComponent(item.title)}`,
-          category: item.category,
-        })),
-      ];
-      
-    const items = allItems
-
-    const [filters, setFilters] = useState({
-        Tops: false,
-        Bottoms: false,
-        Shoes: false,
-        Accessories: false,
-        freeOnly: false,
-      });
-      
-      const isCategorySelected = filters.Tops || filters.Bottoms || filters.Shoes || filters.Accessories;
-
-      const filteredItems = items.filter((item) => {
-        // Filter by "Free Only"
-        if (filters.freeOnly && !item.tag.toLowerCase().includes("free")) {
-          return false;
+  useEffect(() => {
+    fetchGet("http://localhost:3002/api/product") 
+      .then((data) => {
+        if (Array.isArray(data)) {
+          setProducts(data);
+        } else {
+          console.error("Invalid product data:", data);
         }
-      
-        // Filter by category — only apply if any are selected
-        if (isCategorySelected) {
-          if (
-            (filters.Tops && item.category === "top") ||
-            (filters.Bottoms && item.category === "bottom") ||
-            (filters.Shoes && item.category === "shoes") ||
-            (filters.Accessories && item.category === "accessory")
-          ) {
-            return true;
-          }
-          return false; // doesn't match any selected category
-        }
-      
-        return true; // no category filters active
       });
-      
-  
-  
-      console.log("Mapped item data:", items);
+  }, []);
+
+  const filteredItems = products.filter((item) => {
+    if (filters.freeOnly && item.price > 0) return false;
+
+    if (filters.Tops && item.category !== "top") return false;
+    if (filters.Bottoms && item.category !== "bottom") return false;
+    if (filters.Shoes && item.category !== "shoes") return false;
+    if (filters.Accessories && item.category !== "accessory") return false;
+
+    return true;
+  });
 
   return (
     <div className="browse-layout">
       <FilterSidebar filters={filters} onChange={setFilters} />
-  
+
       <div className="browse-main">
         <h2 className="browse-title">Browse All Items</h2>
         <div className="browse-grid">
           {filteredItems.map((item, i) => (
             <ItemCard
-            key={i}
-            title={item.title}
-            category={item.category}
-            tag={item.tag}
-          />
+              key={i}
+              title={item.title}
+              price={item.price}
+              image={`https://via.placeholder.com/200x200?text=${encodeURIComponent(item.title)}`}
+              category={item.category}
+            />
           ))}
         </div>
       </div>
     </div>
   );
-  
 }
 
 export default Browse;
-
-/* 
-
-import { useEffect, useState } from "react";
-import  { fetchGet, fetchPost, fetchUpdate, fetchDelete } from "../hooks/useFetch";
-
-function Temp() {
-    const [products, setProducts] = useState([])
-    const [name, setName] = useState([])
-    const [description, setDescription] = useState([])
-    useEffect(() => {
-        const body = {
-            name: "ted",
-            email: "ted@example.com",
-            password: "ted123456"
-        }
-
-        const productUpdateBody = {
-            description: "hehe"
-        }
-        fetchGet('http://localhost:3002/api/product').then(p => setProducts(p))
-        fetchPost('http://localhost:3002/api/user', body).then(p => setName(p))
-        fetchUpdate('http://localhost:3002/api/product/687006fdfe80e0e991e6559f', productUpdateBody).then(p => console.log(p))
-        fetchDelete('http://localhost:3002/api/product/68700a817c11ed60036de7d5').then(p => console.log(p))
-    }, [])
-  return (
-    <div>
-        <pre>{JSON.stringify(products)}</pre>
-        {products.map(p => <p>{p.title}</p>)}
-        <p>{name.name}</p>
-    </div>
-  );
-}
-
-export default Temp;
-
-*/
