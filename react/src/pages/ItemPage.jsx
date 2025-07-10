@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import items from "../../../JSON/products.json";
 import "../styles/ItemPage.css";
+import { Link } from "react-router-dom";
 
 function ItemPage() {
   const { title } = useParams();
@@ -14,6 +15,7 @@ function ItemPage() {
 
   return (
     <div className="item-page">
+        <Link to="/browse" className="back-button">← Back to Browse</Link>
       <div className="item-page-content">
         <img
           src={`https://via.placeholder.com/300x300?text=${encodeURIComponent(item.title)}`}
