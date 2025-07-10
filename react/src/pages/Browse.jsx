@@ -9,6 +9,8 @@ import accessories from "../../../JSON/accessories.json"
 
 
 function Browse() {
+
+    
     const allItems = [
         ...tops.map((item) => ({
           title: item.title,
@@ -72,6 +74,7 @@ function Browse() {
       
   
   
+      console.log("Mapped item data:", items);
 
   return (
     <div className="browse-layout">
@@ -82,11 +85,13 @@ function Browse() {
         <div className="browse-grid">
           {filteredItems.map((item, i) => (
             <ItemCard
-              key={i}
-              title={item.title}
-              tag={item.tag}
-              image={item.image}
-            />
+            key={i}
+            title={item.title}
+            category={item.category}
+            tag={item.tag}
+          />
+          
+          
           ))}
         </div>
       </div>
