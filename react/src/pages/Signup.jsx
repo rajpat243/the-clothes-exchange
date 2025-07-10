@@ -21,12 +21,22 @@ function Signup() {
     }
     
     try {
-      // eidt based on Jin APi routes
-      const response = await axios.post('/api/signup', { name, email, password });
+      // Updated to include the full server URL
+      const response = await axios.post('http://localhost:3002/api/user', { 
+        name, 
+        email, 
+        password 
+      });
       
-      localStorage.setItem('userId', response.data.userId);
+      // Store user info from the response
+      localStorage.setItem('userId', response.data.insertedId);
+      localStorage.setItem('userName', name);
+      localStorage.setItem('userEmail', email);
+      
+      // Redirect to home page after successful signup
       navigate('/');
     } catch (err) {
+      console.error('Signup error:', err);
       setError(err.response?.data?.message || 'Error creating account. Please try again.');
     }
   };

@@ -62,7 +62,7 @@ function Browse() {
             (filters.Tops && item.category === "top") ||
             (filters.Bottoms && item.category === "bottom") ||
             (filters.Shoes && item.category === "shoes") ||
-            (filters.Accessories && item.category === "accessories")
+            (filters.Accessories && item.category === "accessory")
           ) {
             return true;
           }
@@ -90,8 +90,6 @@ function Browse() {
             category={item.category}
             tag={item.tag}
           />
-          
-          
           ))}
         </div>
       </div>
