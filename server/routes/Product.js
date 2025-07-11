@@ -14,20 +14,43 @@ const getCollection = async () => {
     return db.collection(collectionName);
 };
 
+
 /*
 Method: GET
 urlEndpoint: /api/product
 returns: an array of objects (to map), objects should contain id, title, price, description *favoriting (False by default)
-- Create functionalities for queries:
-    - Categories
-    - *Price
 */
 productRouter.get('/api/product', async (req, res) => {
     try {
         const productCollection = await getCollection();
-        const products = await productCollection.find({ $or: [{category: "top"}, {category: "bottom"}] }).toArray();
+        const products = await productCollection.find({ }).toArray();
         
         res.json(products);
+    } catch (err) {
+        console.error("Error:", err);
+        res.status(500).send("Getting product failed!");
+    }
+});
+
+/*
+
+Method: GET (Product)
+urlEndpoint: /api/product/user/:userid
+returns: an array of objects with id, price, title, description, *favoriting
+
+*/
+
+productRouter.get('/api/product/user/:userid', async (req, res) => {
+    const userId = req.params.userid;
+
+    try {
+        const productCollection = await getCollection();
+        const product = await productCollection.find({ userId: ObjectId.createFromHexString(userId) }).toArray();
+
+        if (product.length === 0) {
+            return res.status(404).send("Product not found!");
+        }
+        res.json(product);
     } catch (err) {
         console.error("Error:", err);
         res.status(500).send("Getting product failed!");
@@ -96,18 +119,20 @@ productRouter.get('/api/product/:id', async (req, res) => {
 Method: POST
 urlEndpoint: /api/product
 inputBody: Price, title, category, description
+authBody: userId
 returns: Product object (id, price, title, description)
 
 */
 productRouter.post('/api/product', async (req, res) => {
     try {
-        const { price, title, category, description } = req.body;
+        const { price, title, category, description, userId } = req.body;
         const productCollection = await getCollection()
         const product = await productCollection.insertOne({
             price,
             title,
             category,
-            description
+            description,
+            userId: ObjectId.createFromHexString(userId)
         })
         res.status(201).send(product);
     } catch (err) {

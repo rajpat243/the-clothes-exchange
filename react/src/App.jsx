@@ -6,6 +6,7 @@ import Login from "./pages/login";
 import Signup from "./pages/signup";
 import ItemPage from "./pages/ItemPage";
 import NewProduct from "./pages/NewProduct";
+import Profile from "./pages/Profile";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/signup" element={<Signup />} />
       <Route path="/item/:title" element={<ItemPage />} />
       <Route path="/list" element={<NewProduct/>}/>
+      <Route path="/profile" element={<Profile />} />
       {/* */}
 
     </Routes>

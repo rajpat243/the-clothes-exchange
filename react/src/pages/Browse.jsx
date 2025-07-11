@@ -3,9 +3,18 @@ import { fetchGet } from "../hooks/useFetch";
 import FilterSidebar from "../components/FilterSidebar";
 import ItemCard from "../components/ItemCard";
 import "../styles/Browse.css";
+import topImg from "../assets/tops-placeholder.jpg";
+import bottomImg from "../assets/bottoms-placeholder.jpg";
+import shoesImg from "../assets/shoes-placeholder.jpg";
+import accessoryImg from "../assets/accessories-placeholder.jpg";
+
 
 function Browse() {
+
+    
+          
   const [products, setProducts] = useState([]);
+  const [page, setPage] = useState(1);
   const [categories, setCategories] = useState({
     Tops: false,
     Bottoms: false,
@@ -13,7 +22,38 @@ function Browse() {
     Accessories: false,
   });
 
+  // useEffect(() => {
+  //   fetchGet("http://localhost:3002/api/product/1/24") 
+  //     .then((data) => {
+  //       if (Array.isArray(data)) {
+  //         setProducts(data);
+  //         console.log("Fetched Products:", data.map(p => `${p.title} - ${p.category}`));
+
+  //       } else {
+  //         console.error("Invalid product data:", data);
+  //       }
+  //     });
+  // }, []);
+
+  const getCategoryImage = (category) => {
+    switch (category.toLowerCase()) {
+      case "top":
+        return topImg;
+      case "bottom":
+        return bottomImg;
+      case "shoes":
+        return shoesImg;
+      case "accessory":
+        return accessoryImg;
+      case "accessories":
+        return accessoryImg;
+      default:
+        return topImg; // fallback image
+    }
+  };
+
   useEffect(() => {
+    console.log('inside')
     let selectedCategories = [];
 
     if(categories.Tops) {
@@ -29,7 +69,7 @@ function Browse() {
       selectedCategories.push('accessory');
     }
 
-    let url = 'http://localhost:3002/api/product/1/24';
+    let url = `http://localhost:3002/api/product/${page}/24`;
 
     if (selectedCategories.length > 0) {
       url += `?categories=${selectedCategories.join(',')}`;
@@ -43,24 +83,31 @@ function Browse() {
           console.error("Invalid product data:", data);
         }
       });
-  }, [categories])
+  }, [categories, page])
 
   return (
     <div className="browse-layout">
       <FilterSidebar categories={categories} onChange={setCategories} />
 
       <div className="browse-main">
-        <h2 className="browse-title">Browse All Items</h2>
+        <div>
+          <h2 className="browse-title">Browse All Items</h2>
+          <div>
+            <button onClick={() => setPage(p => p > 1? p-= 1 : p)}>{"<"}</button>
+            <button onClick={() => setPage(p => p+=1)}>{">"}</button>
+          </div>
+        </div>
         <div className="browse-grid">
           {products.map((item, i) => (
             <ItemCard
               key={i}
               title={item.title}
               price={item.price}
-              image={`https://via.placeholder.com/200x200?text=${encodeURIComponent(item.title)}`}
+              image={getCategoryImage(item.category)}
               category={item.category}
             />
           ))}
+          
         </div>
       </div>
     </div>
