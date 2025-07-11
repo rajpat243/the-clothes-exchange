@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/FilterSidebar.css";
 
 function FilterSidebar({ categories, onChange }) {
-  console.log(categories)
   const handleCheckboxChange = (e) => {
     const { name, checked } = e.target;
     onChange({ ...categories, [name]: checked });

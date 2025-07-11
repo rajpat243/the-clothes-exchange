@@ -14,22 +14,10 @@ function Browse() {
   });
 
   useEffect(() => {
-    fetchGet("http://localhost:3002/api/product/1/24") 
-      .then((data) => {
-        if (Array.isArray(data)) {
-          setProducts(data);
-        } else {
-          console.error("Invalid product data:", data);
-        }
-      });
-  }, []);
-
-  useEffect(() => {
-    console.log('inside')
     let selectedCategories = [];
 
     if(categories.Tops) {
-      selectedCategories.push('tops');
+      selectedCategories.push('top');
     }
     if(categories.Bottoms) {
       selectedCategories.push('bottom');
@@ -46,12 +34,10 @@ function Browse() {
     if (selectedCategories.length > 0) {
       url += `?categories=${selectedCategories.join(',')}`;
     }
-    console.log(url)
-    console.log(categories)
+
     fetchGet(url) 
       .then((data) => {
         if (Array.isArray(data)) {
-          console.log(data)
           setProducts(data);
         } else {
           console.error("Invalid product data:", data);
