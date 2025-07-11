@@ -28,7 +28,7 @@ try:
         {"name": "bottoms", "file": "bottoms.json"},
         {"name": "shoes", "file": "shoes.json"},
         {"name": "accessories", "file": "accessories.json"},
-        {"name": "product", "file": "products.json"}
+        {"name": "product", "file": "updated_products.json"}
     ]
     
     

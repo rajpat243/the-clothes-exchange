@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 # Part 1: Create JSON file with dummy users
 def create_users_json():
-    # Define dummy users
+    # Define dummy users (increased to 40 users)
     users = [
         {
             "name": "Raj",
@@ -22,6 +22,14 @@ def create_users_json():
             "password": "mysecret789"
         }
     ]
+    
+    # Add 37 more users with the pattern user4, user5, etc.
+    for i in range(4, 41):
+        users.append({
+            "name": f"user{i}",
+            "email": f"user{i}@example.com",
+            "password": "123456789"
+        })
     
     # Write to JSON file
     with open('dummy_users.json', 'w') as f:

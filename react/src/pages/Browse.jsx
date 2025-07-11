@@ -14,6 +14,7 @@ function Browse() {
     
           
   const [products, setProducts] = useState([]);
+  const [page, setPage] = useState(1);
   const [categories, setCategories] = useState({
     Tops: false,
     Bottoms: false,
@@ -21,18 +22,18 @@ function Browse() {
     Accessories: false,
   });
 
-  useEffect(() => {
-    fetchGet("http://localhost:3002/api/product/1/24") 
-      .then((data) => {
-        if (Array.isArray(data)) {
-          setProducts(data);
-          console.log("Fetched Products:", data.map(p => `${p.title} - ${p.category}`));
+  // useEffect(() => {
+  //   fetchGet("http://localhost:3002/api/product/1/24") 
+  //     .then((data) => {
+  //       if (Array.isArray(data)) {
+  //         setProducts(data);
+  //         console.log("Fetched Products:", data.map(p => `${p.title} - ${p.category}`));
 
-        } else {
-          console.error("Invalid product data:", data);
-        }
-      });
-  }, []);
+  //       } else {
+  //         console.error("Invalid product data:", data);
+  //       }
+  //     });
+  // }, []);
 
   const getCategoryImage = (category) => {
     switch (category.toLowerCase()) {
@@ -56,7 +57,7 @@ function Browse() {
     let selectedCategories = [];
 
     if(categories.Tops) {
-      selectedCategories.push('tops');
+      selectedCategories.push('top');
     }
     if(categories.Bottoms) {
       selectedCategories.push('bottom');
@@ -68,34 +69,39 @@ function Browse() {
       selectedCategories.push('accessory');
     }
 
-    let url = 'http://localhost:3002/api/product/1/24';
+    let url = `http://localhost:3002/api/product/${page}/24`;
 
     if (selectedCategories.length > 0) {
       url += `?categories=${selectedCategories.join(',')}`;
     }
-    console.log(url)
-    console.log(categories)
+
     fetchGet(url) 
       .then((data) => {
         if (Array.isArray(data)) {
-          console.log(data)
           setProducts(data);
         } else {
           console.error("Invalid product data:", data);
         }
       });
-  }, [categories])
+  }, [categories, page])
 
   return (
     <div className="browse-layout">
       <FilterSidebar categories={categories} onChange={setCategories} />
 
       <div className="browse-main">
-        <h2 className="browse-title">Browse All Items</h2>
+        <div>
+          <h2 className="browse-title">Browse All Items</h2>
+          <div>
+            <button onClick={() => setPage(p => p > 1? p-= 1 : p)}>{"<"}</button>
+            <button onClick={() => setPage(p => p+=1)}>{">"}</button>
+          </div>
+        </div>
         <div className="browse-grid">
           {products.map((item, i) => (
             <ItemCard
               key={i}
+              id = {item._id}
               title={item.title}
               price={item.price}
               image={getCategoryImage(item.category)}

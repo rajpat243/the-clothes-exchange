@@ -68,12 +68,35 @@ userRouter.post('/api/user/login', async (req, res) => {
     }
 });
 
+/*
+
+Method: POST
+urlEndpoint: /api/user/cart
+inputBody: Email, Password
+returns: Name, Email, *token
+    *Error Handling: Make sure all fields are filled in
+
+*/
+
+userRouter.post('/api/user/cart', async (req, res) => {
+    const { userId, productId } = req.body;
+
+    try {
+        const userCollection = await getCollection();
+        const user  = await userCollection.updateOne({_id: ObjectId.createFromHexString(userId)}, { $push: { cart: ObjectId.createFromHexString(productId) } })
+
+        res.status(201).send(user);
+    } catch (err) {
+        res.status(400).send(err)
+    }
+});
+
 
 /*
 
 Method: GET
 urlEndpoint: /api/user/:id
-returns: Name, Email
+returns: id, Name, Email, Cart
     *Authentication Check
 
 */
@@ -84,7 +107,7 @@ userRouter.get('/api/user/:id', async (req, res) => {
     try {
         const userCollection = await getCollection();
         const user = await userCollection.findOne({ _id: ObjectId.createFromHexString(userId) });
-        
+        delete user.password
         res.status(201).send(user);
     } catch (err) {
         res.status(400).send(err)
