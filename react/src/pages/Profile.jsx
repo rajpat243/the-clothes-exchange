@@ -1,7 +1,24 @@
 import "../styles/Profile.css";
-
+import { fetchGet } from "../hooks/useFetch";
+import { useEffect, useState } from "react";
+import ItemCard from "../components/ItemCard";
+import { data } from "react-router-dom";
 function Profile() {
-  const mockUser = {
+
+    const [userItems, setUserItems] = useState([]);
+    const url = `http://localhost:3002/api/product/user/${localStorage.getItem('userId')}`;
+    useEffect(() => {
+        const storedUser = localStorage.getItem("userId");
+        if (storedUser) {
+            fetchGet(url)
+                .then((data) => {
+                        setUserItems(data)
+                        console.log("Fetched Products: ", data)
+                })
+                .catch((err) => console.error("Fetch error:", err));
+    }}, []);
+    /*
+    const mockUser = {
     username: "luo_long",
     bio: "Just a college student trying to make room in my closet",
     listings: [
@@ -14,37 +31,41 @@ function Profile() {
     profilePic: "https://via.placeholder.com/100?text=Profile",
   };
 
+  */
+
+
+
   return (
     <div className="profile-page">
       <div className="profile-header">
-        <img src={mockUser.profilePic} alt="Profile" className="profile-pic" />
+        <img alt="Profile" className="profile-pic" />
         <div className="profile-info">
-          <h2>@{mockUser.username}</h2>
-          <p>{mockUser.bio}</p>
+          <h2>@{localStorage.getItem('userName')}</h2>
+          <p>{'Bio: '}</p>
           <div className="profile-stats">
-            <span><strong>{mockUser.followers}</strong> Followers</span>
-            <span><strong>{mockUser.following}</strong> Following</span>
+            <span><strong>{'Follower: 1156'}</strong> Followers</span>
+            <span><strong>{'Following: 5'}</strong> Following</span>
           </div>
         </div>
       </div>
 
       <h3 className="listings-title">Listings</h3>
       <div className="listings-grid">
-      {mockUser.listings.map((item, index) => (
-  <div className={`listing-card ${item.sold ? "sold" : ""}`} key={index}>
-    <div className="image-wrapper">
-      <img
-        src={`https://via.placeholder.com/150x150?text=${encodeURIComponent(item.title)}`}
-        alt={item.title}
-      />
-      {item.sold && <div className="sold-overlay">SOLD</div>}
-    </div>
-    <p className="listing-title">{item.title}</p>
-    <p className="listing-price">
-      {item.price === 0 ? "Free" : `$${item.price}`}
-    </p>
-  </div>
-))}
+      {userItems.map((item) => (
+        <div className={'listing-card'} key={item._id}>
+            <div className="image-wrapper">
+            <img
+                src={`https://via.placeholder.com/150x150?text=${encodeURIComponent(item.title)}`}
+                alt={item.title}
+            />
+            {/* {item.sold && <div className="sold-overlay">SOLD</div>} */}
+            </div>
+            <p className="listing-title">{item.title}</p>
+            <p className="listing-price">
+            {item.price === 0 ? "Free" : `$${item.price}`}
+            </p>
+        </div>
+        ))}
 
       </div>
     </div>

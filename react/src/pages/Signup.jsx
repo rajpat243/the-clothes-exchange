@@ -19,7 +19,12 @@ function Signup() {
       return;
     }
     
+    
+    
     try {
+
+      fetch 
+
       const response = await fetch('http://localhost:3002/api/user', {
         method: 'POST',
         headers: {
