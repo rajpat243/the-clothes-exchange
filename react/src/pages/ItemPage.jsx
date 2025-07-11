@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { fetchGet, fetchPost } from "../hooks/useFetch";
+import { fetchGet } from "../hooks/useFetch";
 import "../styles/ItemPage.css";
 
 import topImg from "../assets/tops-placeholder.jpg";
@@ -9,37 +9,29 @@ import shoesImg from "../assets/shoes-placeholder.jpg";
 import accessoryImg from "../assets/accessories-placeholder.jpg";
 
 import similarItems from "../data/similar_items.json";
-
-
-
+import ItemCard from "../components/ItemCard";
 
 function ItemPage() {
-
-
-      
-  const { id } = useParams(); // MongoDB ObjectId passed in URL
+  const { id } = useParams();
   const [item, setItem] = useState(null);
+  const [allProducts, setAllProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
   const getCategoryImage = (category) => {
     switch (category?.toLowerCase()) {
-      case "top":
-        return topImg;
-      case "bottom":
-        return bottomImg;
-      case "shoes":
-        return shoesImg;
+      case "top": return topImg;
+      case "bottom": return bottomImg;
+      case "shoes": return shoesImg;
       case "accessory":
-      case "accessories":
-        return accessoryImg;
-      default:
-        return topImg;
+      case "accessories": return accessoryImg;
+      default: return topImg;
     }
   };
 
   useEffect(() => {
     if (!id) return;
 
+    // Fetch the current item
     fetchGet(`http://localhost:3002/api/product/${id}`)
       .then((data) => {
         if (Array.isArray(data) && data.length > 0) {
@@ -50,30 +42,29 @@ function ItemPage() {
       })
       .catch((err) => console.error("Error fetching item:", err))
       .finally(() => setLoading(false));
-  }, [id]);
 
-  const addToCart = () => {
-    const url = 'http://localhost:3002/api/user/cart';
-    const userId = localStorage.getItem('userId');
-    const productId = item._id;
-    fetchPost(url, {
-      userId,
-      productId
-    })
-  }
+    // Fetch all products (to look up similar items)
+    fetchGet("http://localhost:3002/api/product/1/1000")
+      .then((data) => {
+        if (Array.isArray(data)) {
+          setAllProducts(data);
+        }
+      });
+  }, [id]);
 
   if (loading) return <p>Loading item...</p>;
   if (!item) return <p>Item not found.</p>;
 
-  const relatedItems = item
-        ? similarItems
-            .filter(
-                (similar) =>
-                similar.title.toLowerCase() !== item.title.toLowerCase() &&
-                similar.category.toLowerCase() === item.category.toLowerCase()
-            )
-            .slice(0, 5)
-        : [];
+  // Map titles from JSON to actual product objects from DB
+  const relatedTitles = similarItems[item.title] || [];
+  const relatedItems = relatedTitles
+    .map(title =>
+      allProducts.find(
+        (p) => p.title.toLowerCase() === title.toLowerCase()
+      )
+    )
+    .filter(Boolean)
+    .slice(0, 5);
 
   return (
     <div className="item-page">
@@ -92,7 +83,7 @@ function ItemPage() {
             {item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`}
           </p>
           <p className="item-category">Category: {item.category}</p>
-          <button className="add-to-cart-button" onClick={addToCart}>Add to Cart</button>
+          <button className="add-to-cart-button">Add to Cart</button>
         </div>
       </div>
 
@@ -104,18 +95,18 @@ function ItemPage() {
       <div className="similar-items-section">
         <h3>Similar Items</h3>
         <div className="similar-items-grid">
-            {relatedItems.map((simItem, index) => (
-            <ItemCard
-                key={index}
+          {relatedItems.map((simItem) => (
+            <Link key={simItem._id} to={`/item/${simItem._id}`}>
+              <ItemCard
                 title={simItem.title}
                 price={simItem.price}
                 category={simItem.category}
-                image={getCategoryImage(simItem.category)} // reuse your helper
-            />
-            ))}
+                image={getCategoryImage(simItem.category)}
+              />
+            </Link>
+          ))}
         </div>
       </div>
-
     </div>
   );
 }
