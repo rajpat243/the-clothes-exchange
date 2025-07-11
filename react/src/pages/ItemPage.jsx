@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { fetchGet } from "../hooks/useFetch";
+import { fetchGet, fetchPost } from "../hooks/useFetch";
 import "../styles/ItemPage.css";
 
 import topImg from "../assets/tops-placeholder.jpg";
@@ -45,6 +45,17 @@ function ItemPage() {
       .finally(() => setLoading(false));
   }, [id]);
 
+  const addToCart = () => {
+    const url = 'http://localhost:3002/api/user/cart';
+    const userId = localStorage.getItem('userId');
+    console.log(item);
+    const productId = item._id;
+    fetchPost(url, {
+      userId,
+      productId
+    })
+  }
+
   if (loading) return <p>Loading item...</p>;
   if (!item) return <p>Item not found.</p>;
 
@@ -65,7 +76,7 @@ function ItemPage() {
             {item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`}
           </p>
           <p className="item-category">Category: {item.category}</p>
-          <button className="add-to-cart-button">Add to Cart</button>
+          <button className="add-to-cart-button" onClick={addToCart}>Add to Cart</button>
         </div>
       </div>
 
