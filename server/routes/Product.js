@@ -126,6 +126,7 @@ returns: Product object (id, price, title, description)
 productRouter.post('/api/product', async (req, res) => {
     try {
         const { price, title, category, description, userId } = req.body;
+        
         const productCollection = await getCollection()
         const product = await productCollection.insertOne({
             price,
