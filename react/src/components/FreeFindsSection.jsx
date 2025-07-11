@@ -1,5 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "./AuthContent"; // Make sure the path is correct
+import pic1 from "../assets/pic1.webp"; // Import the images
+import pic2 from "../assets/pic2.webp";
+import pic3 from "../assets/pic3.webp";
 
 function FreeFindsSection() {
   const navigate = useNavigate();
@@ -16,9 +19,9 @@ function FreeFindsSection() {
 
   {/*Hard Coded Items (Replace with Backend API Database ) */}
   const items = [
-    { title: "Zara Puffer Jacket", tag: "Free • Upcycle this" },
-    { title: "Vintage Shorts", tag: "Free • Gift this" },
-    { title: "Casual Floral Dress", tag: "Free" },
+    { title: "Zara Puffer Jacket", tag: "Free • Upcycle this", img: pic1 },
+    { title: "Vintage Shorts", tag: "Free • Gift this", img: pic2 },
+    { title: "Casual Floral Dress", tag: "Free", img: pic3 },
   ];
 
   // Function to handle item card clicks
@@ -43,7 +46,15 @@ function FreeFindsSection() {
             onClick={() => handleItemClick(item)}
             style={{ cursor: 'pointer' }}
           >
-            <img src="https://via.placeholder.com/150" alt={item.title} />
+            <img 
+              src={item.img} 
+              alt={item.title} 
+              style={{
+                width: '150px',
+                height: '150px',
+                objectFit: 'cover'
+              }} 
+            />
             <h3>{item.title}</h3>
             <p>{item.tag}</p>
           </div>
