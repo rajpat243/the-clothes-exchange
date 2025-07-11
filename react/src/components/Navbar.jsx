@@ -1,9 +1,11 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom"; 
 import "../styles/Navbar.css";
+import { useAuth } from "./AuthContent";
 
 function Navbar() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+  const { user, logout } = useAuth(); // Get user and logout from context
   
   return (
     <nav className="navbar">
@@ -18,8 +20,17 @@ function Navbar() {
       </ul>
       {isHomePage ? (
         <div className="navbar-auth">
-          <Link to="/login" className="login-btn">Log In</Link>
-          <Link to="/signup" className="signup-btn">Sign Up</Link>
+          {user ? (
+            <div className="user-greeting">
+              <span>Hi, {user.name}</span>
+              <button onClick={logout} className="logout-btn">Log Out</button>
+            </div>
+          ) : (
+            <>
+              <Link to="/login" className="login-btn">Log In</Link>
+              <Link to="/signup" className="signup-btn">Sign Up</Link>
+            </>
+          )}
         </div>
       ) : (
         <div className="navbar-cart">
