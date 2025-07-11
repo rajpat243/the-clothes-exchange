@@ -12,7 +12,7 @@ function ItemCard({ id, title, price, image, category }) {
           alt={title}
         />
         <h3>{title}</h3>
-        <p>{tag}</p>
+        <p>{price}</p>
 
 
       </div>

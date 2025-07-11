@@ -1,50 +1,69 @@
-import { useParams } from "react-router-dom";
-import items from "../../../JSON/products.json";
+import { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import { fetchGet } from "../hooks/useFetch";
 import "../styles/ItemPage.css";
-import { Link } from "react-router-dom";
+
 import topImg from "../assets/tops-placeholder.jpg";
 import bottomImg from "../assets/bottoms-placeholder.jpg";
 import shoesImg from "../assets/shoes-placeholder.jpg";
 import accessoryImg from "../assets/accessories-placeholder.jpg";
 
 function ItemPage() {
-    const getCategoryImage = (category) => {
-        switch (category.toLowerCase()) {
-          case "top":
-            return topImg;
-          case "bottom":
-            return bottomImg;
-          case "shoes":
-            return shoesImg;
-          case "accessory":
-          case "accessories":
-            return accessoryImg;
-          default:
-            return topImg;
+  const { id } = useParams(); // MongoDB ObjectId passed in URL
+  console.log("ItemPage ID from URL:", id);
+  const [item, setItem] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  const getCategoryImage = (category) => {
+    switch (category?.toLowerCase()) {
+      case "top":
+        return topImg;
+      case "bottom":
+        return bottomImg;
+      case "shoes":
+        return shoesImg;
+      case "accessory":
+      case "accessories":
+        return accessoryImg;
+      default:
+        return topImg;
+    }
+  };
+
+  useEffect(() => {
+    if (!id) return;
+
+    fetchGet(`http://localhost:3002/api/product/${id}`)
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0) {
+          setItem(data[0]);
+        } else {
+          console.error("Invalid product data:", data);
         }
-      };
-  const { title } = useParams();
-  const decodedTitle = decodeURIComponent(title);
+      })
+      .catch((err) => console.error("Error fetching item:", err))
+      .finally(() => setLoading(false));
+  }, [id]);
 
-  const item = items.find(
-    (itm) => itm.title.toLowerCase() === decodedTitle.toLowerCase()
-  );
-
+  if (loading) return <p>Loading item...</p>;
   if (!item) return <p>Item not found.</p>;
 
   return (
     <div className="item-page">
-        <Link to="/browse" className="back-button">← Back to Browse</Link>
+      <Link to="/browse" className="back-button">← Back to Browse</Link>
+
       <div className="item-page-content">
-      <img
-  src={getCategoryImage(item.category)}
-  alt={item.title}
-  className="item-image"
-/>
+        <img
+          src={getCategoryImage(item.category)}
+          alt={item.title}
+          className="item-image"
+        />
 
         <div className="item-info">
           <h2>{item.title}</h2>
-          <p className="price-tag">{item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`}</p>
+          <p className="price-tag">
+            {item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`}
+          </p>
           <p className="item-category">Category: {item.category}</p>
           <button className="add-to-cart-button">Add to Cart</button>
         </div>
@@ -55,11 +74,10 @@ function ItemPage() {
         <p>{item.description || "No description available."}</p>
       </div>
 
-      {/* Optional: Similar items */}
       <div className="similar-items-section">
         <h3>Similar Items</h3>
         <div className="similar-items-grid">
-          {/* You can map similar items here later */}
+          {/* Add similar item suggestions here later */}
         </div>
       </div>
     </div>
