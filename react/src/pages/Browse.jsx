@@ -51,23 +51,6 @@ function Browse() {
     }
   };
 
-  const getCategoryImage = (category) => {
-    switch (category.toLowerCase()) {
-      case "top":
-        return topImg;
-      case "bottom":
-        return bottomImg;
-      case "shoes":
-        return shoesImg;
-      case "accessory":
-        return accessoryImg;
-      case "accessories":
-        return accessoryImg;
-      default:
-        return topImg; // fallback image
-    }
-  };
-
   useEffect(() => {
     console.log('inside')
     let selectedCategories = [];
