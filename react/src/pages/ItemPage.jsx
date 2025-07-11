@@ -8,31 +8,30 @@ import bottomImg from "../assets/bottoms-placeholder.jpg";
 import shoesImg from "../assets/shoes-placeholder.jpg";
 import accessoryImg from "../assets/accessories-placeholder.jpg";
 
+import similarItems from "../data/similar_items.json";
+import ItemCard from "../components/ItemCard";
+
 function ItemPage() {
-  const { id } = useParams(); // MongoDB ObjectId passed in URL
-  console.log("ItemPage ID from URL:", id);
+  const { id } = useParams();
   const [item, setItem] = useState(null);
+  const [allProducts, setAllProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
   const getCategoryImage = (category) => {
     switch (category?.toLowerCase()) {
-      case "top":
-        return topImg;
-      case "bottom":
-        return bottomImg;
-      case "shoes":
-        return shoesImg;
+      case "top": return topImg;
+      case "bottom": return bottomImg;
+      case "shoes": return shoesImg;
       case "accessory":
-      case "accessories":
-        return accessoryImg;
-      default:
-        return topImg;
+      case "accessories": return accessoryImg;
+      default: return topImg;
     }
   };
 
   useEffect(() => {
     if (!id) return;
 
+    // Fetch the current item
     fetchGet(`http://localhost:3002/api/product/${id}`)
       .then((data) => {
         if (Array.isArray(data) && data.length > 0) {
@@ -43,10 +42,29 @@ function ItemPage() {
       })
       .catch((err) => console.error("Error fetching item:", err))
       .finally(() => setLoading(false));
+
+    // Fetch all products (to look up similar items)
+    fetchGet("http://localhost:3002/api/product/1/1000")
+      .then((data) => {
+        if (Array.isArray(data)) {
+          setAllProducts(data);
+        }
+      });
   }, [id]);
 
   if (loading) return <p>Loading item...</p>;
   if (!item) return <p>Item not found.</p>;
+
+  // Map titles from JSON to actual product objects from DB
+  const relatedTitles = similarItems[item.title] || [];
+  const relatedItems = relatedTitles
+    .map(title =>
+      allProducts.find(
+        (p) => p.title.toLowerCase() === title.toLowerCase()
+      )
+    )
+    .filter(Boolean)
+    .slice(0, 5);
 
   return (
     <div className="item-page">
@@ -77,7 +95,16 @@ function ItemPage() {
       <div className="similar-items-section">
         <h3>Similar Items</h3>
         <div className="similar-items-grid">
-          {/* Add similar item suggestions here later */}
+          {relatedItems.map((simItem) => (
+            <Link key={simItem._id} to={`/item/${simItem._id}`}>
+              <ItemCard
+                title={simItem.title}
+                price={simItem.price}
+                category={simItem.category}
+                image={getCategoryImage(simItem.category)}
+              />
+            </Link>
+          ))}
         </div>
       </div>
     </div>

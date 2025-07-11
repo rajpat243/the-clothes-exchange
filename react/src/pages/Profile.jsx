@@ -13,7 +13,6 @@ function Profile() {
             fetchGet(url)
                 .then((data) => {
                         setUserItems(data)
-                        console.log("Fetched Products: ", data)
                 })
                 .catch((err) => console.error("Fetch error:", err));
     }}, []);

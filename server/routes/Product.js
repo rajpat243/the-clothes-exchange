@@ -1,18 +1,9 @@
 //refactor later
 
 import express from 'express';
-import { MongoClient, ObjectId } from 'mongodb';
-const productRouter = new express.Router()
-const url = 'mongodb://localhost:27017';
-const dbName = 'clothing_store';
-const collectionName = 'product';
-
-
-const getCollection = async () => {
-    const client = await MongoClient.connect(url);
-    const db = client.db(dbName);
-    return db.collection(collectionName);
-};
+import { ObjectId } from 'mongodb';
+const productRouter = new express.Router();
+import { getProductCollection } from '../hooks/useCollection.js';
 
 
 /*
@@ -22,7 +13,7 @@ returns: an array of objects (to map), objects should contain id, title, price, 
 */
 productRouter.get('/api/product', async (req, res) => {
     try {
-        const productCollection = await getCollection();
+        const productCollection = await getProductCollection();
         const products = await productCollection.find({ }).toArray();
         
         res.json(products);
@@ -44,7 +35,7 @@ productRouter.get('/api/product/user/:userid', async (req, res) => {
     const userId = req.params.userid;
 
     try {
-        const productCollection = await getCollection();
+        const productCollection = await getProductCollection();
         const product = await productCollection.find({ userId: ObjectId.createFromHexString(userId) }).toArray();
 
         if (product.length === 0) {
@@ -79,7 +70,7 @@ productRouter.get('/api/product/:page/:limit', async (req, res) => {
             match.category = { $in: categoryArray };
         }
 
-        const productCollection = await getCollection();
+        const productCollection = await getProductCollection();
         const products = await productCollection.find(match).skip((page - 1) * limit).limit(limit).toArray();
         
         res.json(products);
@@ -101,7 +92,7 @@ productRouter.get('/api/product/:id', async (req, res) => {
     const productId = req.params.id;
 
     try {
-        const productCollection = await getCollection();
+        const productCollection = await getProductCollection();
         const product = await productCollection.find({ _id: ObjectId.createFromHexString(productId) }).toArray();
 
         if (product.length === 0) {
@@ -126,7 +117,8 @@ returns: Product object (id, price, title, description)
 productRouter.post('/api/product', async (req, res) => {
     try {
         const { price, title, category, description, userId } = req.body;
-        const productCollection = await getCollection()
+
+        const productCollection = await getProductCollection()
         const product = await productCollection.insertOne({
             price,
             title,
@@ -160,7 +152,7 @@ productRouter.patch('/api/product/:id', async (req, res) => {
     }
 
     try {
-        const productCollection = await getCollection();
+        const productCollection = await getProductCollection();
 
         const updateData = {};
         updates.forEach((update) => {
@@ -188,7 +180,7 @@ productRouter.delete('/api/product/:id', async(req, res) => {
     const productId = req.params.id;
 
     try {
-        const productCollection = await getCollection();
+        const productCollection = await getProductCollection();
 
         const product = await productCollection.deleteOne({ _id: ObjectId.createFromHexString(productId) });
         res.status(201).send(product);
