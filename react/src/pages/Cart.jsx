@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { fetchGet } from "../hooks/useFetch";
+import { fetchDelete, fetchGet } from "../hooks/useFetch";
 import { Link } from 'react-router-dom';
 import '../styles/Cart.css';
 
@@ -8,10 +8,8 @@ function Cart() {
 
   useEffect(() => {
     const userId = localStorage.getItem('userId');
-    console.log(userId)
     const url = `http://localhost:3002/api/user/cart/${userId}`;
     fetchGet(url).then(data => {
-      console.log(data);
       setCartItems(data);
     });
   }, [])
@@ -21,7 +19,13 @@ function Cart() {
 
 
   const removeFromCart = (itemId) => {
-    setCartItems(cartItems.filter(item => item.id !== itemId));
+    const url = 'http://localhost:3002/api/user/cart';
+    const userId = localStorage.getItem('userId');
+    const productId = itemId;
+    fetchDelete(url, {
+      userId,
+      productId
+    }).then(() => setCartItems(cartItems.filter(item => item._id !== itemId)))
   };
 
   const handleCheckout = () => {
@@ -55,7 +59,7 @@ function Cart() {
                 </div>
                 <button 
                   className="remove-item-btn" 
-                  onClick={() => removeFromCart(item.id)}
+                  onClick={() => removeFromCart(item._id)}
                   aria-label={`Remove ${item.title} from cart`}
                 >
                   ×

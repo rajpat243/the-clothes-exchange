@@ -28,9 +28,10 @@ export const fetchUpdate = (url, body) => {
         .catch((error) => console.error('Error:', error));
 };
 
-export const fetchDelete = (url) => {
+export const fetchDelete = (url, body) => {
     return fetch(url, {
         method: "DELETE",
+        body: JSON.stringify(body),
         headers: {
             "Content-Type": "application/json",
         },

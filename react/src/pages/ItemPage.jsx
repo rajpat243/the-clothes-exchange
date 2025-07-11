@@ -10,7 +10,6 @@ import accessoryImg from "../assets/accessories-placeholder.jpg";
 
 function ItemPage() {
   const { id } = useParams(); // MongoDB ObjectId passed in URL
-  console.log("ItemPage ID from URL:", id);
   const [item, setItem] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -48,7 +47,6 @@ function ItemPage() {
   const addToCart = () => {
     const url = 'http://localhost:3002/api/user/cart';
     const userId = localStorage.getItem('userId');
-    console.log(item);
     const productId = item._id;
     fetchPost(url, {
       userId,

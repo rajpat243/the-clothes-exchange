@@ -87,7 +87,7 @@ userRouter.post('/api/user/cart', async (req, res) => {
 
 Method: GET
 urlEndpoint: /api/user/cart/:userId
-returns: id, Name, Email, Cart
+returns:an array of products with product details
     *Authentication Check
 
 */
@@ -113,6 +113,29 @@ userRouter.get('/api/user/cart/:userId', async (req, res) => {
 
 /*
 
+Method: DELETE
+urlEndpoint: /api/user/cart
+returns:an array of products with product details
+    *Authentication Check
+
+*/
+
+userRouter.delete('/api/user/cart', async (req, res) => {
+    const { userId, productId } = req.body;
+
+    try {
+        const userCollection = await getUserCollection();
+        const user  = await userCollection.updateOne({_id: ObjectId.createFromHexString(userId)}, { $pull: { cart: ObjectId.createFromHexString(productId) } })
+
+        res.status(201).send(user);
+    } catch (err) {
+        console.error(err);
+        res.status(500).send(err);
+    }
+});
+
+/*
+
 Method: GET
 urlEndpoint: /api/user/:id
 returns: id, Name, Email, Cart
@@ -127,7 +150,6 @@ userRouter.get('/api/user/:id', async (req, res) => {
         // const userCollection = await getUserCollection();
         const userCollection = await getUserCollection();
         const user = await userCollection.findOne({ _id: ObjectId.createFromHexString(userId) });
-        console.log(user.cart)
         delete user.password
         res.status(201).send(user);
     } catch (err) {
