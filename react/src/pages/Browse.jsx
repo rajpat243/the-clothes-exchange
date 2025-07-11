@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchGet } from "../hooks/useFetch";
+import { useLocation } from "react-router-dom";
 import FilterSidebar from "../components/FilterSidebar";
 import ItemCard from "../components/ItemCard";
 import "../styles/Browse.css";
@@ -9,13 +10,17 @@ import shoesImg from "../assets/shoes-placeholder.jpg";
 import accessoryImg from "../assets/accessories-placeholder.jpg";
 
 function Browse() {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const filterParams = queryParams.getAll('filter');
+  
   const [products, setProducts] = useState([]);
   const [page, setPage] = useState(1);
   const [categories, setCategories] = useState({
-    Tops: false,
-    Bottoms: false,
-    Shoes: false,
-    Accessories: false,
+    Tops: filterParams.includes('Tops'),
+    Bottoms: filterParams.includes('Bottoms'),
+    Shoes: filterParams.includes('Shoes'),
+    Accessories: filterParams.includes('Accessories'),
   });
 
   const getCategoryImage = (category) => {
@@ -31,7 +36,7 @@ function Browse() {
       case "accessories":
         return accessoryImg;
       default:
-        return topImg; // fallback image
+        return topImg; 
     }
   };
 
@@ -106,7 +111,7 @@ function Browse() {
             ))
           ) : (
             <div className="no-products-message">
-              {/* //No items found. Try adjusting your filters. */}
+              Searching...
             </div>
           )}
         </div>

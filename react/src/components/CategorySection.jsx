@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "./AuthContent"; // Make sure the path is correct
+import { useAuth } from "./AuthContent"; 
 
 function CategorySection() {
   const categories = ["Tops", "Bottoms", "Shoes", "Accessories", "All"];
   const navigate = useNavigate();
   const { user } = useAuth();
   
-  // Function to handle protected route clicks
+
   const handleCategoryClick = (category) => {
     if (!user) {
       navigate('/login');
@@ -14,7 +14,25 @@ function CategorySection() {
       if (category === "All") {
         navigate('/browse');
       } else {
-        navigate(`/browse?category=${category}`);
+      
+        const categoryFilters = {
+          Tops: false,
+          Bottoms: false,
+          Shoes: false,
+          Accessories: false
+        };
+        
+        categoryFilters[category] = true;
+        
+      
+        const queryParams = new URLSearchParams();
+        for (const [key, value] of Object.entries(categoryFilters)) {
+          if (value) {
+            queryParams.append('filter', key);
+          }
+        }
+        
+        navigate(`/browse?${queryParams.toString()}`);
       }
     }
   };
