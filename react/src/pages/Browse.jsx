@@ -96,6 +96,7 @@ function Browse() {
           {products.map((item, i) => (
             <ItemCard
               key={i}
+              id = {item._id}
               title={item.title}
               price={item.price}
               image={getCategoryImage(item.category)}
