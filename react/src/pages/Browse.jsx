@@ -6,16 +6,15 @@ import "../styles/Browse.css";
 
 function Browse() {
   const [products, setProducts] = useState([]);
-  const [filters, setFilters] = useState({
+  const [categories, setCategories] = useState({
     Tops: false,
     Bottoms: false,
     Shoes: false,
     Accessories: false,
-    freeOnly: false,
   });
 
   useEffect(() => {
-    fetchGet("http://localhost:3002/api/product") 
+    fetchGet("http://localhost:3002/api/product/1/24") 
       .then((data) => {
         if (Array.isArray(data)) {
           setProducts(data);
@@ -25,25 +24,49 @@ function Browse() {
       });
   }, []);
 
-  const filteredItems = products.filter((item) => {
-    if (filters.freeOnly && item.price > 0) return false;
+  useEffect(() => {
+    console.log('inside')
+    let selectedCategories = [];
 
-    if (filters.Tops && item.category !== "top") return false;
-    if (filters.Bottoms && item.category !== "bottom") return false;
-    if (filters.Shoes && item.category !== "shoes") return false;
-    if (filters.Accessories && item.category !== "accessory") return false;
+    if(categories.Tops) {
+      selectedCategories.push('tops');
+    }
+    if(categories.Bottoms) {
+      selectedCategories.push('bottom');
+    }
+    if(categories.Shoes) {
+      selectedCategories.push('shoes');
+    }
+    if(categories.Accessories) {
+      selectedCategories.push('accessory');
+    }
 
-    return true;
-  });
+    let url = 'http://localhost:3002/api/product/1/24';
+
+    if (selectedCategories.length > 0) {
+      url += `?categories=${selectedCategories.join(',')}`;
+    }
+    console.log(url)
+    console.log(categories)
+    fetchGet(url) 
+      .then((data) => {
+        if (Array.isArray(data)) {
+          console.log(data)
+          setProducts(data);
+        } else {
+          console.error("Invalid product data:", data);
+        }
+      });
+  }, [categories])
 
   return (
     <div className="browse-layout">
-      <FilterSidebar filters={filters} onChange={setFilters} />
+      <FilterSidebar categories={categories} onChange={setCategories} />
 
       <div className="browse-main">
         <h2 className="browse-title">Browse All Items</h2>
         <div className="browse-grid">
-          {filteredItems.map((item, i) => (
+          {products.map((item, i) => (
             <ItemCard
               key={i}
               title={item.title}
