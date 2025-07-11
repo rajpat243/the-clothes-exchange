@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchGet } from "../hooks/useFetch";
+import { useLocation } from "react-router-dom";
 import FilterSidebar from "../components/FilterSidebar";
 import ItemCard from "../components/ItemCard";
 import "../styles/Browse.css";
@@ -8,18 +9,20 @@ import bottomImg from "../assets/bottoms-placeholder.jpg";
 import shoesImg from "../assets/shoes-placeholder.jpg";
 import accessoryImg from "../assets/accessories-placeholder.jpg";
 
-
 function Browse() {
-
-    
-          
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const filterParams = queryParams.getAll('filter');
+  
   const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
   const [page, setPage] = useState(1);
+  const [searchTerm, setSearchTerm] = useState('');
   const [categories, setCategories] = useState({
-    Tops: false,
-    Bottoms: false,
-    Shoes: false,
-    Accessories: false,
+    Tops: filterParams.includes('Tops'),
+    Bottoms: filterParams.includes('Bottoms'),
+    Shoes: filterParams.includes('Shoes'),
+    Accessories: filterParams.includes('Accessories'),
   });
 
   const getCategoryImage = (category) => {
@@ -35,7 +38,7 @@ function Browse() {
       case "accessories":
         return accessoryImg;
       default:
-        return topImg; // fallback image
+        return topImg; 
     }
   };
 
@@ -65,36 +68,94 @@ function Browse() {
       .then((data) => {
         if (Array.isArray(data)) {
           setProducts(data);
+          setFilteredProducts(data); // Initialize filtered products with all products
         } else {
           console.error("Invalid product data:", data);
         }
       });
-  }, [categories, page])
+  }, [categories, page]);
+
+  // Filter products when search term changes
+  useEffect(() => {
+    if (searchTerm.trim() === '') {
+      setFilteredProducts(products);
+    } else {
+      const filtered = products.filter(product => 
+        product.title.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredProducts(filtered);
+    }
+  }, [searchTerm, products]);
+
+  // Handle search input change
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  // Handle search form submission
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    // The filtering is already handled by the useEffect
+  };
 
   return (
     <div className="browse-layout">
       <FilterSidebar categories={categories} onChange={setCategories} />
 
       <div className="browse-main">
-        <div>
-          <h2 className="browse-title">Browse All Items</h2>
-          <div>
-            <button onClick={() => setPage(p => p > 1? p-= 1 : p)}>{"<"}</button>
-            <button onClick={() => setPage(p => p+=1)}>{">"}</button>
+        <div className="browse-header">
+          <div className="browse-title-section">
+            <h2 className="browse-title">Browse All Items</h2>
+            
+            {/* Search Bar - now positioned under the title */}
+            <form onSubmit={handleSearchSubmit} className="search-form">
+              <input
+                type="text"
+                placeholder="Search products..."
+                value={searchTerm}
+                onChange={handleSearchChange}
+                className="search-input"
+              />
+              <button type="submit" className="search-button">
+                🔍
+              </button>
+            </form>
+          </div>
+          
+          <div className="pagination-controls">
+            <button 
+              className="pagination-button" 
+              onClick={() => setPage(p => p > 1 ? p - 1 : p)}
+              disabled={page === 1}
+            >
+              &lt;
+            </button>
+            <span className="page-indicator">Page {page}</span>
+            <button 
+              className="pagination-button" 
+              onClick={() => setPage(p => p + 1)}
+            >
+              &gt;
+            </button>
           </div>
         </div>
         <div className="browse-grid">
-          {products.map((item, i) => (
-            <ItemCard
-              key={i}
-              id = {item._id}
-              title={item.title}
-              price={item.price}
-              image={getCategoryImage(item.category)}
-              category={item.category}
-            />
-          ))}
-          
+          {filteredProducts.length > 0 ? (
+            filteredProducts.map((item, i) => (
+              <ItemCard
+                key={i}
+                id={item._id}
+                title={item.title}
+                price={item.price}
+                image={getCategoryImage(item.category)}
+                category={item.category}
+              />
+            ))
+          ) : (
+            <div className="no-products-message">
+              {searchTerm ? `No products found matching "${searchTerm}"` : "Searching..."}
+            </div>
+          )}
         </div>
       </div>
     </div>

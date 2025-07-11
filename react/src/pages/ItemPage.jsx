@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { fetchGet } from "../hooks/useFetch";
+import { fetchGet, fetchPost } from "../hooks/useFetch"; // Add fetchPost import
 import "../styles/ItemPage.css";
+import { useCart } from "../components/CartContext";
 
 import topImg from "../assets/tops-placeholder.jpg";
 import bottomImg from "../assets/bottoms-placeholder.jpg";
@@ -16,8 +17,10 @@ function ItemPage() {
   const [item, setItem] = useState(null);
   const [allProducts, setAllProducts] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { addToCart, showNotification } = useCart();
 
   const getCategoryImage = (category) => {
+    // Your existing code
     switch (category?.toLowerCase()) {
       case "top": return topImg;
       case "bottom": return bottomImg;
@@ -52,6 +55,25 @@ function ItemPage() {
       });
   }, [id]);
 
+  // Move handleAddToCart outside of useEffect
+  const handleAddToCart = () => {
+    if (!item) return;
+    
+    const url = 'http://localhost:3002/api/user/cart';
+    const userId = localStorage.getItem('userId');
+    const productId = item._id;
+    
+    fetchPost(url, {
+      userId,
+      productId
+    })
+    .then(response => {
+      // Add the item to our local cart state
+      addToCart(item);
+    })
+    .catch(err => console.error("Error adding to cart:", err));
+  }
+
   if (loading) return <p>Loading item...</p>;
   if (!item) return <p>Item not found.</p>;
 
@@ -70,6 +92,13 @@ function ItemPage() {
     <div className="item-page">
       <Link to="/browse" className="back-button">← Back to Browse</Link>
 
+      {/* Add notification popup */}
+      {showNotification && (
+        <div className="cart-notification">
+          <p>Item added to cart!</p>
+        </div>
+      )}
+
       <div className="item-page-content">
         <img
           src={getCategoryImage(item.category)}
@@ -83,7 +112,8 @@ function ItemPage() {
             {item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`}
           </p>
           <p className="item-category">Category: {item.category}</p>
-          <button className="add-to-cart-button">Add to Cart</button>
+          {/* Add onClick handler to the button */}
+          <button className="add-to-cart-button" onClick={handleAddToCart}>Add to Cart</button>
         </div>
       </div>
 

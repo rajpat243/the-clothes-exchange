@@ -55,4 +55,165 @@
     color: #555;
     margin: 0;
   }
+
+  /* Browse header with title and pagination */
+.browse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Pagination controls container */
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Page indicator styling */
+.page-indicator {
+  font-size: 0.9rem;
+  color: #555;
+  min-width: 80px;
+  text-align: center;
+}
+
+/* Pagination button styling */
+.pagination-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e8f5e9; /* Light green background */
+  border: 1px solid #81c784; /* Medium green border */
+  color: #2e7d32; /* Dark green text */
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.pagination-button:hover {
+  background-color: #c8e6c9; /* Slightly darker green on hover */
+  border-color: #66bb6a; /* Darker green border on hover */
+}
+
+.pagination-button:active {
+  transform: scale(0.95);
+  background-color: #a5d6a7; /* Even darker green when active */
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #f0f0f0;
+  border-color: #cccccc;
+  color: #999999;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .browse-header {
+    flex-direction: column;
+    gap: 10px;
+  }
   
+  .pagination-controls {
+    margin-top: 10px;
+  }
+}
+
+/* Search bar styles */
+.search-form {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 15px;
+  background-color: #e8f5e9; /* Light green background */
+  border: 1px solid #c8e6c9; /* Slightly darker green border */
+  border-radius: 20px 0 0 20px; /* More circular on the left side */
+  font-size: 16px;
+  outline: none;
+  color: #333; /* Keep text dark */
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  border-color: #81c784; /* Medium green border when focused */
+  box-shadow: 0 0 0 2px rgba(129, 199, 132, 0.2); /* Light green shadow */
+}
+
+.search-input::placeholder {
+  color: #757575; /* Keep placeholder text dark gray */
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #ddd; /* Keep original light gray background */
+  color: #333; /* Keep text dark */
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 20px 20px 0; /* More circular on the right side */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.search-button:hover {
+  background-color: #ccc; /* Slightly darker on hover */
+}
+
+/* Keep the rest of the styles unchanged */
+.browse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.browse-title-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.browse-title {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .browse-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .browse-title-section {
+    width: 100%;
+  }
+  
+  .search-form {
+    max-width: 100%;
+  }
+  
+  .pagination-controls {
+    margin-top: 15px;
+    align-self: flex-end;
+  }
+}
+
