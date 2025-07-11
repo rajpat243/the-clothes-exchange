@@ -47,7 +47,6 @@ function Signup() {
 
   return (
     <div className="signup-container">
-      {/* Added back button in the top left */}
       <div className="navbar-logo" style={{ position: 'absolute', top: '20px', left: '20px' }}>
         <Link to="/">👕 TCE</Link>
       </div>
