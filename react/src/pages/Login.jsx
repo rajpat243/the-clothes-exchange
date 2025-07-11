@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import '../styles/Login.css';
+import { useAuth } from '../components/AuthContent';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
+  const { login } = useAuth();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,9 +29,7 @@ function Login() {
       
       const userData = await response.json();
       
-      localStorage.setItem('userId', userData._id);
-      localStorage.setItem('userName', userData.name);
-      localStorage.setItem('userEmail', userData.email);
+      login(userData);
       
 
       navigate('/');

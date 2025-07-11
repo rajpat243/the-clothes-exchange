@@ -82,3 +82,30 @@
   transform: scale(1.1);
   color: #4a90e2;
 }
+/* Add these styles to your Navbar.css file */
+
+.user-greeting {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-greeting span {
+  font-weight: 500;
+  color: #333;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
