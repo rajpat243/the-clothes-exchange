@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import '../styles/Signup.css';
 
 function Signup() {
@@ -20,18 +20,37 @@ function Signup() {
     }
     
     try {
-      // eidt based on Jin APi routes
-      const response = await axios.post('/api/signup', { name, email, password });
+      const response = await fetch('http://localhost:3002/api/user', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, password })
+      });
       
-      localStorage.setItem('userId', response.data.userId);
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      
+      localStorage.setItem('userId', data.insertedId);
+      localStorage.setItem('userName', name);
+      localStorage.setItem('userEmail', email);
+      
       navigate('/');
     } catch (err) {
-      setError(err.response?.data?.message || 'Error creating account. Please try again.');
+      console.error('Signup error:', err);
+      setError('Error creating account. Please try again.');
     }
   };
 
   return (
     <div className="signup-container">
+      <div className="navbar-logo" style={{ position: 'absolute', top: '20px', left: '20px' }}>
+        <Link to="/">👕 TCE</Link>
+      </div>
+      
       <div className="signup-card">
         <h1 className="signup-title">Create Account</h1>
         <p className="signup-subtitle">Join our community to buy, sell, and trade clothing</p>

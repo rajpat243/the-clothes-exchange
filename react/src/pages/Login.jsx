@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-//import axios from 'axios';
+import { useNavigate, Link } from 'react-router-dom';
 import '../styles/Login.css';
 
 function Login() {
@@ -14,19 +13,38 @@ function Login() {
     setError('');
     
     try {
-      // makeas the API call to check if user id is valid from our DB
-      const response = await axios.post('/api/login', { email, password });
+      const response = await fetch('http://localhost:3002/api/user/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, password })
+      });
       
-      // sotre user id if successful 
-      localStorage.setItem('userId', response.data.userId);
+      if (!response.ok) {
+        throw new Error('Authentication failed');
+      }
+      
+      const userData = await response.json();
+      
+      localStorage.setItem('userId', userData._id);
+      localStorage.setItem('userName', userData.name);
+      localStorage.setItem('userEmail', userData.email);
+      
+
       navigate('/');
     } catch (err) {
+      console.error('Login error:', err);
       setError('Invalid email or password. Please try again.');
     }
   };
 
   return (
     <div className="login-container">
+      <div className="navbar-logo" style={{ position: 'absolute', top: '20px', left: '20px' }}>
+        <Link to="/">👕 TCE</Link>
+      </div>
+      
       <div className="login-card">
         <h1 className="login-title">Welcome Back</h1>
         <p className="login-subtitle">Sign in to continue to your account</p>
