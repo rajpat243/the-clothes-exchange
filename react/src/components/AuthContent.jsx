@@ -17,10 +17,14 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = (userData) => {
-    localStorage.setItem('userId', userData._id);
+    localStorage.setItem('userId', userData._id || userData.insertedId);
     localStorage.setItem('userName', userData.name);
     localStorage.setItem('userEmail', userData.email);
-    setUser({ id: userData._id, name: userData.name, email: userData.email });
+    setUser({ 
+      id: userData._id || userData.insertedId, 
+      name: userData.name, 
+      email: userData.email 
+    });
   };
 
   const logout = () => {
