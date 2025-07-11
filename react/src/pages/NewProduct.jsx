@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { fetchPost } from "../hooks/useFetch";
 import '../styles/NewProduct.css';
 
 function NewProduct() {
@@ -14,43 +15,32 @@ function NewProduct() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
-    
+
     try {
-      const response = await fetch('http://localhost:3002/api/product', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ 
-          title, 
-          price: parseFloat(price), 
-          category, 
-          description 
-        })
-      });
+      const url = 'http://localhost:3002/api/product';
       
-      if (!response.ok) {
-        throw new Error(`Error: ${response.status}`);
-      }
-      
-      const data = await response.json();
-      console.log('Product created:', data);
-      
-      // Show success popup
-      setShowSuccessPopup(true);
-      
-      // Clear form
-      setTitle('');
-      setPrice('');
-      setCategory('');
-      setDescription('');
-      
-      // Redirect after a delay
-      setTimeout(() => {
-        setShowSuccessPopup(false);
-        navigate('/');
-      }, 2000);
-      
+      fetchPost(url, {
+        title,
+        price: parseFloat(price),
+        category,
+        description,
+        userId: localStorage.getItem('userId')
+      }).then(() => {
+        setShowSuccessPopup(true)
+
+        // Clear form
+        setTitle('');
+        setPrice('');
+        setCategory('');
+        setDescription('');
+
+        // Redirect after a delay
+        setTimeout(() => {
+          setShowSuccessPopup(false);
+          navigate('/');
+        }, 2000);
+      })
+
     } catch (err) {
       console.error('Error creating product:', err);
       setError('Error creating product. Please try again.');
@@ -60,7 +50,7 @@ function NewProduct() {
   return (
     <div className="new-product-container">
 
-      
+
       {/* Success Popup */}
       {showSuccessPopup && (
         <div className="success-popup">
@@ -71,13 +61,13 @@ function NewProduct() {
           </div>
         </div>
       )}
-      
+
       <div className="new-product-card">
         <h1 className="new-product-title">List a New Item</h1>
         <p className="new-product-subtitle">Share your fashion with the community</p>
-        
+
         {error && <div className="new-product-error">{error}</div>}
-        
+
         <form onSubmit={handleSubmit} className="new-product-form">
           <div className="form-group">
             <label htmlFor="title">Title</label>
@@ -90,7 +80,7 @@ function NewProduct() {
               required
             />
           </div>
-          
+
           <div className="form-group">
             <label htmlFor="price">Price ($)</label>
             <input
@@ -104,7 +94,7 @@ function NewProduct() {
               required
             />
           </div>
-          
+
           <div className="form-group">
             <label htmlFor="category">Category</label>
             <select
@@ -121,7 +111,7 @@ function NewProduct() {
               <option value="Other">Other</option>
             </select>
           </div>
-          
+
           <div className="form-group">
             <label htmlFor="description">Description</label>
             <textarea
@@ -133,7 +123,7 @@ function NewProduct() {
               required
             />
           </div>
-          
+
           <button type="submit" className="new-product-button">
             List Item
           </button>
