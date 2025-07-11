@@ -1,0 +1,470 @@
+{
+  "Silk Camisole": [
+    "Tank Top",
+    "Crewneck Sweatshirt",
+    "Hoodie",
+    "Crop Top"
+  ],
+  "Crop Top": [
+    "Crewneck Sweatshirt",
+    "Silk Camisole",
+    "Tunic",
+    "Crewneck Sweatshirt"
+  ],
+  "Patterned Blouse": [
+    "Long Sleeve Thermal",
+    "Silk Camisole",
+    "Tank Top",
+    "Tunic"
+  ],
+  "Tunic": [
+    "Tunic",
+    "Patterned Blouse",
+    "Long Sleeve Thermal",
+    "Silk Camisole"
+  ],
+  "Striped Polo": [
+    "Off-Shoulder Blouse",
+    "Crewneck Sweatshirt",
+    "Patterned Blouse",
+    "Patterned Blouse"
+  ],
+  "Flannel Shirt": [
+    "Long Sleeve Thermal",
+    "Patterned Blouse",
+    "Graphic Tee",
+    "V-Neck Sweater"
+  ],
+  "Linen Shirt": [
+    "Classic Cotton T-Shirt",
+    "Turtleneck",
+    "Casual Henley",
+    "Casual Henley"
+  ],
+  "V-Neck Sweater": [
+    "Tunic",
+    "Linen Shirt",
+    "Classic Cotton T-Shirt",
+    "V-Neck Sweater"
+  ],
+  "Graphic Tee": [
+    "Turtleneck",
+    "Hoodie",
+    "Long Sleeve Thermal",
+    "Patterned Blouse"
+  ],
+  "Off-Shoulder Blouse": [
+    "Casual Henley",
+    "Linen Shirt",
+    "Striped Polo",
+    "Linen Shirt"
+  ],
+  "Crewneck Sweatshirt": [
+    "Tank Top",
+    "Silk Camisole",
+    "Hoodie",
+    "Crop Top"
+  ],
+  "Button-Down Oxford": [
+    "Linen Shirt",
+    "Tank Top",
+    "V-Neck Sweater",
+    "Linen Shirt"
+  ],
+  "Tank Top": [
+    "Graphic Tee",
+    "Silk Camisole",
+    "Silk Camisole",
+    "Long Sleeve Thermal"
+  ],
+  "Hoodie": [
+    "Patterned Blouse",
+    "Graphic Tee",
+    "Turtleneck",
+    "Long Sleeve Thermal"
+  ],
+  "Casual Henley": [
+    "Striped Polo",
+    "Off-Shoulder Blouse",
+    "Linen Shirt",
+    "Linen Shirt"
+  ],
+  "Classic Cotton T-Shirt": [
+    "Tank Top",
+    "Graphic Tee",
+    "Long Sleeve Thermal",
+    "Turtleneck"
+  ],
+  "Turtleneck": [
+    "Linen Shirt",
+    "Classic Cotton T-Shirt",
+    "Casual Henley",
+    "Casual Henley"
+  ],
+  "Long Sleeve Thermal": [
+    "Flannel Shirt",
+    "Patterned Blouse",
+    "Graphic Tee",
+    "V-Neck Sweater"
+  ],
+  "Denim Shorts": [
+    "Linen Trousers",
+    "Pencil Skirt",
+    "Pencil Skirt",
+    "Maxi Skirt"
+  ],
+  "Pencil Skirt": [
+    "Maxi Skirt",
+    "High-Waisted Jeans",
+    "A-Line Skirt",
+    "Athletic Joggers"
+  ],
+  "Chino Pants": [
+    "Corduroy Pants",
+    "Slim Fit Jeans",
+    "Denim Shorts",
+    "Linen Trousers"
+  ],
+  "Leather Leggings": [
+    "Track Pants",
+    "Pleated Skirt",
+    "Culottes",
+    "Leather Leggings"
+  ],
+  "Slim Fit Jeans": [
+    "Culottes",
+    "Bermuda Shorts",
+    "Athletic Joggers",
+    "Dress Pants"
+  ],
+  "Palazzo Pants": [
+    "Khaki Pants",
+    "Linen Trousers",
+    "Culottes",
+    "High-Waisted Jeans"
+  ],
+  "Corduroy Pants": [
+    "Chino Pants",
+    "Culottes",
+    "Athletic Joggers",
+    "Corduroy Pants"
+  ],
+  "Cargo Shorts": [
+    "Slim Fit Jeans",
+    "Corduroy Pants",
+    "Leather Leggings",
+    "Culottes"
+  ],
+  "Culottes": [
+    "Culottes",
+    "Palazzo Pants",
+    "High-Waisted Jeans",
+    "Culottes"
+  ],
+  "High-Waisted Jeans": [
+    "Palazzo Pants",
+    "Culottes",
+    "Culottes",
+    "Palazzo Pants"
+  ],
+  "A-Line Skirt": [
+    "Denim Shorts",
+    "Pencil Skirt",
+    "Cargo Shorts",
+    "Pencil Skirt"
+  ],
+  "Linen Trousers": [
+    "Denim Shorts",
+    "Pencil Skirt",
+    "Pencil Skirt",
+    "Maxi Skirt"
+  ],
+  "Athletic Joggers": [
+    "Culottes",
+    "Corduroy Pants",
+    "Corduroy Pants",
+    "Chino Pants"
+  ],
+  "Dress Pants": [
+    "Cargo Shorts",
+    "Leather Leggings",
+    "Chino Pants",
+    "Culottes"
+  ],
+  "Maxi Skirt": [
+    "High-Waisted Jeans",
+    "Pencil Skirt",
+    "Corduroy Pants",
+    "Maxi Skirt"
+  ],
+  "Bermuda Shorts": [
+    "A-Line Skirt",
+    "Bermuda Shorts",
+    "Leather Leggings",
+    "Track Pants"
+  ],
+  "Khaki Pants": [
+    "Linen Trousers",
+    "Palazzo Pants",
+    "Culottes",
+    "High-Waisted Jeans"
+  ],
+  "Pleated Skirt": [
+    "Denim Shorts",
+    "Linen Trousers",
+    "Linen Trousers",
+    "Denim Shorts"
+  ],
+  "Track Pants": [
+    "Leather Leggings",
+    "Leather Leggings",
+    "Pleated Skirt",
+    "Culottes"
+  ],
+  "Distressed Jeans": [
+    "Culottes",
+    "Leather Leggings",
+    "Linen Trousers",
+    "Pleated Skirt"
+  ],
+  "Dress Oxfords": [
+    "Classic Sneakers",
+    "Sandals",
+    "Leather Loafers",
+    "Hiking Boots"
+  ],
+  "Canvas Slip-Ons": [
+    "Chelsea Boots",
+    "Derby Shoes",
+    "Running Shoes",
+    "Stilettos"
+  ],
+  "Boat Shoes": [
+    "Ankle Boots",
+    "Canvas Slip-Ons",
+    "Chelsea Boots",
+    "Combat Boots"
+  ],
+  "High Heels": [
+    "Classic Sneakers",
+    "Ballet Flats",
+    "Hiking Boots",
+    "Flip Flops"
+  ],
+  "Ballet Flats": [
+    "Ballet Flats",
+    "Stilettos",
+    "Boat Shoes",
+    "Derby Shoes"
+  ],
+  "Chelsea Boots": [
+    "Moccasins",
+    "Running Shoes",
+    "Flip Flops",
+    "Stilettos"
+  ],
+  "Running Shoes": [
+    "Derby Shoes",
+    "Dress Oxfords",
+    "Running Shoes",
+    "Platform Sneakers"
+  ],
+  "Derby Shoes": [
+    "Running Shoes",
+    "Running Shoes",
+    "Dress Oxfords",
+    "Platform Sneakers"
+  ],
+  "Combat Boots": [
+    "Dress Oxfords",
+    "Platform Sneakers",
+    "Stilettos",
+    "Sandals"
+  ],
+  "Ankle Boots": [
+    "Wedge Heels",
+    "Canvas Slip-Ons",
+    "Ballet Flats",
+    "Combat Boots"
+  ],
+  "Flip Flops": [
+    "Running Shoes",
+    "Chelsea Boots",
+    "Moccasins",
+    "High Heels"
+  ],
+  "Wedge Heels": [
+    "Dress Oxfords",
+    "Platform Sneakers",
+    "Hiking Boots",
+    "Canvas Slip-Ons"
+  ],
+  "Sandals": [
+    "Combat Boots",
+    "Sandals",
+    "Stilettos",
+    "Ballet Flats"
+  ],
+  "Leather Loafers": [
+    "Running Shoes",
+    "Leather Loafers",
+    "Sandals",
+    "Running Shoes"
+  ],
+  "Hiking Boots": [
+    "Ballet Flats",
+    "Combat Boots",
+    "Boat Shoes",
+    "Classic Sneakers"
+  ],
+  "Platform Sneakers": [
+    "Hiking Boots",
+    "Dress Oxfords",
+    "Wedge Heels",
+    "Canvas Slip-Ons"
+  ],
+  "Moccasins": [
+    "Sandals",
+    "High Heels",
+    "Combat Boots",
+    "Boat Shoes"
+  ],
+  "Stilettos": [
+    "Moccasins",
+    "High Heels",
+    "Combat Boots",
+    "Ballet Flats"
+  ],
+  "Espadrilles": [
+    "Boat Shoes",
+    "Boat Shoes",
+    "Stilettos",
+    "Combat Boots"
+  ],
+  "Classic Sneakers": [
+    "Canvas Slip-Ons",
+    "Flip Flops",
+    "Ankle Boots",
+    "Boat Shoes"
+  ],
+  "Baseball Cap": [
+    "Leather Belt",
+    "Bow Tie",
+    "Leather Wallet",
+    "Clutch Purse"
+  ],
+  "Stud Earrings": [
+    "Stud Earrings",
+    "Beret",
+    "Clutch Purse",
+    "Tote Bag"
+  ],
+  "Bracelet Set": [
+    "Baseball Cap",
+    "Leather Wallet",
+    "Leather Belt",
+    "Baseball Cap"
+  ],
+  "Statement Necklace": [
+    "Beret",
+    "Crossbody Bag",
+    "Woven Hat",
+    "Leather Wallet"
+  ],
+  "Crossbody Bag": [
+    "Pendant Necklace",
+    "Knit Beanie",
+    "Pendant Necklace",
+    "Woven Hat"
+  ],
+  "Woven Hat": [
+    "Patterned Socks",
+    "Leather Gloves",
+    "Clutch Purse",
+    "Statement Necklace"
+  ],
+  "Canvas Backpack": [
+    "Pendant Necklace",
+    "Leather Wallet",
+    "Patterned Socks",
+    "Woven Hat"
+  ],
+  "Beret": [
+    "Woven Hat",
+    "Crossbody Bag",
+    "Wristwatch",
+    "Leather Wallet"
+  ],
+  "Knit Beanie": [
+    "Tote Bag",
+    "Bow Tie",
+    "Aviator Sunglasses",
+    "Aviator Sunglasses"
+  ],
+  "Leather Wallet": [
+    "Crossbody Bag",
+    "Woven Hat",
+    "Beret",
+    "Wristwatch"
+  ],
+  "Silk Scarf": [
+    "Woven Hat",
+    "Canvas Backpack",
+    "Knit Beanie",
+    "Canvas Backpack"
+  ],
+  "Tote Bag": [
+    "Knit Beanie",
+    "Bow Tie",
+    "Aviator Sunglasses",
+    "Aviator Sunglasses"
+  ],
+  "Leather Belt": [
+    "Leather Wallet",
+    "Pendant Necklace",
+    "Aviator Sunglasses",
+    "Leather Gloves"
+  ],
+  "Leather Gloves": [
+    "Leather Belt",
+    "Stud Earrings",
+    "Clutch Purse",
+    "Patterned Socks"
+  ],
+  "Patterned Socks": [
+    "Woven Hat",
+    "Leather Gloves",
+    "Statement Necklace",
+    "Clutch Purse"
+  ],
+  "Aviator Sunglasses": [
+    "Statement Necklace",
+    "Tote Bag",
+    "Clutch Purse",
+    "Patterned Socks"
+  ],
+  "Pendant Necklace": [
+    "Aviator Sunglasses",
+    "Leather Gloves",
+    "Leather Gloves",
+    "Bracelet Set"
+  ],
+  "Bow Tie": [
+    "Aviator Sunglasses",
+    "Statement Necklace",
+    "Leather Wallet",
+    "Leather Belt"
+  ],
+  "Clutch Purse": [
+    "Leather Belt",
+    "Bow Tie",
+    "Leather Gloves",
+    "Baseball Cap"
+  ],
+  "Wristwatch": [
+    "Beret",
+    "Crossbody Bag",
+    "Woven Hat",
+    "Crossbody Bag"
+  ]
+}
