@@ -5,7 +5,7 @@ import { useAuth } from "./AuthContent";
 function Navbar() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
-  const { user, logout } = useAuth(); // Get user and logout from context
+  const { user, logout } = useAuth();
   
   return (
     <nav className="navbar">
