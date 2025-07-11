@@ -8,7 +8,15 @@ import bottomImg from "../assets/bottoms-placeholder.jpg";
 import shoesImg from "../assets/shoes-placeholder.jpg";
 import accessoryImg from "../assets/accessories-placeholder.jpg";
 
+import similarItems from "../data/similar_items.json";
+
+
+
+
 function ItemPage() {
+
+
+      
   const { id } = useParams(); // MongoDB ObjectId passed in URL
   console.log("ItemPage ID from URL:", id);
   const [item, setItem] = useState(null);
@@ -48,6 +56,16 @@ function ItemPage() {
   if (loading) return <p>Loading item...</p>;
   if (!item) return <p>Item not found.</p>;
 
+  const relatedItems = item
+        ? similarItems
+            .filter(
+                (similar) =>
+                similar.title.toLowerCase() !== item.title.toLowerCase() &&
+                similar.category.toLowerCase() === item.category.toLowerCase()
+            )
+            .slice(0, 5)
+        : [];
+
   return (
     <div className="item-page">
       <Link to="/browse" className="back-button">← Back to Browse</Link>
@@ -77,9 +95,18 @@ function ItemPage() {
       <div className="similar-items-section">
         <h3>Similar Items</h3>
         <div className="similar-items-grid">
-          {/* Add similar item suggestions here later */}
+            {relatedItems.map((simItem, index) => (
+            <ItemCard
+                key={index}
+                title={simItem.title}
+                price={simItem.price}
+                category={simItem.category}
+                image={getCategoryImage(simItem.category)} // reuse your helper
+            />
+            ))}
         </div>
       </div>
+
     </div>
   );
 }
