@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/FilterSidebar.css";
 
-function FilterSidebar({ filters, onChange }) {
+function FilterSidebar({ categories, onChange }) {
+  console.log(categories)
   const handleCheckboxChange = (e) => {
     const { name, checked } = e.target;
-    onChange({ ...filters, [name]: checked });
+    onChange({ ...categories, [name]: checked });
   };
 
   return (
@@ -19,7 +20,7 @@ function FilterSidebar({ filters, onChange }) {
             <input
               type="checkbox"
               name={cat}
-              checked={filters[cat] || false}
+              checked={categories[cat] || false}
               onChange={handleCheckboxChange}
             />
             {cat}
@@ -28,7 +29,7 @@ function FilterSidebar({ filters, onChange }) {
       </div>
 
       {/* Price Filter */}
-      <div className="filter-group">
+      {/* <div className="filter-group">
         <h4>Price</h4>
         <label className="filter-option">
           <input
@@ -39,7 +40,7 @@ function FilterSidebar({ filters, onChange }) {
           />
           Free Only
         </label>
-      </div>
+      </div> */}
 
     </aside>
   );
