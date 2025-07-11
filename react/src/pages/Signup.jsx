@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { useAuth } from '../components/AuthContent';
 import '../styles/Signup.css';
 
 function Signup() {
@@ -9,6 +10,7 @@ function Signup() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
+  const { login } = useAuth();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -39,9 +41,8 @@ function Signup() {
       
       const data = await response.json();
       
-      localStorage.setItem('userId', data.insertedId);
-      localStorage.setItem('userName', name);
-      localStorage.setItem('userEmail', email);
+      // Use the login function from context
+      login({ insertedId: data.insertedId, name, email });
       
       navigate('/');
     } catch (err) {
@@ -52,6 +53,7 @@ function Signup() {
 
   return (
     <div className="signup-container">
+      {/* Rest of your component remains the same */}
       <div className="navbar-logo" style={{ position: 'absolute', top: '20px', left: '20px' }}>
         <Link to="/">👕 TCE</Link>
       </div>
@@ -63,6 +65,7 @@ function Signup() {
         {error && <div className="signup-error">{error}</div>}
         
         <form onSubmit={handleSubmit} className="signup-form">
+          {/* Form fields remain the same */}
           <div className="form-group">
             <label htmlFor="name">Full Name</label>
             <input
