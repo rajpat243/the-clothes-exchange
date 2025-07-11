@@ -56,7 +56,7 @@ function Browse() {
     let selectedCategories = [];
 
     if(categories.Tops) {
-      selectedCategories.push('tops');
+      selectedCategories.push('top');
     }
     if(categories.Bottoms) {
       selectedCategories.push('bottom');
