@@ -1,40 +1,31 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { fetchDelete, fetchGet } from "../hooks/useFetch";
 import { Link } from 'react-router-dom';
 import '../styles/Cart.css';
-import { useCart } from '../components/CartContext';
 
 function Cart() {
-  const { cartItems, setCartItems, removeFromCart } = useCart();
+  const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
-    // We still fetch from the server to ensure we have the latest data
     const userId = localStorage.getItem('userId');
-    if (userId) {
-      const url = `http://localhost:3002/api/user/cart/${userId}`;
-      fetchGet(url).then(data => {
-        setCartItems(data || []);
-      });
-    }
-  }, [setCartItems]);
+    const url = `http://localhost:3002/api/user/cart/${userId}`;
+    fetchGet(url).then(data => {
+      setCartItems(data);
+    });
+  }, [])
 
+ 
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
 
-  const handleRemoveFromCart = (itemId) => {
+
+  const removeFromCart = (itemId) => {
     const url = 'http://localhost:3002/api/user/cart';
     const userId = localStorage.getItem('userId');
     const productId = itemId;
-    
     fetchDelete(url, {
       userId,
       productId
-    }).then(() => {
-      // Use the removeFromCart function from context
-      // This will update the cart count in the navbar automatically
-      removeFromCart(itemId);
-    }).catch(err => {
-      console.error("Error removing item from cart:", err);
-    });
+    }).then(() => setCartItems(cartItems.filter(item => item._id !== itemId)))
   };
 
   const handleCheckout = () => {
@@ -56,7 +47,7 @@ function Cart() {
         <>
           <div className="cart-items">
             {cartItems.map(item => (
-              <div className="cart-item" key={item._id || item.id}>
+              <div className="cart-item" key={item.id}>
                 <div className="cart-item-image">
                   <img src={item.image} alt={item.title} />
                 </div>
@@ -68,7 +59,7 @@ function Cart() {
                 </div>
                 <button 
                   className="remove-item-btn" 
-                  onClick={() => handleRemoveFromCart(item._id || item.id)}
+                  onClick={() => removeFromCart(item._id)}
                   aria-label={`Remove ${item.title} from cart`}
                 >
                   ×

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { fetchGet } from "../hooks/useFetch";
+import { fetchGet, fetchPost } from "../hooks/useFetch"; // Add fetchPost import
 import "../styles/ItemPage.css";
 import { useCart } from "../components/CartContext";
 
@@ -46,7 +46,19 @@ function ItemPage() {
       .catch((err) => console.error("Error fetching item:", err))
       .finally(() => setLoading(false));
 
+    // Fetch all products (to look up similar items)
+    fetchGet("http://localhost:3002/api/product/1/1000")
+      .then((data) => {
+        if (Array.isArray(data)) {
+          setAllProducts(data);
+        }
+      });
+  }, [id]);
+
+  // Move handleAddToCart outside of useEffect
   const handleAddToCart = () => {
+    if (!item) return;
+    
     const url = 'http://localhost:3002/api/user/cart';
     const userId = localStorage.getItem('userId');
     const productId = item._id;
@@ -61,14 +73,6 @@ function ItemPage() {
     })
     .catch(err => console.error("Error adding to cart:", err));
   }
-    // Fetch all products (to look up similar items)
-    fetchGet("http://localhost:3002/api/product/1/1000")
-      .then((data) => {
-        if (Array.isArray(data)) {
-          setAllProducts(data);
-        }
-      });
-  }, [id]);
 
   if (loading) return <p>Loading item...</p>;
   if (!item) return <p>Item not found.</p>;
@@ -108,7 +112,8 @@ function ItemPage() {
             {item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`}
           </p>
           <p className="item-category">Category: {item.category}</p>
-          <button className="add-to-cart-button">Add to Cart</button>
+          {/* Add onClick handler to the button */}
+          <button className="add-to-cart-button" onClick={handleAddToCart}>Add to Cart</button>
         </div>
       </div>
 

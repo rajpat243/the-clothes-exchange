@@ -38,10 +38,10 @@ productRouter.get('/api/product/user/:userid', async (req, res) => {
         const productCollection = await getProductCollection();
         const product = await productCollection.find({ userId: ObjectId.createFromHexString(userId) }).toArray();
 
-        if (product.length === 0) {
-            return res.status(404).send("Product not found!");
-        }
-        res.json(product);
+        // if (product.length === 0) {
+        //     return res.status(404).send("Product not found!");
+        // }
+        res.send(product);
     } catch (err) {
         console.error("Error:", err);
         res.status(500).send("Getting product failed!");
