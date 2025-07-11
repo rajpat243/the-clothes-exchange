@@ -15,7 +15,9 @@ function Browse() {
   const filterParams = queryParams.getAll('filter');
   
   const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
   const [page, setPage] = useState(1);
+  const [searchTerm, setSearchTerm] = useState('');
   const [categories, setCategories] = useState({
     Tops: filterParams.includes('Tops'),
     Bottoms: filterParams.includes('Bottoms'),
@@ -41,7 +43,6 @@ function Browse() {
   };
 
   useEffect(() => {
-    console.log('inside')
     let selectedCategories = [];
 
     if(categories.Tops) {
@@ -67,11 +68,35 @@ function Browse() {
       .then((data) => {
         if (Array.isArray(data)) {
           setProducts(data);
+          setFilteredProducts(data); // Initialize filtered products with all products
         } else {
           console.error("Invalid product data:", data);
         }
       });
-  }, [categories, page])
+  }, [categories, page]);
+
+  // Filter products when search term changes
+  useEffect(() => {
+    if (searchTerm.trim() === '') {
+      setFilteredProducts(products);
+    } else {
+      const filtered = products.filter(product => 
+        product.title.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredProducts(filtered);
+    }
+  }, [searchTerm, products]);
+
+  // Handle search input change
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  // Handle search form submission
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    // The filtering is already handled by the useEffect
+  };
 
   return (
     <div className="browse-layout">
@@ -79,7 +104,24 @@ function Browse() {
 
       <div className="browse-main">
         <div className="browse-header">
-          <h2 className="browse-title">Browse All Items</h2>
+          <div className="browse-title-section">
+            <h2 className="browse-title">Browse All Items</h2>
+            
+            {/* Search Bar - now positioned under the title */}
+            <form onSubmit={handleSearchSubmit} className="search-form">
+              <input
+                type="text"
+                placeholder="Search products..."
+                value={searchTerm}
+                onChange={handleSearchChange}
+                className="search-input"
+              />
+              <button type="submit" className="search-button">
+                🔍
+              </button>
+            </form>
+          </div>
+          
           <div className="pagination-controls">
             <button 
               className="pagination-button" 
@@ -98,8 +140,8 @@ function Browse() {
           </div>
         </div>
         <div className="browse-grid">
-          {products.length > 0 ? (
-            products.map((item, i) => (
+          {filteredProducts.length > 0 ? (
+            filteredProducts.map((item, i) => (
               <ItemCard
                 key={i}
                 id={item._id}
@@ -111,7 +153,7 @@ function Browse() {
             ))
           ) : (
             <div className="no-products-message">
-              Searching...
+              {searchTerm ? `No products found matching "${searchTerm}"` : "Searching..."}
             </div>
           )}
         </div>

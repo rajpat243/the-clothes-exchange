@@ -13,8 +13,7 @@ function Profile() {
         if (storedUser) {
             fetchGet(url)
                 .then((data) => {
-                    setUserItems(data);
-                    console.log("Fetched Products: ", data);
+                        setUserItems(data)
                 })
                 .catch((err) => console.error("Fetch error:", err));
         }
