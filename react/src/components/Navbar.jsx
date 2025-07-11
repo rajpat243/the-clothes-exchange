@@ -1,11 +1,22 @@
-import { Link, useLocation } from "react-router-dom"; 
+import { Link, useLocation, useNavigate } from "react-router-dom"; 
 import "../styles/Navbar.css";
 import { useAuth } from "./AuthContent";
 
 function Navbar() {
   const location = useLocation();
+  const navigate = useNavigate();
   const isHomePage = location.pathname === "/";
   const { user, logout } = useAuth();
+  
+  // Function to handle protected route clicks
+  const handleProtectedLink = (e, path) => {
+    if (!user) {
+      e.preventDefault();
+      navigate('/login');
+    } else {
+      navigate(path);
+    }
+  };
   
   return (
     <nav className="navbar">
@@ -14,9 +25,21 @@ function Navbar() {
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/browse">Browse</Link></li>
-        <li><Link to="/list">List an Item</Link></li>
-        <li><Link to="/profile">Profile</Link></li>
+        <li>
+          <a href="#" onClick={(e) => handleProtectedLink(e, '/browse')}>
+            Browse
+          </a>
+        </li>
+        <li>
+          <a href="#" onClick={(e) => handleProtectedLink(e, '/list')}>
+            List an Item
+          </a>
+        </li>
+        <li>
+          <a href="#" onClick={(e) => handleProtectedLink(e, '/profile')}>
+            Profile
+          </a>
+        </li>
       </ul>
       {isHomePage ? (
         <div className="navbar-auth">
@@ -34,9 +57,15 @@ function Navbar() {
         </div>
       ) : (
         <div className="navbar-cart">
-          <Link to="/cart" className="cart-icon" aria-label="Shopping Cart">
-            🛒
-          </Link>
+          {user ? (
+            <Link to="/cart" className="cart-icon" aria-label="Shopping Cart">
+              🛒
+            </Link>
+          ) : (
+            <a href="#" onClick={(e) => handleProtectedLink(e, '/cart')} className="cart-icon" aria-label="Shopping Cart">
+              🛒
+            </a>
+          )}
         </div>
       )}
     </nav>

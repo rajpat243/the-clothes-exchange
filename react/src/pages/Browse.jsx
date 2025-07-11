@@ -8,11 +8,7 @@ import bottomImg from "../assets/bottoms-placeholder.jpg";
 import shoesImg from "../assets/shoes-placeholder.jpg";
 import accessoryImg from "../assets/accessories-placeholder.jpg";
 
-
 function Browse() {
-
-    
-          
   const [products, setProducts] = useState([]);
   const [page, setPage] = useState(1);
   const [categories, setCategories] = useState({
@@ -21,19 +17,6 @@ function Browse() {
     Shoes: false,
     Accessories: false,
   });
-
-  // useEffect(() => {
-  //   fetchGet("http://localhost:3002/api/product/1/24") 
-  //     .then((data) => {
-  //       if (Array.isArray(data)) {
-  //         setProducts(data);
-  //         console.log("Fetched Products:", data.map(p => `${p.title} - ${p.category}`));
-
-  //       } else {
-  //         console.error("Invalid product data:", data);
-  //       }
-  //     });
-  // }, []);
 
   const getCategoryImage = (category) => {
     switch (category.toLowerCase()) {
@@ -90,25 +73,42 @@ function Browse() {
       <FilterSidebar categories={categories} onChange={setCategories} />
 
       <div className="browse-main">
-        <div>
+        <div className="browse-header">
           <h2 className="browse-title">Browse All Items</h2>
-          <div>
-            <button onClick={() => setPage(p => p > 1? p-= 1 : p)}>{"<"}</button>
-            <button onClick={() => setPage(p => p+=1)}>{">"}</button>
+          <div className="pagination-controls">
+            <button 
+              className="pagination-button" 
+              onClick={() => setPage(p => p > 1 ? p - 1 : p)}
+              disabled={page === 1}
+            >
+              &lt;
+            </button>
+            <span className="page-indicator">Page {page}</span>
+            <button 
+              className="pagination-button" 
+              onClick={() => setPage(p => p + 1)}
+            >
+              &gt;
+            </button>
           </div>
         </div>
         <div className="browse-grid">
-          {products.map((item, i) => (
-            <ItemCard
-              key={i}
-              id = {item._id}
-              title={item.title}
-              price={item.price}
-              image={getCategoryImage(item.category)}
-              category={item.category}
-            />
-          ))}
-          
+          {products.length > 0 ? (
+            products.map((item, i) => (
+              <ItemCard
+                key={i}
+                id={item._id}
+                title={item.title}
+                price={item.price}
+                image={getCategoryImage(item.category)}
+                category={item.category}
+              />
+            ))
+          ) : (
+            <div className="no-products-message">
+              {/* //No items found. Try adjusting your filters. */}
+            </div>
+          )}
         </div>
       </div>
     </div>
