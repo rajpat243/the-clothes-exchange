@@ -1,2002 +1,2402 @@
 [
   {
     "category": "top",
+    "title": "Silk Camisole",
+    "price": 46.5,
+    "description": "Featuring a modern cut and wool blend fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
     "title": "Crop Top",
-    "price": 153.7
-  },
-  {
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 135.95
-  },
-  {
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 161.1
-  },
-  {
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 99.24
-  },
-  {
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 44.52
-  },
-  {
-    "category": "top",
-    "title": "Tank Top",
-    "price": 57.86
-  },
-  {
-    "category": "top",
-    "title": "Flannel Shirt",
-    "price": 26.5
-  },
-  {
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 61.52
+    "price": 85.88,
+    "description": "Soft and breathable modal construction with stylish details. Great for both work and weekend wear."
   },
   {
     "category": "top",
     "title": "Silk Camisole",
-    "price": 34.16
+    "price": 107.06,
+    "description": "Crafted from high-quality silk that's built to last. The perfect addition to your everyday wardrobe."
   },
   {
     "category": "top",
     "title": "Patterned Blouse",
-    "price": 24.45
+    "price": 136.74,
+    "description": "Featuring a modern cut and polyester fabric that feels luxurious against your skin. Available in multiple colors."
   },
   {
     "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 196.32
+    "title": "Tunic",
+    "price": 33.05,
+    "description": "Crafted from high-quality modal that's built to last. The perfect addition to your everyday wardrobe."
   },
   {
     "category": "top",
-    "title": "Denim Jacket",
-    "price": 109.01
-  },
-  {
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 48.5
-  },
-  {
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 94.24
-  },
-  {
-    "category": "top",
-    "title": "Turtleneck",
-    "price": 147.37
-  },
-  {
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 27.16
-  },
-  {
-    "category": "top",
-    "title": "Hoodie",
-    "price": 155.9
-  },
-  {
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 101.94
+    "title": "Striped Polo",
+    "price": 34.76,
+    "description": "This versatile polyester top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
   },
   {
     "category": "top",
     "title": "Flannel Shirt",
-    "price": 151.28
-  },
-  {
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 171.67
-  },
-  {
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 56.14
-  },
-  {
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 48.86
-  },
-  {
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 176.28
-  },
-  {
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 61.74
-  },
-  {
-    "category": "top",
-    "title": "Crop Top",
-    "price": 63.06
-  },
-  {
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 183.22
-  },
-  {
-    "category": "top",
-    "title": "Tank Top",
-    "price": 130.41
-  },
-  {
-    "category": "top",
-    "title": "Long Sleeve Thermal",
-    "price": 97.05
-  },
-  {
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 27.49
-  },
-  {
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 41.71
-  },
-  {
-    "category": "top",
-    "title": "Flannel Shirt",
-    "price": 190.74
-  },
-  {
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 188.37
-  },
-  {
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 59.42
-  },
-  {
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 74.35
-  },
-  {
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 106.66
-  },
-  {
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 14.5
-  },
-  {
-    "category": "top",
-    "title": "Cardigan",
-    "price": 158.18
-  },
-  {
-    "category": "top",
-    "title": "Crop Top",
-    "price": 22.49
-  },
-  {
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 54.31
-  },
-  {
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 148.17
-  },
-  {
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 124.82
-  },
-  {
-    "category": "top",
-    "title": "Hoodie",
-    "price": 131.38
-  },
-  {
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 168.11
-  },
-  {
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 14.89
-  },
-  {
-    "category": "top",
-    "title": "Hoodie",
-    "price": 102.38
-  },
-  {
-    "category": "top",
-    "title": "Hoodie",
-    "price": 122.7
-  },
-  {
-    "category": "top",
-    "title": "Long Sleeve Thermal",
-    "price": 82.03
-  },
-  {
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 184.96
-  },
-  {
-    "category": "top",
-    "title": "Classic Cotton T-Shirt",
-    "price": 39.58
-  },
-  {
-    "category": "top",
-    "title": "Flannel Shirt",
-    "price": 84.16
-  },
-  {
-    "category": "top",
-    "title": "Crop Top",
-    "price": 149.78
-  },
-  {
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 24.03
-  },
-  {
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 125.01
-  },
-  {
-    "category": "top",
-    "title": "Cardigan",
-    "price": 134.62
-  },
-  {
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 113.6
-  },
-  {
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 99.31
-  },
-  {
-    "category": "top",
-    "title": "Tank Top",
-    "price": 99.71
-  },
-  {
-    "category": "top",
-    "title": "Flannel Shirt",
-    "price": 119.59
-  },
-  {
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 185.95
-  },
-  {
-    "category": "top",
-    "title": "Hoodie",
-    "price": 18.3
-  },
-  {
-    "category": "top",
-    "title": "Hoodie",
-    "price": 158.76
+    "price": 85.48,
+    "description": "Crafted from high-quality polyester that's built to last. The perfect addition to your everyday wardrobe."
   },
   {
     "category": "top",
     "title": "Linen Shirt",
-    "price": 156.11
-  },
-  {
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 109.35
+    "price": 126.1,
+    "description": "Crafted from high-quality rayon that's built to last. The perfect addition to your everyday wardrobe."
   },
   {
     "category": "top",
     "title": "Patterned Blouse",
-    "price": 37.99
-  },
-  {
-    "category": "top",
-    "title": "Cardigan",
-    "price": 95.14
-  },
-  {
-    "category": "top",
-    "title": "Denim Jacket",
-    "price": 183.4
-  },
-  {
-    "category": "top",
-    "title": "Hoodie",
-    "price": 28.17
-  },
-  {
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 48.81
-  },
-  {
-    "category": "top",
-    "title": "Crop Top",
-    "price": 125.44
-  },
-  {
-    "category": "top",
-    "title": "Crop Top",
-    "price": 196.84
-  },
-  {
-    "category": "top",
-    "title": "Casual Henley",
-    "price": 144.71
-  },
-  {
-    "category": "top",
-    "title": "Crewneck Sweatshirt",
-    "price": 107.5
-  },
-  {
-    "category": "top",
-    "title": "Tank Top",
-    "price": 112.98
-  },
-  {
-    "category": "top",
-    "title": "Turtleneck",
-    "price": 24.26
-  },
-  {
-    "category": "top",
-    "title": "Crop Top",
-    "price": 46.72
-  },
-  {
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 58.15
-  },
-  {
-    "category": "top",
-    "title": "Long Sleeve Thermal",
-    "price": 182.64
-  },
-  {
-    "category": "top",
-    "title": "Button-Down Oxford",
-    "price": 95.15
-  },
-  {
-    "category": "top",
-    "title": "Cardigan",
-    "price": 114.21
-  },
-  {
-    "category": "top",
-    "title": "Tank Top",
-    "price": 162.71
-  },
-  {
-    "category": "top",
-    "title": "V-Neck Sweater",
-    "price": 114.27
-  },
-  {
-    "category": "top",
-    "title": "Tank Top",
-    "price": 33.84
-  },
-  {
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 10.32
-  },
-  {
-    "category": "top",
-    "title": "Off-Shoulder Blouse",
-    "price": 197.75
-  },
-  {
-    "category": "top",
-    "title": "Tank Top",
-    "price": 178.56
-  },
-  {
-    "category": "top",
-    "title": "Silk Camisole",
-    "price": 162.75
-  },
-  {
-    "category": "top",
-    "title": "Patterned Blouse",
-    "price": 118.7
-  },
-  {
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 140.09
-  },
-  {
-    "category": "top",
-    "title": "Graphic Tee",
-    "price": 196.74
-  },
-  {
-    "category": "top",
-    "title": "Hoodie",
-    "price": 96.03
+    "price": 55.4,
+    "description": "Featuring a modern cut and silk fabric that feels luxurious against your skin. Available in multiple colors."
   },
   {
     "category": "top",
     "title": "Linen Shirt",
-    "price": 41.63
+    "price": 77.57,
+    "description": "Soft and breathable wool blend construction with stylish details. Great for both work and weekend wear."
   },
   {
     "category": "top",
-    "title": "Flannel Shirt",
-    "price": 16.88
+    "title": "V-Neck Sweater",
+    "price": 130.03,
+    "description": "Soft and breathable modal construction with stylish details. Great for both work and weekend wear."
   },
   {
     "category": "top",
-    "title": "Tank Top",
-    "price": 29.74
+    "title": "Patterned Blouse",
+    "price": 73.37,
+    "description": "This versatile cotton top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
   },
   {
     "category": "top",
     "title": "Silk Camisole",
-    "price": 75.84
+    "price": 53.22,
+    "description": "Made from premium wool blend for all-day comfort. Perfect for casual outings or layering in cooler weather."
   },
   {
     "category": "top",
-    "title": "Turtleneck",
-    "price": 29.75
+    "title": "Flannel Shirt",
+    "price": 60.28,
+    "description": "Featuring a modern cut and wool blend fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 147.0,
+    "description": "Made from premium modal for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 174.67,
+    "description": "Crafted from high-quality wool blend that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 154.36,
+    "description": "Made from premium wool blend for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 114.16,
+    "description": "Made from premium organic cotton for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 70.87,
+    "description": "Crafted from high-quality cotton that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 154.86,
+    "description": "This versatile organic cotton top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 38.5,
+    "description": "Featuring a modern cut and cotton fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 179.33,
+    "description": "Made from premium linen for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 45.83,
+    "description": "This versatile organic cotton top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 178.24,
+    "description": "Soft and breathable polyester construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Striped Polo",
+    "price": 150.94,
+    "description": "Crafted from high-quality modal that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 84.51,
+    "description": "Soft and breathable jersey knit construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 60.02,
+    "description": "Featuring a modern cut and organic cotton fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 199.14,
+    "description": "Made from premium linen for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 174.1,
+    "description": "This versatile linen top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
   },
   {
     "category": "top",
     "title": "Tank Top",
-    "price": 144.62
+    "price": 165.04,
+    "description": "Featuring a modern cut and jersey knit fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 101.47,
+    "description": "Made from premium cotton for all-day comfort. Perfect for casual outings or layering in cooler weather."
   },
   {
     "category": "top",
     "title": "Casual Henley",
-    "price": 152.0
+    "price": 10.86,
+    "description": "This versatile modal top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
   },
   {
     "category": "top",
-    "title": "Tank Top",
-    "price": 182.71
+    "title": "Off-Shoulder Blouse",
+    "price": 106.44,
+    "description": "Made from premium silk for all-day comfort. Perfect for casual outings or layering in cooler weather."
   },
   {
     "category": "top",
-    "title": "Long Sleeve Thermal",
-    "price": 146.78
+    "title": "Silk Camisole",
+    "price": 160.2,
+    "description": "Crafted from high-quality rayon that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 189.81,
+    "description": "This versatile jersey knit top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Tunic",
+    "price": 62.43,
+    "description": "Made from premium wool blend for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 12.96,
+    "description": "This versatile silk top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
   },
   {
     "category": "top",
     "title": "Classic Cotton T-Shirt",
-    "price": 138.69
+    "price": 117.54,
+    "description": "Crafted from high-quality jersey knit that's built to last. The perfect addition to your everyday wardrobe."
   },
   {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 170.26
+    "category": "top",
+    "title": "Casual Henley",
+    "price": 151.16,
+    "description": "Soft and breathable organic cotton construction with stylish details. Great for both work and weekend wear."
   },
   {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 188.24
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 168.85,
+    "description": "Featuring a modern cut and silk fabric that feels luxurious against your skin. Available in multiple colors."
   },
   {
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 109.26
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 196.8,
+    "description": "Soft and breathable cotton construction with stylish details. Great for both work and weekend wear."
   },
   {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 61.18
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 154.25,
+    "description": "Soft and breathable modal construction with stylish details. Great for both work and weekend wear."
   },
   {
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 175.32
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 52.52,
+    "description": "Featuring a modern cut and linen fabric that feels luxurious against your skin. Available in multiple colors."
   },
   {
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 68.81
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 181.29,
+    "description": "This versatile linen top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
   },
   {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 67.75
+    "category": "top",
+    "title": "Hoodie",
+    "price": 21.16,
+    "description": "Made from premium organic cotton for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Tunic",
+    "price": 121.02,
+    "description": "Soft and breathable polyester construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 29.2,
+    "description": "Soft and breathable wool blend construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 70.46,
+    "description": "This versatile jersey knit top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 168.17,
+    "description": "Crafted from high-quality silk that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 86.67,
+    "description": "Made from premium jersey knit for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 57.23,
+    "description": "Made from premium jersey knit for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Button-Down Oxford",
+    "price": 178.39,
+    "description": "This versatile cotton top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 180.67,
+    "description": "Made from premium polyester for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 106.32,
+    "description": "Made from premium jersey knit for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 190.8,
+    "description": "Crafted from high-quality polyester that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 40.7,
+    "description": "Featuring a modern cut and silk fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 60.35,
+    "description": "Featuring a modern cut and linen fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 81.0,
+    "description": "Made from premium polyester for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 57.31,
+    "description": "This versatile rayon top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 178.94,
+    "description": "This versatile organic cotton top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Turtleneck",
+    "price": 15.43,
+    "description": "Soft and breathable modal construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 95.34,
+    "description": "This versatile linen top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 192.88,
+    "description": "Featuring a modern cut and organic cotton fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 193.76,
+    "description": "This versatile polyester top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Striped Polo",
+    "price": 188.32,
+    "description": "Made from premium silk for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Flannel Shirt",
+    "price": 137.31,
+    "description": "Soft and breathable polyester construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 111.43,
+    "description": "Featuring a modern cut and polyester fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Linen Shirt",
+    "price": 14.99,
+    "description": "Crafted from high-quality cotton that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 99.74,
+    "description": "Featuring a modern cut and organic cotton fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Tunic",
+    "price": 160.57,
+    "description": "This versatile silk top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 87.59,
+    "description": "This versatile modal top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 101.36,
+    "description": "This versatile linen top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Tunic",
+    "price": 165.04,
+    "description": "Soft and breathable jersey knit construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 57.72,
+    "description": "Featuring a modern cut and wool blend fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 46.33,
+    "description": "This versatile organic cotton top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 14.67,
+    "description": "This versatile rayon top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 158.47,
+    "description": "Featuring a modern cut and organic cotton fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 95.9,
+    "description": "Crafted from high-quality wool blend that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 32.01,
+    "description": "Soft and breathable linen construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 84.53,
+    "description": "Made from premium silk for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Striped Polo",
+    "price": 90.62,
+    "description": "Featuring a modern cut and organic cotton fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 58.93,
+    "description": "Soft and breathable linen construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 59.65,
+    "description": "Made from premium linen for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 144.1,
+    "description": "Soft and breathable modal construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 26.47,
+    "description": "This versatile polyester top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Off-Shoulder Blouse",
+    "price": 152.59,
+    "description": "Soft and breathable wool blend construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Long Sleeve Thermal",
+    "price": 137.76,
+    "description": "This versatile cotton top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Hoodie",
+    "price": 55.62,
+    "description": "Soft and breathable polyester construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 65.59,
+    "description": "Made from premium jersey knit for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Graphic Tee",
+    "price": 56.44,
+    "description": "This versatile jersey knit top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 128.08,
+    "description": "Crafted from high-quality wool blend that's built to last. The perfect addition to your everyday wardrobe."
+  },
+  {
+    "category": "top",
+    "title": "Silk Camisole",
+    "price": 27.03,
+    "description": "Soft and breathable silk construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Patterned Blouse",
+    "price": 167.17,
+    "description": "Made from premium modal for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Classic Cotton T-Shirt",
+    "price": 58.35,
+    "description": "Featuring a modern cut and wool blend fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Tank Top",
+    "price": 172.33,
+    "description": "Featuring a modern cut and organic cotton fabric that feels luxurious against your skin. Available in multiple colors."
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 30.29,
+    "description": "Soft and breathable organic cotton construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "V-Neck Sweater",
+    "price": 122.7,
+    "description": "Made from premium wool blend for all-day comfort. Perfect for casual outings or layering in cooler weather."
+  },
+  {
+    "category": "top",
+    "title": "Crewneck Sweatshirt",
+    "price": 25.96,
+    "description": "This versatile modal top features a flattering fit and timeless design. Pairs well with jeans or dress pants."
+  },
+  {
+    "category": "top",
+    "title": "Striped Polo",
+    "price": 70.82,
+    "description": "Soft and breathable cotton construction with stylish details. Great for both work and weekend wear."
+  },
+  {
+    "category": "top",
+    "title": "Crop Top",
+    "price": 158.24,
+    "description": "Made from premium cotton for all-day comfort. Perfect for casual outings or layering in cooler weather."
   },
   {
     "category": "bottom",
     "title": "Denim Shorts",
-    "price": 14.03
+    "price": 120.55,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
   },
   {
     "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 10.37
-  },
-  {
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 109.95
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 180.08
+    "title": "Pencil Skirt",
+    "price": 162.03,
+    "description": "These versatile bottoms are crafted from premium leather for lasting quality. Designed with comfort and style in mind."
   },
   {
     "category": "bottom",
     "title": "Chino Pants",
-    "price": 55.52
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 157.49
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 164.75
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 89.54
-  },
-  {
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 30.23
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 190.38
-  },
-  {
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 91.02
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 25.27
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 39.23
+    "price": 58.94,
+    "description": "Featuring a contemporary fit and corduroy construction that moves with you. A wardrobe essential for any season."
   },
   {
     "category": "bottom",
     "title": "Leather Leggings",
-    "price": 130.96
+    "price": 108.09,
+    "description": "These bottoms combine classic style with modern wool fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 57.71
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 195.45
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 148.1
+    "title": "Slim Fit Jeans",
+    "price": 142.89,
+    "description": "These denim bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Palazzo Pants",
-    "price": 188.71
+    "price": 49.66,
+    "description": "These bottoms combine classic style with modern polyester blend fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 177.12
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 167.92
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 107.88
+    "title": "Corduroy Pants",
+    "price": 188.17,
+    "description": "These stretch fabric bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Palazzo Pants",
-    "price": 164.84
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 42.39
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 146.62
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 126.92
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 132.33
-  },
-  {
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 176.83
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 13.94
-  },
-  {
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 114.38
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 21.27
-  },
-  {
-    "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 124.92
-  },
-  {
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 156.53
-  },
-  {
-    "category": "bottom",
-    "title": "Culottes",
-    "price": 173.02
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 69.0
+    "price": 48.39,
+    "description": "These stretch fabric bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Leather Leggings",
-    "price": 80.94
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 101.58
-  },
-  {
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 74.13
-  },
-  {
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 65.99
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 57.27
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 173.73
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 74.99
-  },
-  {
-    "category": "bottom",
-    "title": "Palazzo Pants",
-    "price": 115.89
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 135.69
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 59.92
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 87.98
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 190.65
+    "price": 63.67,
+    "description": "These cotton twill bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Cargo Shorts",
-    "price": 161.69
-  },
-  {
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 107.6
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 173.48
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 17.14
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 37.84
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 163.32
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 48.27
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 165.61
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 93.37
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 22.42
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 42.89
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 26.16
-  },
-  {
-    "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 63.75
-  },
-  {
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 136.03
-  },
-  {
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 44.12
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 13.74
+    "price": 112.47,
+    "description": "These bottoms combine classic style with modern wool fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "bottom",
     "title": "Culottes",
-    "price": 121.61
+    "price": 48.73,
+    "description": "These linen blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
-    "title": "Track Pants",
-    "price": 190.1
+    "title": "Slim Fit Jeans",
+    "price": 67.42,
+    "description": "These bottoms combine classic style with modern corduroy fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 42.57,
+    "description": "Made from durable linen blend that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 97.46,
+    "description": "Featuring a contemporary fit and khaki construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 84.53,
+    "description": "These bottoms combine classic style with modern stretch fabric fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "bottom",
     "title": "Pencil Skirt",
-    "price": 189.56
-  },
-  {
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 131.07
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 33.03
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 159.3
-  },
-  {
-    "category": "bottom",
-    "title": "Leather Leggings",
-    "price": 156.82
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 183.0
+    "price": 195.86,
+    "description": "These corduroy bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Culottes",
-    "price": 31.1
+    "price": 50.23,
+    "description": "These versatile bottoms are crafted from premium denim for lasting quality. Designed with comfort and style in mind."
   },
   {
     "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 162.22
-  },
-  {
-    "category": "bottom",
-    "title": "Leather Leggings",
-    "price": 58.0
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 99.82
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 34.14
-  },
-  {
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 137.73
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 134.55
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 72.79
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 29.74
-  },
-  {
-    "category": "bottom",
-    "title": "Leather Leggings",
-    "price": 174.95
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 30.65
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 133.53
-  },
-  {
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 68.79
+    "title": "A-Line Skirt",
+    "price": 131.84,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
   },
   {
     "category": "bottom",
     "title": "Denim Shorts",
-    "price": 33.52
+    "price": 42.92,
+    "description": "Made from durable stretch fabric that holds its shape all day. Perfect for work, casual outings, or special occasions."
   },
   {
     "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 83.96
+    "title": "Linen Trousers",
+    "price": 58.73,
+    "description": "These versatile bottoms are crafted from premium leather for lasting quality. Designed with comfort and style in mind."
   },
   {
     "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 39.84
+    "title": "Denim Shorts",
+    "price": 77.31,
+    "description": "These corduroy bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
-    "title": "Track Pants",
-    "price": 114.22
+    "title": "Denim Shorts",
+    "price": 113.07,
+    "description": "These leather bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 117.58
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 125.25
-  },
-  {
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 19.86
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 20.12
-  },
-  {
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 181.85
+    "title": "Pencil Skirt",
+    "price": 185.94,
+    "description": "These stretch fabric bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Culottes",
-    "price": 129.92
+    "price": 182.01,
+    "description": "Made from durable leather that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 90.5,
+    "description": "These versatile bottoms are crafted from premium khaki for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 36.97,
+    "description": "These versatile bottoms are crafted from premium polyester blend for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 117.11,
+    "description": "These khaki bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 194.84,
+    "description": "These bottoms combine classic style with modern khaki fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 92.26,
+    "description": "These bottoms combine classic style with modern linen blend fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 177.21,
+    "description": "These versatile bottoms are crafted from premium stretch fabric for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 145.12,
+    "description": "These versatile bottoms are crafted from premium cotton twill for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 157.65,
+    "description": "These linen blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 153.95,
+    "description": "These bottoms combine classic style with modern stretch fabric fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 171.89,
+    "description": "Featuring a contemporary fit and leather construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 114.23,
+    "description": "These versatile bottoms are crafted from premium denim for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 22.33,
+    "description": "Featuring a contemporary fit and leather construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 13.02,
+    "description": "Featuring a contemporary fit and leather construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 196.01,
+    "description": "These bottoms combine classic style with modern corduroy fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 133.68,
+    "description": "These bottoms combine classic style with modern khaki fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 142.41,
+    "description": "These versatile bottoms are crafted from premium linen blend for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Khaki Pants",
+    "price": 48.26,
+    "description": "These bottoms combine classic style with modern stretch fabric fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 36.48,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 69.96,
+    "description": "These bottoms combine classic style with modern leather fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 94.49,
+    "description": "These versatile bottoms are crafted from premium linen blend for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 189.69,
+    "description": "Made from durable stretch fabric that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 67.88,
+    "description": "These versatile bottoms are crafted from premium linen blend for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 46.11,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 181.62,
+    "description": "These polyester blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 70.14,
+    "description": "Featuring a contemporary fit and corduroy construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 83.16,
+    "description": "Featuring a contemporary fit and leather construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 131.39,
+    "description": "Made from durable leather that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 67.61,
+    "description": "Featuring a contemporary fit and stretch fabric construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 127.83,
+    "description": "Featuring a contemporary fit and corduroy construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 13.52,
+    "description": "These denim bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 193.57,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 178.33,
+    "description": "These bottoms combine classic style with modern stretch fabric fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 17.65,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 100.0,
+    "description": "These polyester blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 139.48,
+    "description": "These bottoms combine classic style with modern wool fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 183.01,
+    "description": "These versatile bottoms are crafted from premium stretch fabric for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 147.82,
+    "description": "These bottoms combine classic style with modern denim fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 113.33,
+    "description": "These wool bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 101.63,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 196.18,
+    "description": "Featuring a contemporary fit and polyester blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 57.08,
+    "description": "Made from durable polyester blend that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 131.19,
+    "description": "These cotton twill bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 151.46,
+    "description": "Featuring a contemporary fit and denim construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 66.93,
+    "description": "These bottoms combine classic style with modern corduroy fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 179.55,
+    "description": "Made from durable khaki that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 131.84,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 71.88,
+    "description": "These versatile bottoms are crafted from premium khaki for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 45.65,
+    "description": "These versatile bottoms are crafted from premium leather for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 76.39,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 48.16,
+    "description": "These versatile bottoms are crafted from premium wool for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 24.75,
+    "description": "Featuring a contemporary fit and cotton twill construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 85.5,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 154.18,
+    "description": "Featuring a contemporary fit and khaki construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 58.63,
+    "description": "Made from durable wool that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 38.66,
+    "description": "These bottoms combine classic style with modern leather fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 113.18,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 127.51,
+    "description": "Made from durable khaki that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 121.44,
+    "description": "These versatile bottoms are crafted from premium leather for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 166.52,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 20.06,
+    "description": "These polyester blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 166.64,
+    "description": "These versatile bottoms are crafted from premium corduroy for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 68.4,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 38.38,
+    "description": "These bottoms combine classic style with modern leather fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 168.16,
+    "description": "These bottoms combine classic style with modern corduroy fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 36.82,
+    "description": "These versatile bottoms are crafted from premium wool for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 144.64,
+    "description": "These bottoms combine classic style with modern khaki fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 182.97,
+    "description": "These linen blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 182.2,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 16.18,
+    "description": "Made from durable stretch fabric that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 127.35,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 158.89,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 51.96,
+    "description": "These denim bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 94.03,
+    "description": "Featuring a contemporary fit and cotton twill construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 106.27,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 26.71,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 49.48,
+    "description": "These bottoms combine classic style with modern leather fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "shoes",
-    "title": "Stilettos",
-    "price": 53.43
+    "title": "Dress Oxfords",
+    "price": 102.27,
+    "description": "These stylish shoes combine canvas uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 30.99,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 105.43,
+    "description": "These stylish shoes combine mesh uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 38.42,
+    "description": "These versatile shoes feature vegan leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 12.09,
+    "description": "Made from high-quality patent leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 63.42,
+    "description": "Crafted from premium leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 99.84,
+    "description": "Crafted from premium vegan leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 135.88,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 94.18,
+    "description": "These mesh shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 199.81,
+    "description": "These stylish shoes combine vegan leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 69.96,
+    "description": "These versatile shoes feature leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 194.61,
+    "description": "These canvas shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 64.93,
+    "description": "Made from high-quality nubuck that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 122.1,
+    "description": "These stylish shoes combine textile uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 135.36,
+    "description": "Crafted from premium textile with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 61.59,
+    "description": "These stylish shoes combine vegan leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 172.84,
+    "description": "These versatile shoes feature leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 10.87,
+    "description": "These versatile shoes feature vegan leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 13.28,
+    "description": "These versatile shoes feature textile construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
     "title": "Sandals",
-    "price": 36.55
-  },
-  {
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 25.87
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 147.59
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 127.84
-  },
-  {
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 80.5
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 186.8
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 14.77
-  },
-  {
-    "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 107.58
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 145.46
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 148.33
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 28.2
-  },
-  {
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 139.27
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 50.2
-  },
-  {
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 100.67
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 42.18
-  },
-  {
-    "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 131.47
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 89.72
-  },
-  {
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 118.43
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 77.03
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 54.8
+    "price": 146.82,
+    "description": "These versatile shoes feature mesh construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
     "title": "Canvas Slip-Ons",
-    "price": 144.86
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 72.3
-  },
-  {
-    "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 106.94
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 69.7
-  },
-  {
-    "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 72.91
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 58.15
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 198.28
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 27.36
-  },
-  {
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 159.97
-  },
-  {
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 73.69
-  },
-  {
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 177.24
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 119.61
-  },
-  {
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 122.92
-  },
-  {
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 70.72
-  },
-  {
-    "category": "shoes",
-    "title": "Wedge Heels",
-    "price": 139.4
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 79.16
-  },
-  {
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 16.53
-  },
-  {
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 187.42
-  },
-  {
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 45.18
-  },
-  {
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 10.54
-  },
-  {
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 87.32
-  },
-  {
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 79.69
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 190.17
-  },
-  {
-    "category": "shoes",
-    "title": "Flip Flops",
-    "price": 75.54
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 68.55
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 22.29
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 71.78
-  },
-  {
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 189.28
-  },
-  {
-    "category": "shoes",
-    "title": "Ballet Flats",
-    "price": 143.78
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 45.34
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 18.34
-  },
-  {
-    "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 89.9
-  },
-  {
-    "category": "shoes",
-    "title": "Leather Loafers",
-    "price": 184.65
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 36.38
-  },
-  {
-    "category": "shoes",
-    "title": "Classic Sneakers",
-    "price": 51.36
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 124.94
-  },
-  {
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 96.28
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 53.88
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 134.11
-  },
-  {
-    "category": "shoes",
-    "title": "Platform Sneakers",
-    "price": 190.26
+    "price": 96.84,
+    "description": "These versatile shoes feature nubuck construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
     "title": "Ankle Boots",
-    "price": 54.52
+    "price": 108.63,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
   },
   {
     "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 187.61
+    "title": "Flip Flops",
+    "price": 105.83,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
-    "title": "Dress Oxfords",
-    "price": 132.28
+    "title": "Leather Loafers",
+    "price": 145.78,
+    "description": "Made from high-quality nubuck that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 54.07
+    "title": "Combat Boots",
+    "price": 161.54,
+    "description": "Made from high-quality textile that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
     "title": "Ballet Flats",
-    "price": 64.99
+    "price": 152.64,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
   },
   {
     "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 98.43
+    "title": "Dress Oxfords",
+    "price": 94.49,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
   },
   {
     "category": "shoes",
-    "title": "Moccasins",
-    "price": 105.84
+    "title": "Combat Boots",
+    "price": 37.55,
+    "description": "These patent leather shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
   },
   {
     "category": "shoes",
-    "title": "Running Shoes",
-    "price": 74.24
+    "title": "Combat Boots",
+    "price": 153.1,
+    "description": "These synthetic shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
   },
   {
     "category": "shoes",
     "title": "Derby Shoes",
-    "price": 82.7
+    "price": 175.0,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 91.68,
+    "description": "These stylish shoes combine textile uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 171.19,
+    "description": "Crafted from premium textile with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 98.96,
+    "description": "These suede shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 105.35,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 81.87,
+    "description": "These versatile shoes feature suede construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 111.18,
+    "description": "These stylish shoes combine suede uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 177.24,
+    "description": "These versatile shoes feature suede construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 173.41,
+    "description": "Crafted from premium vegan leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Flip Flops",
+    "price": 103.6,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 79.33,
+    "description": "These patent leather shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 119.64,
+    "description": "These leather shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 109.06,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 93.77,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 49.98,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 38.89,
+    "description": "These versatile shoes feature leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 114.88,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 62.43,
+    "description": "Crafted from premium vegan leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 44.14,
+    "description": "Made from high-quality leather that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
     "title": "Sandals",
-    "price": 104.0
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 147.96
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 150.4
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 145.88
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 27.83
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 86.95
-  },
-  {
-    "category": "shoes",
-    "title": "Stilettos",
-    "price": 149.19
-  },
-  {
-    "category": "shoes",
-    "title": "High Heels",
-    "price": 117.24
-  },
-  {
-    "category": "shoes",
-    "title": "Espadrilles",
-    "price": 163.78
+    "price": 163.5,
+    "description": "Crafted from premium synthetic with attention to detail. The perfect balance of style and functionality."
   },
   {
     "category": "shoes",
     "title": "Leather Loafers",
-    "price": 102.09
+    "price": 130.6,
+    "description": "Made from high-quality patent leather that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 137.41
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 11.03
-  },
-  {
-    "category": "shoes",
-    "title": "Boat Shoes",
-    "price": 38.67
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 111.63
-  },
-  {
-    "category": "shoes",
-    "title": "Running Shoes",
-    "price": 39.51
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 186.55
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 97.9
-  },
-  {
-    "category": "shoes",
-    "title": "Combat Boots",
-    "price": 177.81
-  },
-  {
-    "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 13.09
-  },
-  {
-    "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 193.73
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 60.02
-  },
-  {
-    "category": "shoes",
-    "title": "Moccasins",
-    "price": 83.01
-  },
-  {
-    "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 129.05
-  },
-  {
-    "category": "shoes",
-    "title": "Hiking Boots",
-    "price": 40.16
+    "title": "Stilettos",
+    "price": 104.93,
+    "description": "These stylish shoes combine synthetic uppers with cushioned insoles for maximum comfort. A must-have for your collection."
   },
   {
     "category": "shoes",
     "title": "Dress Oxfords",
-    "price": 73.89
+    "price": 50.22,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
   },
   {
     "category": "shoes",
-    "title": "Chelsea Boots",
-    "price": 48.83
+    "title": "Stilettos",
+    "price": 169.83,
+    "description": "These stylish shoes combine vegan leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
   },
   {
     "category": "shoes",
-    "title": "Derby Shoes",
-    "price": 141.05
+    "title": "Wedge Heels",
+    "price": 33.04,
+    "description": "Made from high-quality synthetic that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
-    "title": "Canvas Slip-Ons",
-    "price": 70.82
+    "title": "Running Shoes",
+    "price": 183.28,
+    "description": "Made from high-quality synthetic that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "shoes",
-    "title": "Ankle Boots",
-    "price": 167.92
+    "title": "Flip Flops",
+    "price": 84.42,
+    "description": "These versatile shoes feature patent leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 96.94,
+    "description": "Crafted from premium synthetic with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 138.31,
+    "description": "These stylish shoes combine leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 46.75,
+    "description": "These stylish shoes combine synthetic uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 198.09,
+    "description": "Crafted from premium suede with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 23.13,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Espadrilles",
+    "price": 156.89,
+    "description": "These versatile shoes feature nubuck construction and ergonomic design. Suitable for various occasions and outfits."
   },
   {
     "category": "shoes",
     "title": "Boat Shoes",
-    "price": 53.67
+    "price": 187.84,
+    "description": "Made from high-quality leather that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
-    "category": "accessory",
-    "title": "Woven Hat",
-    "price": 19.13
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 155.42,
+    "description": "These versatile shoes feature nubuck construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 165.88,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 105.87,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 22.1,
+    "description": "These stylish shoes combine vegan leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Leather Loafers",
+    "price": 141.54,
+    "description": "These mesh shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 93.29,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 12.35,
+    "description": "Made from high-quality patent leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 159.8,
+    "description": "These versatile shoes feature leather construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 98.31,
+    "description": "These versatile shoes feature suede construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Canvas Slip-Ons",
+    "price": 178.6,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 73.69,
+    "description": "These patent leather shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 157.57,
+    "description": "Made from high-quality nubuck that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 56.01,
+    "description": "Crafted from premium synthetic with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 91.42,
+    "description": "These stylish shoes combine nubuck uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Wedge Heels",
+    "price": 19.57,
+    "description": "Made from high-quality leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 135.6,
+    "description": "Made from high-quality canvas that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 35.51,
+    "description": "These stylish shoes combine leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 165.39,
+    "description": "These nubuck shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Boat Shoes",
+    "price": 67.45,
+    "description": "These stylish shoes combine patent leather uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Dress Oxfords",
+    "price": 148.98,
+    "description": "These versatile shoes feature synthetic construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Hiking Boots",
+    "price": 152.47,
+    "description": "Crafted from premium canvas with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Stilettos",
+    "price": 39.21,
+    "description": "These suede shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 84.07,
+    "description": "These nubuck shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Platform Sneakers",
+    "price": 22.83,
+    "description": "These versatile shoes feature textile construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Chelsea Boots",
+    "price": 82.44,
+    "description": "Crafted from premium patent leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Combat Boots",
+    "price": 52.39,
+    "description": "These versatile shoes feature textile construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "High Heels",
+    "price": 88.21,
+    "description": "These versatile shoes feature nubuck construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Ankle Boots",
+    "price": 33.02,
+    "description": "These stylish shoes combine canvas uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Derby Shoes",
+    "price": 100.98,
+    "description": "These nubuck shoes provide exceptional comfort and support for all-day wear. Features a durable sole and quality craftsmanship."
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 90.09,
+    "description": "Made from high-quality leather that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Ballet Flats",
+    "price": 172.56,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 131.54,
+    "description": "Crafted from premium leather with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Running Shoes",
+    "price": 101.25,
+    "description": "These stylish shoes combine synthetic uppers with cushioned insoles for maximum comfort. A must-have for your collection."
+  },
+  {
+    "category": "shoes",
+    "title": "Moccasins",
+    "price": 196.71,
+    "description": "These versatile shoes feature canvas construction and ergonomic design. Suitable for various occasions and outfits."
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 149.0,
+    "description": "Made from high-quality suede that molds to your feet for personalized comfort. Designed to last for years."
+  },
+  {
+    "category": "shoes",
+    "title": "Classic Sneakers",
+    "price": 107.1,
+    "description": "Crafted from premium nubuck with attention to detail. The perfect balance of style and functionality."
+  },
+  {
+    "category": "shoes",
+    "title": "Sandals",
+    "price": 162.15,
+    "description": "Made from high-quality synthetic that molds to your feet for personalized comfort. Designed to last for years."
   },
   {
     "category": "accessory",
     "title": "Baseball Cap",
-    "price": 120.46
+    "price": 56.08,
+    "description": "This genuine leather accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
   },
   {
     "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 143.84
-  },
-  {
-    "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 198.54
-  },
-  {
-    "category": "accessory",
-    "title": "Woven Hat",
-    "price": 78.3
-  },
-  {
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 106.69
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Wallet",
-    "price": 135.09
-  },
-  {
-    "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 169.98
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 39.2
-  },
-  {
-    "category": "accessory",
-    "title": "Beret",
-    "price": 132.11
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 187.38
-  },
-  {
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 155.51
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 29.23
-  },
-  {
-    "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 155.85
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 168.53
-  },
-  {
-    "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 36.58
-  },
-  {
-    "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 66.84
+    "title": "Stud Earrings",
+    "price": 34.33,
+    "description": "Made from premium silk that's built to last. Versatile enough to complement both casual and formal looks."
   },
   {
     "category": "accessory",
     "title": "Bracelet Set",
-    "price": 164.18
+    "price": 128.42,
+    "description": "This genuine leather accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
   },
   {
     "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 18.67
-  },
-  {
-    "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 189.55
-  },
-  {
-    "category": "accessory",
-    "title": "Wristwatch",
-    "price": 72.22
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Wallet",
-    "price": 154.8
+    "title": "Statement Necklace",
+    "price": 167.42,
+    "description": "This acrylic accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
   },
   {
     "category": "accessory",
     "title": "Baseball Cap",
-    "price": 196.52
-  },
-  {
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 58.95
-  },
-  {
-    "category": "accessory",
-    "title": "Beret",
-    "price": 53.61
-  },
-  {
-    "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 140.44
+    "price": 182.17,
+    "description": "This silk accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
   },
   {
     "category": "accessory",
     "title": "Bracelet Set",
-    "price": 120.82
-  },
-  {
-    "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 194.17
-  },
-  {
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 72.66
-  },
-  {
-    "category": "accessory",
-    "title": "Beret",
-    "price": 171.5
-  },
-  {
-    "category": "accessory",
-    "title": "Woven Hat",
-    "price": 194.48
-  },
-  {
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 76.57
-  },
-  {
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 45.19
-  },
-  {
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 68.84
-  },
-  {
-    "category": "accessory",
-    "title": "Bow Tie",
-    "price": 154.26
-  },
-  {
-    "category": "accessory",
-    "title": "Aviator Sunglasses",
-    "price": 71.65
-  },
-  {
-    "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 32.35
-  },
-  {
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 17.85
-  },
-  {
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 135.8
-  },
-  {
-    "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 171.01
-  },
-  {
-    "category": "accessory",
-    "title": "Aviator Sunglasses",
-    "price": 15.44
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 188.48
-  },
-  {
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 193.17
-  },
-  {
-    "category": "accessory",
-    "title": "Beret",
-    "price": 59.7
-  },
-  {
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 139.38
-  },
-  {
-    "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 25.86
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 181.02
-  },
-  {
-    "category": "accessory",
-    "title": "Wristwatch",
-    "price": 154.14
-  },
-  {
-    "category": "accessory",
-    "title": "Tote Bag",
-    "price": 44.42
-  },
-  {
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 113.75
-  },
-  {
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 68.87
-  },
-  {
-    "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 165.86
-  },
-  {
-    "category": "accessory",
-    "title": "Woven Hat",
-    "price": 82.96
-  },
-  {
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 13.31
-  },
-  {
-    "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 145.22
-  },
-  {
-    "category": "accessory",
-    "title": "Bow Tie",
-    "price": 150.0
-  },
-  {
-    "category": "accessory",
-    "title": "Bow Tie",
-    "price": 83.07
-  },
-  {
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 55.04
-  },
-  {
-    "category": "accessory",
-    "title": "Tote Bag",
-    "price": 130.06
-  },
-  {
-    "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 69.22
-  },
-  {
-    "category": "accessory",
-    "title": "Beret",
-    "price": 144.98
-  },
-  {
-    "category": "accessory",
-    "title": "Aviator Sunglasses",
-    "price": 175.87
-  },
-  {
-    "category": "accessory",
-    "title": "Bracelet Set",
-    "price": 40.35
-  },
-  {
-    "category": "accessory",
-    "title": "Aviator Sunglasses",
-    "price": 82.94
+    "price": 181.22,
+    "description": "Made from premium genuine leather that's built to last. Versatile enough to complement both casual and formal looks."
   },
   {
     "category": "accessory",
     "title": "Crossbody Bag",
-    "price": 98.76
-  },
-  {
-    "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 80.91
-  },
-  {
-    "category": "accessory",
-    "title": "Silk Scarf",
-    "price": 71.78
-  },
-  {
-    "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 29.97
-  },
-  {
-    "category": "accessory",
-    "title": "Canvas Backpack",
-    "price": 24.77
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 34.01
-  },
-  {
-    "category": "accessory",
-    "title": "Wristwatch",
-    "price": 186.52
-  },
-  {
-    "category": "accessory",
-    "title": "Patterned Socks",
-    "price": 159.44
-  },
-  {
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 148.7
-  },
-  {
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 129.27
-  },
-  {
-    "category": "accessory",
-    "title": "Pendant Necklace",
-    "price": 56.21
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 103.79
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Belt",
-    "price": 193.8
-  },
-  {
-    "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 36.8
-  },
-  {
-    "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 45.29
+    "price": 116.35,
+    "description": "This stylish accessory is crafted from high-quality wool with attention to detail. An essential addition to your collection."
   },
   {
     "category": "accessory",
     "title": "Woven Hat",
-    "price": 107.51
+    "price": 196.74,
+    "description": "This stylish accessory is crafted from high-quality sterling silver with attention to detail. An essential addition to your collection."
   },
   {
     "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 113.66
-  },
-  {
-    "category": "accessory",
-    "title": "Leather Gloves",
-    "price": 115.82
-  },
-  {
-    "category": "accessory",
-    "title": "Beret",
-    "price": 122.39
+    "title": "Canvas Backpack",
+    "price": 88.06,
+    "description": "Featuring elegant acrylic construction and practical functionality. Designed to elevate your everyday style."
   },
   {
     "category": "accessory",
     "title": "Baseball Cap",
-    "price": 103.38
+    "price": 151.89,
+    "description": "Featuring elegant recycled materials construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 34.73,
+    "description": "This stylish accessory is crafted from high-quality wool with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Knit Beanie",
+    "price": 82.46,
+    "description": "This stylish accessory is crafted from high-quality stainless steel with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 92.36,
+    "description": "Made from premium brass that's built to last. Versatile enough to complement both casual and formal looks."
   },
   {
     "category": "accessory",
     "title": "Leather Wallet",
-    "price": 122.16
+    "price": 52.97,
+    "description": "This cotton blend accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
   },
   {
     "category": "accessory",
-    "title": "Crossbody Bag",
-    "price": 130.15
+    "title": "Woven Hat",
+    "price": 110.74,
+    "description": "This stylish accessory is crafted from high-quality brass with attention to detail. An essential addition to your collection."
   },
   {
     "category": "accessory",
-    "title": "Tote Bag",
-    "price": 70.21
+    "title": "Beret",
+    "price": 190.04,
+    "description": "This recycled materials accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
   },
   {
     "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 123.67
-  },
-  {
-    "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 160.64
-  },
-  {
-    "category": "accessory",
-    "title": "Knit Beanie",
-    "price": 182.65
-  },
-  {
-    "category": "accessory",
-    "title": "Baseball Cap",
-    "price": 85.66
+    "title": "Woven Hat",
+    "price": 83.72,
+    "description": "This recycled materials accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
   },
   {
     "category": "accessory",
     "title": "Silk Scarf",
-    "price": 187.39
+    "price": 85.65,
+    "description": "This stylish accessory is crafted from high-quality recycled materials with attention to detail. An essential addition to your collection."
   },
   {
     "category": "accessory",
-    "title": "Clutch Purse",
-    "price": 180.3
-  },
-  {
-    "category": "accessory",
-    "title": "Stud Earrings",
-    "price": 174.47
-  },
-  {
-    "category": "accessory",
-    "title": "Tote Bag",
-    "price": 183.28
-  },
-  {
-    "category": "accessory",
-    "title": "Statement Necklace",
-    "price": 137.97
+    "title": "Canvas Backpack",
+    "price": 184.66,
+    "description": "This stylish accessory is crafted from high-quality stainless steel with attention to detail. An essential addition to your collection."
   },
   {
     "category": "accessory",
     "title": "Tote Bag",
-    "price": 83.88
+    "price": 121.31,
+    "description": "Made from premium wool that's built to last. Versatile enough to complement both casual and formal looks."
   },
   {
     "category": "accessory",
     "title": "Leather Belt",
-    "price": 113.05
+    "price": 185.15,
+    "description": "Featuring elegant cotton blend construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 26.99,
+    "description": "This silk accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 27.42,
+    "description": "This stylish accessory is crafted from high-quality genuine leather with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 26.09,
+    "description": "Featuring elegant wool construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 41.8,
+    "description": "Made from premium wool that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 54.75,
+    "description": "This cotton blend accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
   },
   {
     "category": "accessory",
     "title": "Aviator Sunglasses",
-    "price": 74.51
+    "price": 95.21,
+    "description": "Made from premium sterling silver that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 69.32,
+    "description": "This stylish accessory is crafted from high-quality acrylic with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 66.6,
+    "description": "Made from premium cotton blend that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 93.29,
+    "description": "This cotton blend accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
   },
   {
     "category": "accessory",
     "title": "Aviator Sunglasses",
-    "price": 116.92
+    "price": 134.6,
+    "description": "Made from premium genuine leather that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 10.15,
+    "description": "This wool accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 155.55,
+    "description": "Featuring elegant brass construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 194.47,
+    "description": "This silk accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 25.21,
+    "description": "This stylish accessory is crafted from high-quality genuine leather with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 119.34,
+    "description": "This stainless steel accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 135.03,
+    "description": "Featuring elegant sterling silver construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 49.3,
+    "description": "This acrylic accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 93.25,
+    "description": "Made from premium genuine leather that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 192.11,
+    "description": "Featuring elegant acrylic construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 145.1,
+    "description": "This recycled materials accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 20.14,
+    "description": "Made from premium sterling silver that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Crossbody Bag",
+    "price": 110.62,
+    "description": "Featuring elegant genuine leather construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 150.94,
+    "description": "This silk accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 65.46,
+    "description": "This cotton blend accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 151.45,
+    "description": "Featuring elegant silk construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 184.94,
+    "description": "Featuring elegant silk construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 51.25,
+    "description": "This sterling silver accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 69.17,
+    "description": "This brass accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 38.38,
+    "description": "This stainless steel accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 33.77,
+    "description": "Made from premium wool that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 94.71,
+    "description": "This stylish accessory is crafted from high-quality silk with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 43.4,
+    "description": "This wool accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 63.9,
+    "description": "Made from premium recycled materials that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 132.48,
+    "description": "Featuring elegant stainless steel construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 157.42,
+    "description": "This stylish accessory is crafted from high-quality wool with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Bow Tie",
+    "price": 13.35,
+    "description": "This stainless steel accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Wristwatch",
+    "price": 113.58,
+    "description": "Featuring elegant silk construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 174.29,
+    "description": "This brass accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 66.19,
+    "description": "This genuine leather accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 175.24,
+    "description": "This cotton blend accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 126.72,
+    "description": "Made from premium genuine leather that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 33.56,
+    "description": "This stylish accessory is crafted from high-quality recycled materials with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 189.15,
+    "description": "This acrylic accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 11.45,
+    "description": "Featuring elegant cotton blend construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Stud Earrings",
+    "price": 34.37,
+    "description": "This genuine leather accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 104.15,
+    "description": "This stylish accessory is crafted from high-quality wool with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 196.77,
+    "description": "This stylish accessory is crafted from high-quality brass with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 32.65,
+    "description": "Featuring elegant recycled materials construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 93.64,
+    "description": "Featuring elegant genuine leather construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 70.43,
+    "description": "This stylish accessory is crafted from high-quality cotton blend with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 76.7,
+    "description": "This stylish accessory is crafted from high-quality silk with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 59.43,
+    "description": "Featuring elegant wool construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 172.44,
+    "description": "This acrylic accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Knit Beanie",
+    "price": 142.08,
+    "description": "This stylish accessory is crafted from high-quality sterling silver with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 152.34,
+    "description": "Featuring elegant genuine leather construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 120.18,
+    "description": "This recycled materials accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 196.48,
+    "description": "Featuring elegant brass construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Wallet",
+    "price": 108.91,
+    "description": "Made from premium brass that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 151.58,
+    "description": "This stylish accessory is crafted from high-quality brass with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 28.8,
+    "description": "Featuring elegant acrylic construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Crossbody Bag",
+    "price": 189.49,
+    "description": "Featuring elegant stainless steel construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 161.83,
+    "description": "Made from premium acrylic that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Crossbody Bag",
+    "price": 76.58,
+    "description": "Featuring elegant cotton blend construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Patterned Socks",
+    "price": 164.14,
+    "description": "This brass accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 160.79,
+    "description": "This stylish accessory is crafted from high-quality silk with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Beret",
+    "price": 111.24,
+    "description": "Made from premium brass that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 45.96,
+    "description": "Made from premium acrylic that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Gloves",
+    "price": 44.68,
+    "description": "This silk accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Leather Belt",
+    "price": 20.86,
+    "description": "This stylish accessory is crafted from high-quality recycled materials with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Aviator Sunglasses",
+    "price": 31.49,
+    "description": "This wool accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Baseball Cap",
+    "price": 50.92,
+    "description": "Featuring elegant recycled materials construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 59.08,
+    "description": "This stylish accessory is crafted from high-quality stainless steel with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Woven Hat",
+    "price": 163.58,
+    "description": "This cotton blend accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Statement Necklace",
+    "price": 190.36,
+    "description": "This wool accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
+  },
+  {
+    "category": "accessory",
+    "title": "Canvas Backpack",
+    "price": 194.27,
+    "description": "This stylish accessory is crafted from high-quality genuine leather with attention to detail. An essential addition to your collection."
+  },
+  {
+    "category": "accessory",
+    "title": "Pendant Necklace",
+    "price": 24.16,
+    "description": "Featuring elegant recycled materials construction and practical functionality. Designed to elevate your everyday style."
+  },
+  {
+    "category": "accessory",
+    "title": "Tote Bag",
+    "price": 140.62,
+    "description": "This cotton blend accessory adds the perfect finishing touch to any outfit. Features quality construction and timeless design."
+  },
+  {
+    "category": "accessory",
+    "title": "Bracelet Set",
+    "price": 155.36,
+    "description": "Made from premium acrylic that's built to last. Versatile enough to complement both casual and formal looks."
+  },
+  {
+    "category": "accessory",
+    "title": "Clutch Purse",
+    "price": 47.36,
+    "description": "This brass accessory combines classic design with modern sensibility. Perfect for adding personality to any ensemble."
   }
 ]

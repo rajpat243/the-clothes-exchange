@@ -1,502 +1,602 @@
 [
   {
     "category": "bottom",
-    "title": "Chino Pants",
-    "price": 170.26
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 188.24
-  },
-  {
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 109.26
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 61.18
-  },
-  {
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 175.32
-  },
-  {
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 68.81
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 67.75
-  },
-  {
-    "category": "bottom",
     "title": "Denim Shorts",
-    "price": 14.03
+    "price": 120.55,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
   },
   {
     "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 10.37
-  },
-  {
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 109.95
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 180.08
+    "title": "Pencil Skirt",
+    "price": 162.03,
+    "description": "These versatile bottoms are crafted from premium leather for lasting quality. Designed with comfort and style in mind."
   },
   {
     "category": "bottom",
     "title": "Chino Pants",
-    "price": 55.52
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 157.49
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 164.75
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 89.54
-  },
-  {
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 30.23
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 190.38
-  },
-  {
-    "category": "bottom",
-    "title": "Pleated Skirt",
-    "price": 91.02
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 25.27
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 39.23
+    "price": 58.94,
+    "description": "Featuring a contemporary fit and corduroy construction that moves with you. A wardrobe essential for any season."
   },
   {
     "category": "bottom",
     "title": "Leather Leggings",
-    "price": 130.96
+    "price": 108.09,
+    "description": "These bottoms combine classic style with modern wool fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 57.71
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 195.45
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 148.1
+    "title": "Slim Fit Jeans",
+    "price": 142.89,
+    "description": "These denim bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Palazzo Pants",
-    "price": 188.71
+    "price": 49.66,
+    "description": "These bottoms combine classic style with modern polyester blend fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 177.12
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 167.92
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 107.88
+    "title": "Corduroy Pants",
+    "price": 188.17,
+    "description": "These stretch fabric bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Palazzo Pants",
-    "price": 164.84
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 42.39
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 146.62
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 126.92
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 132.33
-  },
-  {
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 176.83
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 13.94
-  },
-  {
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 114.38
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 21.27
-  },
-  {
-    "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 124.92
-  },
-  {
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 156.53
-  },
-  {
-    "category": "bottom",
-    "title": "Culottes",
-    "price": 173.02
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 69.0
+    "price": 48.39,
+    "description": "These stretch fabric bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Leather Leggings",
-    "price": 80.94
-  },
-  {
-    "category": "bottom",
-    "title": "Pencil Skirt",
-    "price": 101.58
-  },
-  {
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 74.13
-  },
-  {
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 65.99
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 57.27
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 173.73
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 74.99
-  },
-  {
-    "category": "bottom",
-    "title": "Palazzo Pants",
-    "price": 115.89
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 135.69
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 59.92
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 87.98
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 190.65
+    "price": 63.67,
+    "description": "These cotton twill bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Cargo Shorts",
-    "price": 161.69
-  },
-  {
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 107.6
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 173.48
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 17.14
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 37.84
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 163.32
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 48.27
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 165.61
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 93.37
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 22.42
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 42.89
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 26.16
-  },
-  {
-    "category": "bottom",
-    "title": "Maxi Skirt",
-    "price": 63.75
-  },
-  {
-    "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 136.03
-  },
-  {
-    "category": "bottom",
-    "title": "A-Line Skirt",
-    "price": 44.12
-  },
-  {
-    "category": "bottom",
-    "title": "Denim Shorts",
-    "price": 13.74
+    "price": 112.47,
+    "description": "These bottoms combine classic style with modern wool fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "bottom",
     "title": "Culottes",
-    "price": 121.61
+    "price": 48.73,
+    "description": "These linen blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
-    "title": "Track Pants",
-    "price": 190.1
+    "title": "Slim Fit Jeans",
+    "price": 67.42,
+    "description": "These bottoms combine classic style with modern corduroy fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 42.57,
+    "description": "Made from durable linen blend that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 97.46,
+    "description": "Featuring a contemporary fit and khaki construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 84.53,
+    "description": "These bottoms combine classic style with modern stretch fabric fabric. Comfortable enough for all-day wear."
   },
   {
     "category": "bottom",
     "title": "Pencil Skirt",
-    "price": 189.56
-  },
-  {
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 131.07
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 33.03
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 159.3
-  },
-  {
-    "category": "bottom",
-    "title": "Leather Leggings",
-    "price": 156.82
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 183.0
+    "price": 195.86,
+    "description": "These corduroy bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Culottes",
-    "price": 31.1
+    "price": 50.23,
+    "description": "These versatile bottoms are crafted from premium denim for lasting quality. Designed with comfort and style in mind."
   },
   {
     "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 162.22
-  },
-  {
-    "category": "bottom",
-    "title": "Leather Leggings",
-    "price": 58.0
-  },
-  {
-    "category": "bottom",
-    "title": "Linen Trousers",
-    "price": 99.82
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 34.14
-  },
-  {
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 137.73
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 134.55
-  },
-  {
-    "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 72.79
-  },
-  {
-    "category": "bottom",
-    "title": "Distressed Jeans",
-    "price": 29.74
-  },
-  {
-    "category": "bottom",
-    "title": "Leather Leggings",
-    "price": 174.95
-  },
-  {
-    "category": "bottom",
-    "title": "Dress Pants",
-    "price": 30.65
-  },
-  {
-    "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 133.53
-  },
-  {
-    "category": "bottom",
-    "title": "Khaki Pants",
-    "price": 68.79
+    "title": "A-Line Skirt",
+    "price": 131.84,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
   },
   {
     "category": "bottom",
     "title": "Denim Shorts",
-    "price": 33.52
+    "price": 42.92,
+    "description": "Made from durable stretch fabric that holds its shape all day. Perfect for work, casual outings, or special occasions."
   },
   {
     "category": "bottom",
-    "title": "High-Waisted Jeans",
-    "price": 83.96
+    "title": "Linen Trousers",
+    "price": 58.73,
+    "description": "These versatile bottoms are crafted from premium leather for lasting quality. Designed with comfort and style in mind."
   },
   {
     "category": "bottom",
-    "title": "Bermuda Shorts",
-    "price": 39.84
+    "title": "Denim Shorts",
+    "price": 77.31,
+    "description": "These corduroy bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
-    "title": "Track Pants",
-    "price": 114.22
+    "title": "Denim Shorts",
+    "price": 113.07,
+    "description": "These leather bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
-    "title": "Athletic Joggers",
-    "price": 117.58
-  },
-  {
-    "category": "bottom",
-    "title": "Chino Pants",
-    "price": 125.25
-  },
-  {
-    "category": "bottom",
-    "title": "Slim Fit Jeans",
-    "price": 19.86
-  },
-  {
-    "category": "bottom",
-    "title": "Corduroy Pants",
-    "price": 20.12
-  },
-  {
-    "category": "bottom",
-    "title": "Track Pants",
-    "price": 181.85
+    "title": "Pencil Skirt",
+    "price": 185.94,
+    "description": "These stretch fabric bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
   },
   {
     "category": "bottom",
     "title": "Culottes",
-    "price": 129.92
+    "price": 182.01,
+    "description": "Made from durable leather that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 90.5,
+    "description": "These versatile bottoms are crafted from premium khaki for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 36.97,
+    "description": "These versatile bottoms are crafted from premium polyester blend for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 117.11,
+    "description": "These khaki bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 194.84,
+    "description": "These bottoms combine classic style with modern khaki fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 92.26,
+    "description": "These bottoms combine classic style with modern linen blend fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 177.21,
+    "description": "These versatile bottoms are crafted from premium stretch fabric for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 145.12,
+    "description": "These versatile bottoms are crafted from premium cotton twill for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 157.65,
+    "description": "These linen blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 153.95,
+    "description": "These bottoms combine classic style with modern stretch fabric fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 171.89,
+    "description": "Featuring a contemporary fit and leather construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 114.23,
+    "description": "These versatile bottoms are crafted from premium denim for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 22.33,
+    "description": "Featuring a contemporary fit and leather construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 13.02,
+    "description": "Featuring a contemporary fit and leather construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 196.01,
+    "description": "These bottoms combine classic style with modern corduroy fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 133.68,
+    "description": "These bottoms combine classic style with modern khaki fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 142.41,
+    "description": "These versatile bottoms are crafted from premium linen blend for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Khaki Pants",
+    "price": 48.26,
+    "description": "These bottoms combine classic style with modern stretch fabric fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 36.48,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 69.96,
+    "description": "These bottoms combine classic style with modern leather fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 94.49,
+    "description": "These versatile bottoms are crafted from premium linen blend for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 189.69,
+    "description": "Made from durable stretch fabric that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 67.88,
+    "description": "These versatile bottoms are crafted from premium linen blend for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 46.11,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 181.62,
+    "description": "These polyester blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 70.14,
+    "description": "Featuring a contemporary fit and corduroy construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 83.16,
+    "description": "Featuring a contemporary fit and leather construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 131.39,
+    "description": "Made from durable leather that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 67.61,
+    "description": "Featuring a contemporary fit and stretch fabric construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 127.83,
+    "description": "Featuring a contemporary fit and corduroy construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 13.52,
+    "description": "These denim bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 193.57,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 178.33,
+    "description": "These bottoms combine classic style with modern stretch fabric fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Track Pants",
+    "price": 17.65,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 100.0,
+    "description": "These polyester blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 139.48,
+    "description": "These bottoms combine classic style with modern wool fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 183.01,
+    "description": "These versatile bottoms are crafted from premium stretch fabric for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 147.82,
+    "description": "These bottoms combine classic style with modern denim fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 113.33,
+    "description": "These wool bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 101.63,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 196.18,
+    "description": "Featuring a contemporary fit and polyester blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 57.08,
+    "description": "Made from durable polyester blend that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Pencil Skirt",
+    "price": 131.19,
+    "description": "These cotton twill bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 151.46,
+    "description": "Featuring a contemporary fit and denim construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Cargo Shorts",
+    "price": 66.93,
+    "description": "These bottoms combine classic style with modern corduroy fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Dress Pants",
+    "price": 179.55,
+    "description": "Made from durable khaki that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 131.84,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 71.88,
+    "description": "These versatile bottoms are crafted from premium khaki for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 45.65,
+    "description": "These versatile bottoms are crafted from premium leather for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 76.39,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 48.16,
+    "description": "These versatile bottoms are crafted from premium wool for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 24.75,
+    "description": "Featuring a contemporary fit and cotton twill construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Slim Fit Jeans",
+    "price": 85.5,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 154.18,
+    "description": "Featuring a contemporary fit and khaki construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 58.63,
+    "description": "Made from durable wool that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 38.66,
+    "description": "These bottoms combine classic style with modern leather fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "A-Line Skirt",
+    "price": 113.18,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Denim Shorts",
+    "price": 127.51,
+    "description": "Made from durable khaki that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Pleated Skirt",
+    "price": 121.44,
+    "description": "These versatile bottoms are crafted from premium leather for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 166.52,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 20.06,
+    "description": "These polyester blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 166.64,
+    "description": "These versatile bottoms are crafted from premium corduroy for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 68.4,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Corduroy Pants",
+    "price": 38.38,
+    "description": "These bottoms combine classic style with modern leather fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 168.16,
+    "description": "These bottoms combine classic style with modern corduroy fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Athletic Joggers",
+    "price": 36.82,
+    "description": "These versatile bottoms are crafted from premium wool for lasting quality. Designed with comfort and style in mind."
+  },
+  {
+    "category": "bottom",
+    "title": "Chino Pants",
+    "price": 144.64,
+    "description": "These bottoms combine classic style with modern khaki fabric. Comfortable enough for all-day wear."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 182.97,
+    "description": "These linen blend bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "Distressed Jeans",
+    "price": 182.2,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Leather Leggings",
+    "price": 16.18,
+    "description": "Made from durable stretch fabric that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "Linen Trousers",
+    "price": 127.35,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Maxi Skirt",
+    "price": 158.89,
+    "description": "Featuring a contemporary fit and wool construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Culottes",
+    "price": 51.96,
+    "description": "These denim bottoms offer both style and comfort for everyday wear. Features practical pockets and a flattering fit."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 94.03,
+    "description": "Featuring a contemporary fit and cotton twill construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 106.27,
+    "description": "Featuring a contemporary fit and linen blend construction that moves with you. A wardrobe essential for any season."
+  },
+  {
+    "category": "bottom",
+    "title": "Bermuda Shorts",
+    "price": 26.71,
+    "description": "Made from durable corduroy that holds its shape all day. Perfect for work, casual outings, or special occasions."
+  },
+  {
+    "category": "bottom",
+    "title": "High-Waisted Jeans",
+    "price": 49.48,
+    "description": "These bottoms combine classic style with modern leather fabric. Comfortable enough for all-day wear."
   }
 ]
