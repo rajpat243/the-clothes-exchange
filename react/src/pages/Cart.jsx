@@ -1,34 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { fetchGet } from "../hooks/useFetch";
 import { Link } from 'react-router-dom';
 import '../styles/Cart.css';
 
 function Cart() {
-  const [cartItems, setCartItems] = useState([
-    {
-      id: 1,
-      title: "Vintage Denim Jacket",
-      price: 89.99,
-      description: "Classic blue denim jacket with brass buttons. Size M. Slightly worn for that perfect vintage look.",
-      image: "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      category: "Jackets"
-    },
-    {
-      id: 2,
-      title: "White Graphic T-Shirt",
-      price: 24.99,
-      description: "100% cotton graphic tee with minimalist design. Size L. Perfect for casual everyday wear.",
-      image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      category: "Shirts"
-    },
-    {
-      id: 3,
-      title: "Black Leather Boots",
-      price: 129.99,
-      description: "Genuine leather boots with rubber sole. Size 42. Water-resistant and durable for all-season wear.",
-      image: "https://images.unsplash.com/photo-1542840410-3092f99611a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      category: "Shoes"
-    }
-  ]);
+  const [cartItems, setCartItems] = useState([]);
+
+  useEffect(() => {
+    const userId = localStorage.getItem('userId');
+    console.log(userId)
+    const url = `http://localhost:3002/api/user/cart/${userId}`;
+    fetchGet(url).then(data => {
+      console.log(data);
+      setCartItems(data);
+    });
+  }, [])
 
  
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
