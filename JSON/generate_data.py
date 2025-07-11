@@ -108,18 +108,18 @@ bottoms = generate_items("bottom", bottoms_names, 100)
 shoes = generate_items("shoes", shoes_names, 100)
 accessories = generate_items("accessory", accessories_names, 100)
 
-# Create individual category files
-with open("tops.json", "w") as f:
-    json.dump(tops, f, indent=2)
+# # Create individual category files
+# with open("tops.json", "w") as f:
+#     json.dump(tops, f, indent=2)
 
-with open("bottoms.json", "w") as f:
-    json.dump(bottoms, f, indent=2)
+# with open("bottoms.json", "w") as f:
+#     json.dump(bottoms, f, indent=2)
 
-with open("shoes.json", "w") as f:
-    json.dump(shoes, f, indent=2)
+# with open("shoes.json", "w") as f:
+#     json.dump(shoes, f, indent=2)
 
-with open("accessories.json", "w") as f:
-    json.dump(accessories, f, indent=2)
+# with open("accessories.json", "w") as f:
+#     json.dump(accessories, f, indent=2)
 
 # Combine all products into one array
 all_products = tops + bottoms + shoes + accessories

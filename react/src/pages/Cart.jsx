@@ -1,27 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { fetchGet } from "../hooks/useFetch";
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Cart.css';
+import { useCart } from '../components/CartContext';
 
 function Cart() {
-  const [cartItems, setCartItems] = useState([]);
+  const { cartItems, removeFromCart } = useCart();
 
-  useEffect(() => {
-    const userId = localStorage.getItem('userId');
-    console.log(userId)
-    const url = `http://localhost:3002/api/user/cart/${userId}`;
-    fetchGet(url).then(data => {
-      console.log(data);
-      setCartItems(data);
-    });
-  }, [])
-
- 
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
 
-
-  const removeFromCart = (itemId) => {
-    setCartItems(cartItems.filter(item => item.id !== itemId));
+  const handleRemoveFromCart = (itemId) => {
+    // Here you would also make an API call to remove from server
+    removeFromCart(itemId);
   };
 
   const handleCheckout = () => {
@@ -43,7 +32,7 @@ function Cart() {
         <>
           <div className="cart-items">
             {cartItems.map(item => (
-              <div className="cart-item" key={item.id}>
+              <div className="cart-item" key={item._id}>
                 <div className="cart-item-image">
                   <img src={item.image} alt={item.title} />
                 </div>
@@ -55,7 +44,7 @@ function Cart() {
                 </div>
                 <button 
                   className="remove-item-btn" 
-                  onClick={() => removeFromCart(item.id)}
+                  onClick={() => handleRemoveFromCart(item._id)}
                   aria-label={`Remove ${item.title} from cart`}
                 >
                   ×

@@ -1,12 +1,14 @@
 import { Link, useLocation, useNavigate } from "react-router-dom"; 
 import "../styles/Navbar.css";
 import { useAuth } from "./AuthContent";
+import { useCart } from "./CartContext";
 
 function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
   const isHomePage = location.pathname === "/";
   const { user, logout } = useAuth();
+  const { cartCount } = useCart();
   
   // Function to handle protected route clicks
   const handleProtectedLink = (e, path) => {
@@ -60,10 +62,12 @@ function Navbar() {
           {user ? (
             <Link to="/cart" className="cart-icon" aria-label="Shopping Cart">
               🛒
+              {cartCount > 0 && <span className="cart-count">{cartCount}</span>}
             </Link>
           ) : (
             <a href="#" onClick={(e) => handleProtectedLink(e, '/cart')} className="cart-icon" aria-label="Shopping Cart">
               🛒
+              {cartCount > 0 && <span className="cart-count">{cartCount}</span>}
             </a>
           )}
         </div>

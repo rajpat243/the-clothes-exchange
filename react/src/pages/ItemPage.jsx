@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { fetchGet, fetchPost } from "../hooks/useFetch";
 import "../styles/ItemPage.css";
+import { useCart } from "../components/CartContext";
 
 import topImg from "../assets/tops-placeholder.jpg";
 import bottomImg from "../assets/bottoms-placeholder.jpg";
@@ -9,25 +10,13 @@ import shoesImg from "../assets/shoes-placeholder.jpg";
 import accessoryImg from "../assets/accessories-placeholder.jpg";
 
 function ItemPage() {
-  const { id } = useParams(); // MongoDB ObjectId passed in URL
-  console.log("ItemPage ID from URL:", id);
+  const { id } = useParams();
   const [item, setItem] = useState(null);
   const [loading, setLoading] = useState(true);
+  const { addToCart, showNotification } = useCart();
 
   const getCategoryImage = (category) => {
-    switch (category?.toLowerCase()) {
-      case "top":
-        return topImg;
-      case "bottom":
-        return bottomImg;
-      case "shoes":
-        return shoesImg;
-      case "accessory":
-      case "accessories":
-        return accessoryImg;
-      default:
-        return topImg;
-    }
+    // Your existing code
   };
 
   useEffect(() => {
@@ -45,15 +34,20 @@ function ItemPage() {
       .finally(() => setLoading(false));
   }, [id]);
 
-  const addToCart = () => {
+  const handleAddToCart = () => {
     const url = 'http://localhost:3002/api/user/cart';
     const userId = localStorage.getItem('userId');
-    console.log(item);
     const productId = item._id;
+    
     fetchPost(url, {
       userId,
       productId
     })
+    .then(response => {
+      // Add the item to our local cart state
+      addToCart(item);
+    })
+    .catch(err => console.error("Error adding to cart:", err));
   }
 
   if (loading) return <p>Loading item...</p>;
@@ -62,6 +56,13 @@ function ItemPage() {
   return (
     <div className="item-page">
       <Link to="/browse" className="back-button">← Back to Browse</Link>
+
+      {/* Add notification popup */}
+      {showNotification && (
+        <div className="cart-notification">
+          <p>Item added to cart!</p>
+        </div>
+      )}
 
       <div className="item-page-content">
         <img
@@ -76,21 +77,11 @@ function ItemPage() {
             {item.price === 0 ? "Free" : `$${item.price.toFixed(2)}`}
           </p>
           <p className="item-category">Category: {item.category}</p>
-          <button className="add-to-cart-button" onClick={addToCart}>Add to Cart</button>
+          <button className="add-to-cart-button" onClick={handleAddToCart}>Add to Cart</button>
         </div>
       </div>
 
-      <div className="item-description">
-        <h3>Description</h3>
-        <p>{item.description || "No description available."}</p>
-      </div>
-
-      <div className="similar-items-section">
-        <h3>Similar Items</h3>
-        <div className="similar-items-grid">
-          {/* Add similar item suggestions here later */}
-        </div>
-      </div>
+      {/* Rest of your component */}
     </div>
   );
 }
