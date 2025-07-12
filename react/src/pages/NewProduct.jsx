@@ -8,6 +8,7 @@ function NewProduct() {
   const [price, setPrice] = useState('');
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
+  const [imgUrl, setImgUrl] = useState('');
   const [error, setError] = useState('');
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
   const navigate = useNavigate();
@@ -18,28 +19,30 @@ function NewProduct() {
 
     try {
       const url = 'http://localhost:3002/api/product';
-      
+
       fetchPost(url, {
         title,
         price: parseFloat(price),
         category,
         description,
-        userId: localStorage.getItem('userId')
+        imgUrl,
+        userId: localStorage.getItem('userId'),
       }).then(() => {
-        setShowSuccessPopup(true)
+        setShowSuccessPopup(true);
 
         // Clear form
         setTitle('');
         setPrice('');
         setCategory('');
         setDescription('');
+        setImgUrl('');
 
         // Redirect after a delay
         setTimeout(() => {
           setShowSuccessPopup(false);
           navigate('/');
         }, 2000);
-      })
+      });
 
     } catch (err) {
       console.error('Error creating product:', err);
@@ -49,9 +52,6 @@ function NewProduct() {
 
   return (
     <div className="new-product-container">
-
-
-      {/* Success Popup */}
       {showSuccessPopup && (
         <div className="success-popup">
           <div className="success-popup-content">
@@ -108,7 +108,7 @@ function NewProduct() {
               <option value="bottom">Bottoms</option>
               <option value="shoes">Shoes</option>
               <option value="accessory">Accessories</option>
-              <option value="Other">Other</option>
+              <option value="other">Other</option>
             </select>
           </div>
 
@@ -123,6 +123,28 @@ function NewProduct() {
               required
             />
           </div>
+
+          <div className="form-group">
+            <label htmlFor="imgUrl">Image URL</label>
+            <input
+              type="url"
+              id="imgUrl"
+              value={imgUrl}
+              onChange={(e) => setImgUrl(e.target.value)}
+              placeholder="Paste image URL (e.g. from Unsplash or Imgur)"
+              required
+            />
+          </div>
+          {imgUrl && (
+            <div className="image-preview">
+              <img
+                src={imgUrl}
+                alt="Preview"
+                onError={(e) => e.target.style.display = 'none'}
+              />
+            </div>
+          )}
+
 
           <button type="submit" className="new-product-button">
             List Item

@@ -25,10 +25,10 @@ function Profile() {
                 <img src={userImage} alt="Profile" className="profile-pic" /> {/* Use the imported image */}
                 <div className="profile-info">
                     <h2>@{localStorage.getItem('userName')}</h2>
-                    <p>{'Bio: '}</p>
+                    <p>{'Bio: Just a college kid trying to clear up space in their wardrobe'}</p>
                     <div className="profile-stats">
-                        <span><strong>{'Follower: 1156'}</strong> Followers</span>
-                        <span><strong>{'Following: 5'}</strong> Following</span>
+                        <span><strong>{'Followers: '}</strong> 1000</span>
+                        <span><strong>{'Following: '}</strong> 25</span>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ function Profile() {
                     <div className={'listing-card'} key={item._id}>
                         <div className="image-wrapper">
                             <img
-                                src={`https://via.placeholder.com/150x150?text=${encodeURIComponent(item.title)}`}
+                                src={item.imgUrl}
                                 alt={item.title}
                             />
                             {/* {item.sold && <div className="sold-overlay">SOLD</div>} */}

@@ -101,7 +101,7 @@ function ItemPage() {
 
       <div className="item-page-content">
         <img
-          src={getCategoryImage(item.category)}
+          src={item.imgUrl}
           alt={item.title}
           className="item-image"
         />
@@ -131,7 +131,7 @@ function ItemPage() {
                 title={simItem.title}
                 price={simItem.price}
                 category={simItem.category}
-                image={getCategoryImage(simItem.category)}
+                image={simItem.imgUrl}
               />
             </Link>
           ))}

@@ -147,7 +147,7 @@ function Browse() {
                 id={item._id}
                 title={item.title}
                 price={item.price}
-                image={getCategoryImage(item.category)}
+                image={item.imgUrl}
                 category={item.category}
               />
             ))

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/ItemCard.css";
 
-function ItemCard({ id, title, price, image, category }) {
+function ItemCard({ id, title, price, image, category, }) {
   const encodedTitle = encodeURIComponent(title); // handles spaces/special chars
 
   return (
