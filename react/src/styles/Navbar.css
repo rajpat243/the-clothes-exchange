@@ -1,122 +1,162 @@
+/* Navbar container */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #f3f4f6; /* light gray */
-  border-bottom: 1px solid #ddd;
-}
-
-.navbar-logo a {
-  font-weight: bold;
-  font-size: 1.25rem;
-  color: #111827; /* dark gray */
-  text-decoration: none;
-}
-
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-links li a {
-  text-decoration: none;
-  color: #374151; /* gray-700 */
-  font-weight: 500;
-}
-
-.navbar-links li a:hover {
-  color: #16a34a; /* green hover */
-}
-
-/* New styles for auth buttons */
-.navbar-auth {
-  display: flex;
-  gap: 1rem;
-  margin-left: 1.5rem;
-}
-
-.login-btn, .signup-btn {
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.2s ease;
-}
-
-.login-btn {
-  color: #374151;
-  border: 1px solid #ddd;
-}
-
-.login-btn:hover {
-  background-color: #e5e7eb;
-}
-
-.signup-btn {
-  background-color: #16a34a; /* matches your hover color */
-  color: white;
-  border: 1px solid #16a34a;
-}
-
-.signup-btn:hover {
-  background-color: #15803d; /* slightly darker green */
-}
-.navbar-cart {
-  display: flex;
-  align-items: center;
-}
-
-.cart-icon {
-  font-size: 24px;
-  color: #333;
-  text-decoration: none;
-  margin-left: 15px;
-  transition: transform 0.2s ease;
-}
-
-.cart-icon:hover {
-  transform: scale(1.1);
-  color: #4a90e2;
-}
-/* Add these styles to your Navbar.css file */
-
-.user-greeting {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.user-greeting span {
-  font-weight: 500;
-  color: #333;
-}
-
-.logout-btn {
-  background-color: #f44336;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.3s;
-}
-
-.logout-btn:hover {
-  background-color: #d32f2f;
-}
-
-.navbar-links a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
-
-.navbar-links a:hover {
-  text-decoration: underline;
-}
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f3f4f6; /* Light gray background */
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  /* Logo */
+  .navbar-logo a {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #111827;
+    text-decoration: none;
+  }
+  
+  /* Nav links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    position: relative;
+  }
+  
+  .navbar-links li a {
+    color: #1f2937; /* Dark gray text */
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-decoration: none;
+    padding-bottom: 4px;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+  
+  .navbar-links li a::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #16a34a; /* Green accent underline */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .navbar-links li a:hover::after {
+    width: 100%;
+  }
+  
+  .navbar-links li a:hover {
+    color: #15803d;
+  }
+  
+  /* Auth buttons */
+  .navbar-auth {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1.5rem;
+  }
+  
+  .login-btn,
+  .signup-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+  }
+  
+  .login-btn {
+    color: #374151;
+    border: 1px solid #d1d5db;
+    background-color: #fff;
+  }
+  
+  .login-btn:hover {
+    background-color: #e5e7eb;
+    border-color: #d1d5db;
+  }
+  
+  .signup-btn {
+    background-color: #16a34a;
+    color: white;
+    border: 1px solid #16a34a;
+  }
+  
+  .signup-btn:hover {
+    background-color: #15803d;
+    border-color: #15803d;
+  }
+  
+  /* Cart icon */
+  .navbar-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+    color: #374151;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: transform 0.2s ease;
+    position: relative;
+  }
+  
+  .cart-icon:hover {
+    transform: scale(1.1);
+    color: #16a34a;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background-color: #ef4444; /* red badge */
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 999px;
+  }
+  
+  /* Logged-in greeting */
+  .user-greeting {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .user-greeting span {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Logout button */
+  .logout-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+  

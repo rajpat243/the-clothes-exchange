@@ -116,13 +116,14 @@ returns: Product object (id, price, title, description)
 */
 productRouter.post('/api/product', async (req, res) => {
     try {
-        const { price, title, category, description, userId } = req.body;
+        const { price, title, category, imgUrl,description, userId } = req.body;
 
         const productCollection = await getProductCollection()
         const product = await productCollection.insertOne({
             price,
             title,
             category,
+            imgUrl,
             description,
             userId: ObjectId.createFromHexString(userId)
         })

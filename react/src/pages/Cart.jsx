@@ -2,30 +2,33 @@ import React, { useState, useEffect } from 'react';
 import { fetchDelete, fetchGet } from "../hooks/useFetch";
 import { Link } from 'react-router-dom';
 import '../styles/Cart.css';
+import { useCart } from "../components/CartContext"; // Make sure the path is correct
 
 function Cart() {
-  const [cartItems, setCartItems] = useState([]);
-
+  const { cartItems, setCartItems, removeFromCart: contextRemoveFromCart } = useCart();
+  
   useEffect(() => {
     const userId = localStorage.getItem('userId');
     const url = `http://localhost:3002/api/user/cart/${userId}`;
     fetchGet(url).then(data => {
-      setCartItems(data);
+      setCartItems(data || []);
     });
-  }, [])
+  }, [setCartItems]);
 
- 
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
-
 
   const removeFromCart = (itemId) => {
     const url = 'http://localhost:3002/api/user/cart';
     const userId = localStorage.getItem('userId');
     const productId = itemId;
+    
     fetchDelete(url, {
       userId,
       productId
-    }).then(() => setCartItems(cartItems.filter(item => item._id !== itemId)))
+    }).then(() => {
+      // Use the context's removeFromCart function to update the global state
+      contextRemoveFromCart(itemId);
+    });
   };
 
   const handleCheckout = () => {
@@ -47,9 +50,9 @@ function Cart() {
         <>
           <div className="cart-items">
             {cartItems.map(item => (
-              <div className="cart-item" key={item.id}>
+              <div className="cart-item" key={item._id || item.id}>
                 <div className="cart-item-image">
-                  <img src={item.image} alt={item.title} />
+                  <img src={item.imgUrl} alt={item.title} />
                 </div>
                 <div className="cart-item-details">
                   <h2 className="cart-item-title">{item.title}</h2>

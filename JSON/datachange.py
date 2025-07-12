@@ -8,7 +8,7 @@ db = client['clothing_store']  # Update with your database name
 collection = db['product']  # Update with your collection name
 
 # Path to the JSON file
-file_path = 'updated_products.json'
+file_path = 'updated_products_with_images.json'
 
 # Read the JSON file
 with open(file_path, 'r') as file:

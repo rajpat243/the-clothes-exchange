@@ -35,6 +35,11 @@ export function CartProvider({ children }) {
     setCartItems(prev => prev.filter(item => item._id !== itemId));
   };
   
+  // Function to update cart items directly (useful for syncing with API)
+  const updateCartItems = (items) => {
+    setCartItems(items);
+  };
+  
   return (
     <CartContext.Provider value={{ 
       cartItems, 
@@ -43,7 +48,8 @@ export function CartProvider({ children }) {
       removeFromCart, 
       showNotification,
       setShowNotification,
-      cartCount: cartItems.length
+      cartCount: cartItems.length,
+      updateCartItems
     }}>
       {children}
     </CartContext.Provider>
