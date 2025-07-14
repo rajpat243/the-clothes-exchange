@@ -4,10 +4,11 @@ import { useLocation } from "react-router-dom";
 import FilterSidebar from "../components/FilterSidebar";
 import ItemCard from "../components/ItemCard";
 import "../styles/Browse.css";
-import topImg from "../assets/tops-placeholder.jpg";
-import bottomImg from "../assets/bottoms-placeholder.jpg";
-import shoesImg from "../assets/shoes-placeholder.jpg";
-import accessoryImg from "../assets/accessories-placeholder.jpg";
+// Remove these imports as they won't be needed anymore
+// import topImg from "../assets/tops-placeholder.jpg";
+// import bottomImg from "../assets/bottoms-placeholder.jpg";
+// import shoesImg from "../assets/shoes-placeholder.jpg";
+// import accessoryImg from "../assets/accessories-placeholder.jpg";
 
 function Browse() {
   const location = useLocation();
@@ -25,20 +26,21 @@ function Browse() {
     Accessories: filterParams.includes('Accessories'),
   });
 
-  const getCategoryImage = (category) => {
+  // This function is no longer needed since we'll use imgUrl directly
+  // But we'll keep a fallback version in case some products don't have imgUrl
+  const getDefaultImage = (category) => {
     switch (category.toLowerCase()) {
       case "top":
-        return topImg;
+        return "https://via.placeholder.com/150?text=Top";
       case "bottom":
-        return bottomImg;
+        return "https://via.placeholder.com/150?text=Bottom";
       case "shoes":
-        return shoesImg;
+        return "https://via.placeholder.com/150?text=Shoes";
       case "accessory":
-        return accessoryImg;
       case "accessories":
-        return accessoryImg;
+        return "https://via.placeholder.com/150?text=Accessory";
       default:
-        return topImg; 
+        return "https://via.placeholder.com/150?text=No+Image"; 
     }
   };
 
@@ -147,7 +149,8 @@ function Browse() {
                 id={item._id}
                 title={item.title}
                 price={item.price}
-                image={getCategoryImage(item.category)}
+                // Use the imgUrl from the database, with a fallback if it doesn't exist
+                image={item.imgUrl || getDefaultImage(item.category)}
                 category={item.category}
               />
             ))

@@ -4,10 +4,11 @@ import { fetchGet, fetchPost } from "../hooks/useFetch"; // Add fetchPost import
 import "../styles/ItemPage.css";
 import { useCart } from "../components/CartContext";
 
-import topImg from "../assets/tops-placeholder.jpg";
-import bottomImg from "../assets/bottoms-placeholder.jpg";
-import shoesImg from "../assets/shoes-placeholder.jpg";
-import accessoryImg from "../assets/accessories-placeholder.jpg";
+// Remove these imports as they won't be needed anymore
+// import topImg from "../assets/tops-placeholder.jpg";
+// import bottomImg from "../assets/bottoms-placeholder.jpg";
+// import shoesImg from "../assets/shoes-placeholder.jpg";
+// import accessoryImg from "../assets/accessories-placeholder.jpg";
 
 import similarItems from "../data/similar_items.json";
 import ItemCard from "../components/ItemCard";
@@ -19,15 +20,20 @@ function ItemPage() {
   const [loading, setLoading] = useState(true);
   const { addToCart, showNotification } = useCart();
 
-  const getCategoryImage = (category) => {
-    // Your existing code
+  // This function is now a fallback for items without imgUrl
+  const getDefaultImage = (category) => {
     switch (category?.toLowerCase()) {
-      case "top": return topImg;
-      case "bottom": return bottomImg;
-      case "shoes": return shoesImg;
+      case "top": 
+        return "https://via.placeholder.com/150?text=Top";
+      case "bottom": 
+        return "https://via.placeholder.com/150?text=Bottom";
+      case "shoes": 
+        return "https://via.placeholder.com/150?text=Shoes";
       case "accessory":
-      case "accessories": return accessoryImg;
-      default: return topImg;
+      case "accessories": 
+        return "https://via.placeholder.com/150?text=Accessory";
+      default: 
+        return "https://via.placeholder.com/150?text=No+Image";
     }
   };
 
@@ -101,7 +107,8 @@ function ItemPage() {
 
       <div className="item-page-content">
         <img
-          src={getCategoryImage(item.category)}
+          // Use imgUrl from the database with a fallback
+          src={item.imgUrl || getDefaultImage(item.category)}
           alt={item.title}
           className="item-image"
         />
@@ -131,7 +138,8 @@ function ItemPage() {
                 title={simItem.title}
                 price={simItem.price}
                 category={simItem.category}
-                image={getCategoryImage(simItem.category)}
+                // Use imgUrl from the database with a fallback
+                image={simItem.imgUrl || getDefaultImage(simItem.category)}
               />
             </Link>
           ))}
