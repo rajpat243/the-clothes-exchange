@@ -1,12 +1,53 @@
-# React + Vite
+**The Clothes Exchange (TCE)**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛍️ Online Marketplace for Sustainable Fashion
 
-Currently, two official plugins are available:
+**Overview**
+The Clothes Exchange (TCE) is a full-stack web application that serves as a peer-to-peer marketplace for buying and selling second-hand clothing. Built with sustainability in mind, TCE aims to reduce fashion waste by extending the lifecycle of clothing items through resale.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🚀 **Features**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User Authentication: Simple signup/login system with database matching
+Product Listings: Users can browse, search, and filter clothing items
+Shopping Cart: Real-time cart management with persistent storage
+User Profiles: Personalized dashboards for managing listings and purchases
+Recommendation Engine: AI-powered clothing recommendations using KNN algorithm
+Responsive Design: Seamless experience across desktop and mobile devices
+Payment Processing: Secure checkout process (simulated)
+
+
+💻 **Tech Stack**
+
+Frontend
+
+React.js: Component-based UI development
+React Router: Client-side routing
+CSS3: Custom styling with responsive design
+Context API: State management for cart and authentication
+
+Backend
+
+Node.js: Runtime environment
+Express.js: Web application framework
+MongoDB: NoSQL database for storing user and product data
+Mongoose: MongoDB object modeling
+
+ 
+Machine Learning
+
+Python: Core language for ML implementation
+Flask: Lightweight API for serving ML predictions
+scikit-learn: Implementation of KNN algorithm
+pandas: Data manipulation and analysis
+
+
+📊 Recommendation System
+
+The application features a recommendation engine built with Python and Flask that suggests clothing items based on user preferences and browsing history. The system uses K-Nearest Neighbors (KNN) algorithm to find similar items based on:
+ 
+Style preferences
+Size compatibility
+Color schemes
+Price range
+Previous purchases
